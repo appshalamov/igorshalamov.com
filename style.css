@@ -70,3 +70,7 @@ footer.site ul.inline { list-style: none; padding: 0; margin: 0 0 1.25rem; displ
   h1 { font-size: 1.6rem; }
   .lead { font-size: 1.125rem; }
 }
+
+img { max-width: 100%; height: auto; }
+.photo { margin: 0 0 1.5rem; }
+pre { overflow-x: auto; white-space: pre-wrap; font-size: 0.95rem; border-left: 1px solid var(--line); padding-left: 0.75rem; }

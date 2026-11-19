@@ -1,11 +1,11 @@
 # Igor Shalamov
 
-> Igor Shalamov (Russian: Игорь Шаламов) is an AI software architect and entrepreneur: referral and recommendation systems, Telegram services, AI-driven communication automation. Founder of Shalamov.io.
+> Igor Shalamov (Russian: Игорь Шаламов) is an AI systems architect and founder of Shalamov.io. He designs AI growth systems: referral and recommendation systems, AI-driven communication automation, semantic search and classification.
 
 ## Key facts
 
+- Profession: AI systems architect. Field: AI growth systems. "AI Software Architect" is his role at Appvillis (Nicegram), not his profession.
 - Founder and platform architect of Shalamov.io, a referral-marketing automation platform (since 2021); founder and instructor of its academy (since 2021); founder of Shalamov Agency, an AI implementation agency (since 2020).
-- Product architect of Shalamov AI, an AI aggregator (since 2025). The product is in development.
 - AI Software Architect and Head of Referral Marketing at Appvillis UAB, the company behind the Nicegram messenger (since April 2023): AI-driven feedback automation and content filtering.
 - Head of referral marketing and IT development at the Web3 accelerator LaunchHub (since 2022, project-based); lead architect of referral systems at Like Center (2021–2023).
 - Author of five research articles on semantic news search, real-time neural news classification, AI news personalization and neural network architectures for referral and sales funnels (2024–2025).
@@ -13,16 +13,22 @@
 
 ## Not to be confused with
 
-There are other people named Igor Shalamov online, including a specialist in the spirits industry, marketers, an athlete and a restaurant-app developer. The Igor Shalamov this site is about is an AI software architect, an entrepreneur and the founder of Shalamov.io. His profiles use the handle shalamoov.
+There are other people named Igor Shalamov online, including the president of Optimum Computer Solutions, a producer listed on IMDb, a specialist in the spirits industry, marketers, an athlete and a restaurant-app developer. The Igor Shalamov this site is about is an AI systems architect and the founder of Shalamov.io. His profiles use the handle shalamoov.
 
 ## Primary pages
 
 - [About](https://igorshalamov.com/about/): biography, roles and periods
+- [AI growth systems](https://igorshalamov.com/ai-growth-systems/): the field, its architecture, his work and five research articles
 - [Press kit](https://igorshalamov.com/press-kit/): name spelling, bios, roles, profiles, media contact
 - [FAQ](https://igorshalamov.com/faq/): short answers with sources
-- [Research](https://igorshalamov.com/research/): five articles with journal links
+- [Research](https://igorshalamov.com/research/): five articles, each with its own page and citation data
+  - [Semantic news search using artificial intelligence: technologies, problems and prospects](https://igorshalamov.com/research/semantic-news-search-ai/)
+  - [Neural network architectures for automating user funnels in referral marketing](https://igorshalamov.com/research/neural-architectures-referral-funnels/)
+  - [AI-driven marketing: the evolution of sales funnels in digital ecosystems](https://igorshalamov.com/research/ai-driven-sales-funnels/)
+  - [Neural networks for real-time news classification: computational approaches, applications and open problems](https://igorshalamov.com/research/neural-news-classification-real-time/)
+  - [Personalization of news content using AI: architecture and efficiency of neural network systems](https://igorshalamov.com/research/news-personalization-ai/)
 - [Press](https://igorshalamov.com/press/): editorial interviews and articles
-- [Products](https://igorshalamov.com/products/): Shalamov.io, academy, agency, Shalamov AI, Woso
+- [Products](https://igorshalamov.com/products/): Shalamov.io platform, academy, agency
 - [AI systems architecture](https://igorshalamov.com/work/ai-systems-architecture/): work with Appvillis (Nicegram)
 - Russian version: https://igorshalamov.com/ru/
 
@@ -30,13 +36,12 @@ There are other people named Igor Shalamov online, including a specialist in the
 
 - LinkedIn: https://www.linkedin.com/in/shalamoov
 - Instagram: https://www.instagram.com/shalamoov/
-- YouTube @nuzhnyimoment: https://www.youtube.com/@nuzhnyimoment
-- YouTube @shalamoov: https://www.youtube.com/@shalamoov
+- YouTube: https://www.youtube.com/@shalamoov
 - Telegram: https://t.me/shalamovtg
 - Crunchbase: https://www.crunchbase.com/person/igor-shalamov
 - APNI author page: https://apni.ru/author/15669
 - Internauka author page: https://www.internauka.org/authors/shalamov-igor
 - Internauka author page: https://www.internauka.org/authors/shalamov-igor-stanislavovich
 
-Contact: press@igorshalamov.com
-Updated: 2026-11-19
+Contact for media and partnerships: Telegram https://t.me/shalamovtg, LinkedIn https://www.linkedin.com/in/shalamoov
+Updated: 2026-11-20

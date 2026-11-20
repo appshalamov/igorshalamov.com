@@ -20,6 +20,10 @@ Every such system has three layers:
 2. **Models**: recommendation and ranking, classification of intent and sentiment.
 3. **Communication**: personal replies, invitations and content that reach the user at the right moment.
 
+AI growth system: three layers and a feedback loopBehaviour data: what people open, share, ignore and reply to; Models: recommendation and ranking, classification of intent and sentiment; Communication: personal replies, invitations and content at the right moment. Feedback loop: every reply and every invitation becomes new data, and the models retrain on it.Behaviour datawhat people open, share,ignore and reply toModelsrecommendation and ranking,classification of intent andsentimentCommunicationpersonal replies,invitations and content atthe right momentFeedback loop: every reply and every invitation becomes new data, and the modelsretrain on it AI growth system: three layers and a feedback loopBehaviour data: what people open, share, ignore and reply to; Models: recommendation and ranking, classification of intent and sentiment; Communication: personal replies, invitations and content at the right moment. Feedback loop: every reply and every invitation becomes new data, and the models retrain on it.Behaviour datawhat people open, share,ignore and reply toModelsrecommendation and ranking,classification of intent andsentimentCommunicationpersonal replies, invitationsand content at the rightmomentFeedback loop: every reply andevery invitation becomes new data,and the models retrain on it
+
+Every AI growth system has three layers connected by a feedback loop. Without the loop it is automation; with it, a growth system. [What is an AI growth system](https://igorshalamov.com/writing/what-is-an-ai-growth-system/).
+
 ## The feedback loop
 
 A feedback loop connects the layers. Every reply and every invitation becomes new data, and the models retrain on it. Without that loop you have automation. With it you have a growth system.

@@ -28,6 +28,10 @@ Five articles, 2024–2025: semantic news search, real-time neural news classifi
 
 Since 2021: a referral-marketing automation platform with an academy and an AI implementation agency.
 
+AI growth system: three layers and a feedback loopBehaviour data: what people open, share, ignore and reply to; Models: recommendation and ranking, classification of intent and sentiment; Communication: personal replies, invitations and content at the right moment. Feedback loop: every reply and every invitation becomes new data, and the models retrain on it.Behaviour datawhat people open, share,ignore and reply toModelsrecommendation and ranking,classification of intent andsentimentCommunicationpersonal replies,invitations and content atthe right momentFeedback loop: every reply and every invitation becomes new data, and the modelsretrain on it AI growth system: three layers and a feedback loopBehaviour data: what people open, share, ignore and reply to; Models: recommendation and ranking, classification of intent and sentiment; Communication: personal replies, invitations and content at the right moment. Feedback loop: every reply and every invitation becomes new data, and the models retrain on it.Behaviour datawhat people open, share,ignore and reply toModelsrecommendation and ranking,classification of intent andsentimentCommunicationpersonal replies, invitationsand content at the rightmomentFeedback loop: every reply andevery invitation becomes new data,and the models retrain on it
+
+Every AI growth system has three layers connected by a feedback loop. Without the loop it is automation; with it, a growth system. [What is an AI growth system](https://igorshalamov.com/writing/what-is-an-ai-growth-system/).
+
 ## AI growth systems
 
 Igor Shalamov is an AI systems architect and entrepreneur who designs AI growth systems. He founded Shalamov.io, a platform for referral funnels and Telegram services, plus an academy and an AI implementation agency. He has designed referral and recommendation systems for education and Web3 platforms and worked on AI automation within the Nicegram messaging ecosystem. He writes on semantic search and neural news classification.

@@ -144,10 +144,11 @@ thead th { font-weight: 650; border-bottom-color: var(--soft); }
 tbody th { font-weight: 400; color: var(--soft); white-space: nowrap; }
 
 img { max-width: 100%; height: auto; }
-.photo { margin: 0 0 1.75rem; max-width: 15rem; }
-.photo img { display: block; background: var(--mark); }
-pre { overflow-x: auto; white-space: pre-wrap; font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.85rem; line-height: 1.5; background: var(--mark); padding: 1rem 1.1rem; margin: 0 0 1.25rem; }
-code { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.88em; }
+.photo { margin: 0 0 1.75rem; }
+.photo img { display: block; width: 15rem; max-width: 100%; background: var(--mark); }
+pre { overflow-x: auto; white-space: pre-wrap; font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.9rem; line-height: 1.5; background: var(--mark); padding: 1rem 1.1rem; margin: 0 0 1.25rem; }
+code { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.9em; }
+pre code { font-size: 1em; }
 
 /* footer */
 footer.site { border-top: 1px solid var(--rule); padding: 2.25rem 0 3rem; font-size: 1rem; color: var(--soft); }
@@ -176,6 +177,7 @@ footer.site .meta { margin: 0 0 0.4rem; }
   header.site nav a { font-size: 1rem; }
   main { padding-top: 1.75rem; }
   .crumbs li:last-child { display: none; }
+  .photo img { width: 10rem; }
   .toc ol { columns: 1; }
   .intro .role { font-size: var(--step-1); }
   footer.site .cols { grid-template-columns: 1fr 1fr; }

@@ -5,11 +5,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>AI Systems Architecture — Igor Shalamov</title>
 <meta name="description" content="How AI automation is designed for messaging products with a large audience: queues, models, guardrails and metrics. AI systems architect Igor Shalamov at Appvillis (Nicegram).">
-<meta name="robots" content="index, follow">
+<meta name="author" content="Igor Shalamov">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f4ef" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1c1b19" media="(prefers-color-scheme: dark)">
 <link rel="canonical" href="https://igorshalamov.com/work/ai-systems-architecture/">
 <link rel="alternate" hreflang="en" href="https://igorshalamov.com/work/ai-systems-architecture/">
 <link rel="alternate" hreflang="ru" href="https://igorshalamov.com/ru/work/ai-systems-architecture/">
 <link rel="alternate" hreflang="x-default" href="https://igorshalamov.com/work/ai-systems-architecture/">
+<link rel="alternate" type="text/markdown" href="/work/ai-systems-architecture/index.md" title="Markdown">
+<link rel="alternate" type="application/rss+xml" href="/writing/feed.xml" title="Igor Shalamov — Writing">
+<link rel="author" href="/about/">
+<link rel="me" href="https://www.linkedin.com/in/shalamoov">
+<link rel="me" href="https://orcid.org/0009-0001-2366-4278">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Igor Shalamov">
 <meta property="og:title" content="AI Systems Architecture — Igor Shalamov">
@@ -22,10 +32,13 @@
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Igor Shalamov">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@shalamoov">
+<meta name="twitter:creator" content="@shalamoov">
 <meta name="twitter:title" content="AI Systems Architecture — Igor Shalamov">
 <meta name="twitter:description" content="How AI automation is designed for messaging products with a large audience: queues, models, guardrails and metrics. AI systems architect Igor Shalamov at Appvillis (Nicegram).">
 <meta name="twitter:image" content="https://igorshalamov.com/press-kit/igor-shalamov-og.jpg">
-<link rel="stylesheet" href="/style.css">
+<link rel="preload" href="/fonts/piazzolla-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/style.css?v=4">
 <script type="application/ld+json">
 {
  "@context": "https://schema.org",
@@ -105,19 +118,20 @@
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site">
-<div class="wrap">
+<div class="wrap bar">
 <a class="brand" href="/">Igor Shalamov</a>
-<nav aria-label="Main"><ul><li><a href="/about/">About</a></li><li><a href="/ai-growth-systems/">AI growth systems</a></li><li><a href="/work/ai-systems-architecture/">AI systems architecture</a></li><li><a href="/research/">Research</a></li><li><a href="/press/">Press</a></li><li><a href="/products/">Products</a></li><li><a href="/press-kit/">Press kit</a></li><li><a href="/faq/">FAQ</a></li><li><a href="/contact/">Contact</a></li><li><a href="/ru/work/ai-systems-architecture/" hreflang="ru" lang="ru">Русский</a></li></ul></nav>
+<nav aria-label="Main"><ul><li><a href="/about/">About</a></li><li><a href="/ai-growth-systems/">AI growth systems</a></li><li><a href="/research/">Research</a></li><li><a href="/writing/">Writing</a></li><li><a href="/press/">Press</a></li><li><a href="/contact/">Contact</a></li><li class="lang"><a href="/ru/work/ai-systems-architecture/" hreflang="ru" lang="ru">Русский</a></li></ul></nav>
 </div>
 </header>
 <main id="main" class="wrap">
 <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><span aria-current="page">AI systems architecture</span></li></ol></nav>
 <h1>AI systems architecture</h1>
 <p class="lead">Since April 2023 Igor Shalamov, an AI systems architect and founder of Shalamov.io, has worked with Appvillis, the developer of the Nicegram messenger, on AI-driven feedback automation and content filtering. His role at Appvillis is AI Software Architect and Head of Referral Marketing.</p>
+<nav class="toc" aria-label="Contents"><p class="toc-h">Contents</p><ol><li><a href="#where-ai-belongs-in-a-communication-product">Where AI belongs in a communication product</a></li><li><a href="#the-pipeline">The pipeline</a></li><li><a href="#choosing-models">Choosing models</a></li><li><a href="#guardrails">Guardrails</a></li><li><a href="#metrics">Metrics</a></li><li><a href="#connection-to-growth-systems">Connection to growth systems</a></li><li><a href="#related">Related</a></li></ol></nav>
 <p>This page describes the engineering discipline behind that work: how AI automation is designed for a messaging product with a large audience, and which decisions matter at each layer.</p>
-<h2>Where AI belongs in a communication product</h2>
+<h2 id="where-ai-belongs-in-a-communication-product">Where AI belongs in a communication product</h2>
 <p>In a messenger, AI does several distinct jobs: it classifies incoming user feedback, routes it to the right queue, drafts replies, and filters content that breaks the rules. Each job has its own cost of error. A wrong draft reply can be corrected by a person; a wrongly blocked message damages trust. Architecture starts by listing these jobs separately and assigning each one its own model, threshold and review path.</p>
-<h2>The pipeline</h2>
+<h2 id="the-pipeline">The pipeline</h2>
 <ol>
 <li><strong>Intake.</strong> Messages and feedback arrive through one entry point with a stable schema: source, language, time, user context that the product is allowed to use.</li>
 <li><strong>Queue.</strong> A message queue absorbs peaks so that model latency never blocks the product. Each job reads from its own queue and can be scaled on its own.</li>
@@ -125,9 +139,9 @@
 <li><strong>Policy layer.</strong> Rules and confidence thresholds decide what happens next: automatic action, a suggested reply for a person, or escalation.</li>
 <li><strong>Action and logging.</strong> Every automated decision is logged with the model version and the input it saw, so that it can be audited and reversed.</li>
 </ol>
-<h2>Choosing models</h2>
+<h2 id="choosing-models">Choosing models</h2>
 <p>The main trade-off is quality against cost per request and latency. High-volume steps such as language detection and topic classification run on compact models. Generation runs on larger models only where a person or a user will read the result. Models are versioned, and a new version replaces the old one only after it is compared on the same labelled sample.</p>
-<h2>Guardrails</h2>
+<h2 id="guardrails">Guardrails</h2>
 <ul>
 <li>Confidence thresholds: below the threshold, the system suggests rather than acts.</li>
 <li>Human review for actions that are hard to undo, such as blocking content.</li>
@@ -135,20 +149,23 @@
 <li>Audit trail: every decision can be traced to a model version and a rule.</li>
 <li>Fallbacks: if a model is unavailable, messages wait in the queue instead of being processed by a weaker rule.</li>
 </ul>
-<h2>Metrics</h2>
+<h2 id="metrics">Metrics</h2>
 <p>An AI feature is judged by measured results, not by the presence of a model. Typical measures are precision and recall of the content filter on a labelled sample, the share of feedback resolved without escalation, time to first response, the rate of reversed automated decisions, and the cost per thousand processed messages. Each metric is compared with a baseline before and after the change.</p>
-<h2>Connection to growth systems</h2>
+<h2 id="connection-to-growth-systems">Connection to growth systems</h2>
 <p>The same principles apply to referral and recommendation systems: clean event intake, attribution that survives retries and duplicates, anti-fraud checks before rewards, and A/B tests before rollout. Igor Shalamov's research on <a href="/research/neural-architectures-referral-funnels/">neural network architectures for referral funnels</a> covers this side. The field as a whole: <a href="/ai-growth-systems/">AI growth systems</a>.</p>
-<h2>Related</h2>
+<h2 id="related">Related</h2>
 <ul><li><a href="/about/">Biography, roles and periods</a></li><li><a href="/research/">Research and publications</a></li><li><a href="/press-kit/">Press kit</a></li></ul>
 </main>
 <footer class="site">
 <div class="wrap">
-<h2>Official profiles</h2>
-<ul class="inline"><li><a href="https://www.linkedin.com/in/shalamoov" rel="noopener">LinkedIn</a></li><li><a href="https://www.instagram.com/shalamoov/" rel="noopener">Instagram</a></li><li><a href="https://www.youtube.com/@shalamoov" rel="noopener">YouTube</a></li><li><a href="https://t.me/shalamovtg" rel="noopener">Telegram</a></li><li><a href="https://www.crunchbase.com/person/igor-shalamov" rel="noopener">Crunchbase</a></li><li><a href="https://scholar.google.com/citations?user=HuXnpkUAAAAJ" rel="noopener">Google Scholar</a></li><li><a href="https://orcid.org/0009-0001-2366-4278" rel="noopener">ORCID</a></li></ul>
-<h2>Author pages</h2>
-<ul class="inline"><li><a href="https://apni.ru/author/15669" rel="noopener">APNI</a></li><li><a href="https://www.internauka.org/authors/shalamov-igor" rel="noopener">Internauka</a></li><li><a href="https://www.internauka.org/authors/shalamov-igor-stanislavovich" rel="noopener">Internauka</a></li></ul>
-<p class="meta">© 2026 Igor Shalamov. Updated: 2026-11-20. Contact: Telegram <a href="https://t.me/shalamovtg" rel="noopener">t.me/shalamovtg</a> or LinkedIn <a href="https://www.linkedin.com/in/shalamoov" rel="noopener">linkedin.com/in/shalamoov</a>.</p>
+<p class="sig">Igor Shalamov — AI systems architect who designs AI growth systems.</p>
+<div class="cols">
+<nav aria-label="More pages"><h2>More</h2><ul><li><a href="/work/ai-systems-architecture/">AI systems architecture</a></li><li><a href="/products/">Products</a></li><li><a href="/press-kit/">Press kit</a></li><li><a href="/faq/">FAQ</a></li></ul></nav>
+<div><h2>Official profiles</h2><ul><li><a href="https://www.linkedin.com/in/shalamoov" rel="me noopener">LinkedIn</a></li><li><a href="https://www.instagram.com/shalamoov/" rel="me noopener">Instagram</a></li><li><a href="https://www.youtube.com/@shalamoov" rel="me noopener">YouTube</a></li><li><a href="https://t.me/shalamovtg" rel="me noopener">Telegram</a></li><li><a href="https://www.crunchbase.com/person/igor-shalamov" rel="me noopener">Crunchbase</a></li><li><a href="https://scholar.google.com/citations?user=HuXnpkUAAAAJ" rel="me noopener">Google Scholar</a></li><li><a href="https://orcid.org/0009-0001-2366-4278" rel="me noopener">ORCID</a></li></ul></div>
+<div><h2>Author pages</h2><ul><li><a href="https://apni.ru/author/15669" rel="noopener">APNI</a></li><li><a href="https://www.internauka.org/authors/shalamov-igor" rel="noopener">Internauka (Igor Shalamov)</a></li><li><a href="https://www.internauka.org/authors/shalamov-igor-stanislavovich" rel="noopener">Internauka (Igor Stanislavovich Shalamov)</a></li></ul></div>
+</div>
+<p class="meta">© 2026 Igor Shalamov. Updated: <time datetime="2026-11-20">2026-11-20</time>. Contact: Telegram <a href="https://t.me/shalamovtg" rel="noopener">t.me/shalamovtg</a> or LinkedIn <a href="https://www.linkedin.com/in/shalamoov" rel="noopener">linkedin.com/in/shalamoov</a>.</p>
+<p class="meta">Machine-readable versions: <a href="/work/ai-systems-architecture/index.md">Markdown</a>, <a href="/llms.txt">llms.txt</a>, <a href="/llms-full.txt">llms-full.txt</a>, <a href="/writing/feed.xml">RSS</a>.</p>
 </div>
 </footer>
 </body>

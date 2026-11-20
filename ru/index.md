@@ -1,0 +1,95 @@
+---
+title: "Игорь Шаламов — архитектор ИИ-систем роста"
+url: https://igorshalamov.com/ru/
+language: ru
+author: Igor Shalamov
+updated: 2026-11-20
+---
+
+![Игорь Шаламов, портрет](https://igorshalamov.com/press-kit/igor-shalamov-480.jpg)
+
+# Игорь Шаламов
+
+Архитектор ИИ-систем роста
+
+Архитектор ИИ-систем и основатель Shalamov.io. Проектирует ИИ-системы роста: реферальные и рекомендательные системы, ИИ-автоматизацию коммуникаций, семантический поиск и классификацию.
+
+[Биография](https://igorshalamov.com/ru/about/), [публикации](https://igorshalamov.com/ru/research/), [пресс-кит](https://igorshalamov.com/ru/press-kit/) и [контакты](https://igorshalamov.com/ru/contact/).
+
+## [Appvillis (Nicegram)](https://igorshalamov.com/ru/work/ai-systems-architecture/)
+
+С апреля 2023 года Игорь Шаламов работает с компанией Appvillis, разработчиком мессенджера Nicegram, как AI Software Architect и руководитель реферального маркетинга. Направление работы — ИИ-автоматизация обратной связи и фильтрации контента.
+
+## [Исследования](https://igorshalamov.com/ru/research/)
+
+Пять статей, 2024–2025: семантический поиск новостей, нейросетевая классификация новостей в реальном времени, персонализация новостного контента, нейросетевые архитектуры реферальных воронок и воронок продаж.
+
+## [Shalamov.io](https://igorshalamov.com/ru/products/)
+
+С 2021 года: платформа автоматизации реферального маркетинга, при ней работают академия и агентство внедрения ИИ.
+
+## ИИ-системы роста
+
+Игорь Шаламов — архитектор ИИ-систем роста и основатель Shalamov.io, платформы для реферальных воронок и Telegram-сервисов, а также академии и агентства по внедрению ИИ. Проектировал реферальные и рекомендательные системы для образовательных и Web3-платформ, работал над ИИ-автоматизацией в экосистеме мессенджера Nicegram. Автор статей о семантическом поиске и нейросетевой классификации.
+
+Реферальные и рекомендательные системы для образовательных и Web3-платформ: ведущий архитектор реферальных систем в Like Center (2021–2023), руководитель реферального маркетинга и IT-разработок в акселераторе Web3-проектов LaunchHub (с 2022 года). Что это за класс систем и как он устроен — на странице [«ИИ-системы роста»](https://igorshalamov.com/ru/ai-growth-systems/).
+
+## [Записи](https://igorshalamov.com/ru/writing/)
+
+Заметки об архитектуре ИИ-систем роста; пишутся на английском языке.
+
+[What is an AI growth system](https://igorshalamov.com/writing/what-is-an-ai-growth-system/)
+
+20 ноября 2026. Класс систем, которые помогают продукту расти, обучаясь на поведении пользователей, и три слоя каждой такой системы.
+
+[A referral system is a recommender system](https://igorshalamov.com/writing/referral-system-is-a-recommender-system/)
+
+20 ноября 2026. Кто пригласит, кого и с каким сообщением: три задачи ранжирования вместо кнопки «пригласи друга».
+
+[Semantic news search: from keywords to embeddings](https://igorshalamov.com/writing/semantic-news-search-keywords-to-embeddings/)
+
+20 ноября 2026. Поиск по ключевым словам совпадает по словам, семантический — по смыслу. Для новостей самым трудным становится свежесть индекса.
+
+## [Научные статьи](https://igorshalamov.com/ru/research/)
+
+[Семантический поиск новостей с использованием искусственного интеллекта: технологии, вызовы и перспективы](https://igorshalamov.com/ru/research/semantic-news-search-ai/)
+
+«Актуальные исследования», № 20 (202). Опубликована: 16 мая 2024. ISSN 2713-1513.
+
+[Нейросетевые архитектуры для автоматизации пользовательских воронок в реферальном маркетинге](https://igorshalamov.com/ru/research/neural-architectures-referral-funnels/)
+
+«Актуальные исследования», № 29 (264), ч. I, с. 29–38. Опубликована: 24 июля 2025. ISSN 2713-1513.
+
+[AI-driven маркетинг: эволюция воронок продаж в цифровых экосистемах](https://igorshalamov.com/ru/research/ai-driven-sales-funnels/)
+
+«Интернаука», № 25 (389), секция «Информационные технологии». Опубликована: 2025.
+
+[Нейронные сети для классификации новостей в реальном времени: вычислительные подходы, приложения и вызовы](https://igorshalamov.com/ru/research/neural-news-classification-real-time/)
+
+«Интернаука», № 35 (399), секция «Информационные технологии». Опубликована: 2025.
+
+[Personalization of news content using AI: architecture and efficiency of neural network systems](https://igorshalamov.com/ru/research/news-personalization-ai/)
+
+European Journal of Technical and Natural Sciences, Premier Publishing s.r.o., № 4–5 (2025), с. 18–29. Опубликована: 30 октября 2025. ISSN 2414-2352. Статья на английском языке.
+
+## [В СМИ](https://igorshalamov.com/ru/press/)
+
+[От интеграции искусственного интеллекта в digital-маркетинг до создания академии, готовящей профильных экспертов](https://b-mag.ru/ot-integracii-iskusstvennogo-intellekta-v-digital-marketing-do-sozdanija-akademii/)
+
+B-Mag.ru («Бизнес-журнал»), 12 октября 2023. Интервью, автор — Игорь Сотников.
+
+[Игорь Шаламов: как ИИ совершит революцию в реферальном маркетинге](https://apni.ru/interview/igor-shalamov-kak-ii-sovershit-revolyucziyu-v-referalnom-marketinge)
+
+APNI.ru (раздел «Интервью»), 25 января 2024. Интервью, автор — Кира Данилова.
+
+[Игорь Шаламов о будущем реферального маркетинга](https://www.pravda.ru/economics/2311498-igor-shalamov-referalnyi-marketing/)
+
+Pravda.ru, 20 декабря 2024. Статья, автор — Александр Приходько.
+
+## Факты и источники
+
+Написание имени, роли, биографии и официальные профили — в [пресс-ките](https://igorshalamov.com/ru/press-kit/). Короткие ответы со ссылками на источники — на странице [«Факты и ответы»](https://igorshalamov.com/ru/faq/). Полная биография и хронология — на странице [«Биография»](https://igorshalamov.com/ru/about/).
+
+---
+
+Каноническая страница: https://igorshalamov.com/ru/. Автор: Игорь Шаламов, архитектор ИИ-систем роста. Путеводитель по сайту для ИИ-ассистентов: https://igorshalamov.com/llms.txt

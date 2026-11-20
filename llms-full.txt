@@ -1,0 +1,918 @@
+# Igor Shalamov — full site text
+
+> AI systems architect who designs AI growth systems: referral and recommendation systems, Telegram services, AI-driven communication automation. Every English page of https://igorshalamov.com in one file, in reading order. Russian pages: https://igorshalamov.com/ru/. Updated: 2026-11-20.
+
+![Igor Shalamov, portrait](https://igorshalamov.com/press-kit/igor-shalamov-480.jpg)
+
+# Igor Shalamov
+
+AI systems architect who designs AI growth systems
+
+Founder of Shalamov.io. He designs AI growth systems: referral and recommendation systems, AI-driven communication automation, semantic search and classification.
+
+[Biography](https://igorshalamov.com/about/), [research](https://igorshalamov.com/research/), [press kit](https://igorshalamov.com/press-kit/) and [contact](https://igorshalamov.com/contact/).
+
+## [Appvillis (Nicegram)](https://igorshalamov.com/work/ai-systems-architecture/)
+
+Since April 2023 Igor Shalamov has worked with Appvillis, the company behind the Nicegram messenger, as AI Software Architect and Head of Referral Marketing. The work covers AI-driven feedback automation and content filtering.
+
+## [Research](https://igorshalamov.com/research/)
+
+Five articles, 2024–2025: semantic news search, real-time neural news classification, news personalization and neural network architectures for referral and sales funnels.
+
+## [Shalamov.io](https://igorshalamov.com/products/)
+
+Since 2021: a referral-marketing automation platform with an academy and an AI implementation agency.
+
+## AI growth systems
+
+Igor Shalamov is an AI systems architect and entrepreneur who designs AI growth systems. He founded Shalamov.io, a platform for referral funnels and Telegram services, plus an academy and an AI implementation agency. He has designed referral and recommendation systems for education and Web3 platforms and worked on AI automation within the Nicegram messaging ecosystem. He writes on semantic search and neural news classification.
+
+Referral and recommendation systems for education and Web3 platforms: lead architect of referral systems at Like Center (2021–2023), head of referral marketing and IT development at the Web3 accelerator LaunchHub (since 2022). What this class of systems is and how it is built: [AI growth systems](https://igorshalamov.com/ai-growth-systems/).
+
+## [Writing](https://igorshalamov.com/writing/)
+
+[What is an AI growth system](https://igorshalamov.com/writing/what-is-an-ai-growth-system/)
+
+20 November 2026. The class of systems that help a product grow by learning from its users, and the three layers every such system has.
+
+[A referral system is a recommender system](https://igorshalamov.com/writing/referral-system-is-a-recommender-system/)
+
+20 November 2026. Who invites, whom, and with which message: three ranking problems instead of an “invite a friend” button.
+
+[Semantic news search: from keywords to embeddings](https://igorshalamov.com/writing/semantic-news-search-keywords-to-embeddings/)
+
+20 November 2026. Keyword search matches words, semantic search matches meaning. For news, the freshness of the index becomes the hard part.
+
+## [Research](https://igorshalamov.com/research/)
+
+[Semantic news search using artificial intelligence: technologies, problems and prospects](https://igorshalamov.com/research/semantic-news-search-ai/)
+
+Семантический поиск новостей с использованием искусственного интеллекта: технологии, вызовы и перспективы
+
+Article in Russian.
+
+Aktualnye issledovaniya (Current Research), APNI, No. 20 (202). Published 16 May 2024. ISSN 2713-1513.
+
+[Neural network architectures for automating user funnels in referral marketing](https://igorshalamov.com/research/neural-architectures-referral-funnels/)
+
+Нейросетевые архитектуры для автоматизации пользовательских воронок в реферальном маркетинге
+
+Article in Russian.
+
+Aktualnye issledovaniya (Current Research), APNI, No. 29 (264), part I, pp. 29–38. Published 24 July 2025. ISSN 2713-1513.
+
+[AI-driven marketing: the evolution of sales funnels in digital ecosystems](https://igorshalamov.com/research/ai-driven-sales-funnels/)
+
+AI-driven маркетинг: эволюция воронок продаж в цифровых экосистемах
+
+Article in Russian.
+
+Internauka (electronic scientific journal), No. 25 (389), section “Information technologies”. Published 2025.
+
+[Neural networks for real-time news classification: computational approaches, applications and open problems](https://igorshalamov.com/research/neural-news-classification-real-time/)
+
+Нейронные сети для классификации новостей в реальном времени: вычислительные подходы, приложения и вызовы
+
+Article in Russian.
+
+Internauka (electronic scientific journal), No. 35 (399), section “Information technologies”. Published 2025.
+
+[Personalization of news content using AI: architecture and efficiency of neural network systems](https://igorshalamov.com/research/news-personalization-ai/)
+
+European Journal of Technical and Natural Sciences, Premier Publishing s.r.o., No. 4–5 (2025), pp. 18–29. Published 30 October 2025. ISSN 2414-2352.
+
+## [In the media](https://igorshalamov.com/press/)
+
+[От интеграции искусственного интеллекта в digital-маркетинг до создания академии, готовящей профильных экспертов](https://b-mag.ru/ot-integracii-iskusstvennogo-intellekta-v-digital-marketing-do-sozdanija-akademii/)
+
+B-Mag.ru, 12 October 2023. Interview, by Igor Sotnikov. In Russian.
+
+[Игорь Шаламов: как ИИ совершит революцию в реферальном маркетинге](https://apni.ru/interview/igor-shalamov-kak-ii-sovershit-revolyucziyu-v-referalnom-marketinge)
+
+APNI.ru, 25 January 2024. Interview, by Kira Danilova. In Russian.
+
+[Игорь Шаламов о будущем реферального маркетинга](https://www.pravda.ru/economics/2311498-igor-shalamov-referalnyi-marketing/)
+
+Pravda.ru, 20 December 2024. Article, by Alexander Prikhodko. In Russian.
+
+## Facts and sources
+
+Verified names, roles, bios and profiles are on the [press kit](https://igorshalamov.com/press-kit/) page. Short answers with sources are on the [FAQ](https://igorshalamov.com/faq/) page. Full biography and timeline: [About](https://igorshalamov.com/about/).
+
+---
+
+Canonical page: https://igorshalamov.com/. Author: Igor Shalamov, AI systems architect who designs AI growth systems. Site guide for AI assistants: https://igorshalamov.com/llms.txt
+
+# Igor Shalamov
+
+Igor Shalamov (Russian: Игорь Шаламов) is an AI systems architect and founder of Shalamov.io. He designs AI growth systems: referral and recommendation systems, AI-driven communication automation, semantic search and classification.
+
+![Igor Shalamov, portrait](https://igorshalamov.com/press-kit/igor-shalamov-480.jpg)
+
+## Biography
+
+Igor Shalamov is an AI systems architect and entrepreneur working at the intersection of machine learning, product analytics and marketing. In 2021 he launched Shalamov.io, a referral-marketing automation platform that lets businesses build referral funnels, Telegram services and Mini Apps, as well as no-code AI modules for segmentation, analytics and customer conversations. The platform anchors an academy and an implementation agency.
+
+From 2021 to 2023 Igor led referral-systems development at the Like Center education ecosystem; since 2022 he has been responsible for referral marketing and IT development at the Web3 accelerator LaunchHub; and since April 2023 he has worked with Appvillis, the company behind the Nicegram messenger, as AI Software Architect on AI-driven feedback automation and content filtering. He is the author of research articles on semantic news search, real-time neural news classification, news personalization and neural architectures for referral funnels. He is now building the international Shalamov.io ecosystem.
+
+## Roles and periods
+
+| Organization | Role | Period |
+|---|---|---|
+| Shalamov.io | Founder and platform architect | since 2021 |
+| Shalamov.io Academy | Founder, instructor | since 2021 |
+| Shalamov Agency | Founder | since 2020 |
+| Appvillis UAB (Nicegram) | AI Software Architect, Head of Referral Marketing | since April 2023 |
+| LaunchHub | Head of referral marketing and IT development (project-based) | since 2022 |
+| Like Center | Lead architect of referral systems | 2021–2023 |
+| Bolshie Cheki | Head of partner marketing, founder of the IT department | c. 2021–2022 |
+| NL International | Network marketing, start of career | before 2021 |
+
+The work with Appvillis covers AI-driven feedback automation and content filtering for the Nicegram messenger. More on this direction: [AI systems architecture](https://igorshalamov.com/work/ai-systems-architecture/). The field as a whole: [AI growth systems](https://igorshalamov.com/ai-growth-systems/).
+
+## Areas of expertise
+
+- Architecture of AI growth systems
+- Referral and recommendation systems
+- Telegram Mini Apps and Telegram services
+- AI-driven communication automation: chat assistants, Smart Feedback, content filtering
+- User segmentation and predictive behaviour analytics
+- Semantic search and news classification
+- AI aggregators and white-label AI products
+- No-code AI adoption for small and mid-sized businesses
+- Training specialists in AI automation
+
+## Research and media
+
+Five research articles, each with its own page, citation data and a link to the journal, are on the [Research](https://igorshalamov.com/research/) page. Interviews and articles about him in the media are on the [Press](https://igorshalamov.com/press/) page.
+
+## Name
+
+Igor Shalamov is the only Latin spelling of the name (not Shalamoff, not Schalamov). Full name in Russian: Игорь Станиславович Шаламов. Handle on social platforms: shalamoov.
+
+---
+
+Canonical page: https://igorshalamov.com/about/. Author: Igor Shalamov, AI systems architect who designs AI growth systems. Site guide for AI assistants: https://igorshalamov.com/llms.txt
+
+# AI growth systems
+
+AI growth systems are software systems in which machine-learning models decide how a digital product attracts, engages and keeps its users. Igor Shalamov, an AI systems architect and founder of Shalamov.io, designs systems of this class and publishes research on them.
+
+## What belongs to this class
+
+### Referral systems
+
+A referral system turns existing users into a channel for new ones: invitations, partner links, attribution of each new user to the person who invited them, and rewards. Neural networks take over the parts that used to be manual: generating messages, analysing the audience, adapting each user's path through the funnel and optimising campaigns. Research: [Neural network architectures for automating user funnels in referral marketing](https://igorshalamov.com/research/neural-architectures-referral-funnels/); [AI-driven marketing: the evolution of sales funnels in digital ecosystems](https://igorshalamov.com/research/ai-driven-sales-funnels/).
+
+### Recommendation systems
+
+A recommendation system ranks content or offers for each user from the text of the items and the history of the user's actions. In [his article on news personalization](https://igorshalamov.com/research/news-personalization-ai/), Igor Shalamov proposes a hybrid model that combines BERT for the meaning of the text with LSTM for the order of user interactions; on the MIND dataset it is compared with TextCNN, LSTM, BERT-base and matrix factorisation baselines.
+
+### AI-driven communication automation
+
+In a messaging product AI classifies incoming feedback, routes it, drafts replies and filters content that breaks the rules. This is the direction of his work with Appvillis, the company behind the Nicegram messenger, where his role since April 2023 is AI Software Architect. The architecture of this layer is described on the [AI systems architecture](https://igorshalamov.com/work/ai-systems-architecture/) page.
+
+### Semantic search and classification
+
+Semantic search finds content by meaning rather than by keywords; classification assigns topic, language and risk to each item as it arrives. Research: [Semantic news search using artificial intelligence: technologies, problems and prospects](https://igorshalamov.com/research/semantic-news-search-ai/), which reviews vector databases, hybrid and cascade search and contextual retrieval; [Neural networks for real-time news classification: computational approaches, applications and open problems](https://igorshalamov.com/research/neural-news-classification-real-time/).
+
+## How the architecture is built
+
+The four kinds of systems share one structure:
+
+1. **Event intake.** Actions, messages and content enter through one entry point with a stable schema, so that every later decision can be traced to its input.
+2. **Models.** Compact models handle high-volume steps such as classification and embedding; larger models are used for ranking and generation where quality pays for the cost.
+3. **Policy layer.** Rules and confidence thresholds decide whether the system acts on its own, suggests an action to a person or escalates.
+4. **Attribution and safeguards.** In referral systems, attribution has to survive retries and duplicates, and anti-fraud checks run before any reward.
+5. **Measurement.** Each change is compared with a baseline on the same sample or in an A/B test before rollout.
+
+## Igor Shalamov's work in this field
+
+- Shalamov.io (since 2021), founder and platform architect: a platform for referral funnels, lead distribution, automatic messages, partner links, segmentation and analytics, with AI modules for chat assistants, AI segmentation, data analysis and content generation. [Products](https://igorshalamov.com/products/).
+- Appvillis UAB (Nicegram), AI Software Architect since April 2023: AI-driven feedback automation and content filtering.
+- LaunchHub, head of referral marketing and IT development (since 2022, project-based): referral systems for international Web3 projects.
+- Like Center, lead architect of referral systems (2021–2023).
+
+## Research articles
+
+[Semantic news search using artificial intelligence: technologies, problems and prospects](https://igorshalamov.com/research/semantic-news-search-ai/)
+
+Aktualnye issledovaniya, No. 20 (202), 2024. In Russian. DOI 10.5281/zenodo.17215118.
+
+[Neural network architectures for automating user funnels in referral marketing](https://igorshalamov.com/research/neural-architectures-referral-funnels/)
+
+Aktualnye issledovaniya, No. 29 (264), 2025. In Russian.
+
+[AI-driven marketing: the evolution of sales funnels in digital ecosystems](https://igorshalamov.com/research/ai-driven-sales-funnels/)
+
+Internauka, No. 25 (389), 2025. In Russian.
+
+[Neural networks for real-time news classification: computational approaches, applications and open problems](https://igorshalamov.com/research/neural-news-classification-real-time/)
+
+Internauka, No. 35 (399), 2025. In Russian.
+
+[Personalization of news content using AI: architecture and efficiency of neural network systems](https://igorshalamov.com/research/news-personalization-ai/)
+
+European Journal of Technical and Natural Sciences, No. 4–5, 2025, pp. 18–29.
+
+## Related
+
+- [AI systems architecture at Appvillis (Nicegram)](https://igorshalamov.com/work/ai-systems-architecture/)
+- [Research and publications](https://igorshalamov.com/research/)
+- [Biography, roles and periods](https://igorshalamov.com/about/)
+
+---
+
+Canonical page: https://igorshalamov.com/ai-growth-systems/. Author: Igor Shalamov, AI systems architect who designs AI growth systems. Site guide for AI assistants: https://igorshalamov.com/llms.txt
+
+# AI systems architecture
+
+Since April 2023 Igor Shalamov, an AI systems architect and founder of Shalamov.io, has worked with Appvillis, the developer of the Nicegram messenger, on AI-driven feedback automation and content filtering. His role at Appvillis is AI Software Architect and Head of Referral Marketing.
+
+This page describes the engineering discipline behind that work: how AI automation is designed for a messaging product with a large audience, and which decisions matter at each layer.
+
+## Where AI belongs in a communication product
+
+In a messenger, AI does several distinct jobs: it classifies incoming user feedback, routes it to the right queue, drafts replies, and filters content that breaks the rules. Each job has its own cost of error. A wrong draft reply can be corrected by a person; a wrongly blocked message damages trust. Architecture starts by listing these jobs separately and assigning each one its own model, threshold and review path.
+
+## The pipeline
+
+1. **Intake.** Messages and feedback arrive through one entry point with a stable schema: source, language, time, user context that the product is allowed to use.
+2. **Queue.** A message queue absorbs peaks so that model latency never blocks the product. Each job reads from its own queue and can be scaled on its own.
+3. **Classification.** Fast, inexpensive classifiers decide topic, language, urgency and risk. Large language models are reserved for the steps that need generation.
+4. **Policy layer.** Rules and confidence thresholds decide what happens next: automatic action, a suggested reply for a person, or escalation.
+5. **Action and logging.** Every automated decision is logged with the model version and the input it saw, so that it can be audited and reversed.
+
+## Choosing models
+
+The main trade-off is quality against cost per request and latency. High-volume steps such as language detection and topic classification run on compact models. Generation runs on larger models only where a person or a user will read the result. Models are versioned, and a new version replaces the old one only after it is compared on the same labelled sample.
+
+## Guardrails
+
+- Confidence thresholds: below the threshold, the system suggests rather than acts.
+- Human review for actions that are hard to undo, such as blocking content.
+- Data minimisation: models receive only the fields the task needs.
+- Audit trail: every decision can be traced to a model version and a rule.
+- Fallbacks: if a model is unavailable, messages wait in the queue instead of being processed by a weaker rule.
+
+## Metrics
+
+An AI feature is judged by measured results, not by the presence of a model. Typical measures are precision and recall of the content filter on a labelled sample, the share of feedback resolved without escalation, time to first response, the rate of reversed automated decisions, and the cost per thousand processed messages. Each metric is compared with a baseline before and after the change.
+
+## Connection to growth systems
+
+The same principles apply to referral and recommendation systems: clean event intake, attribution that survives retries and duplicates, anti-fraud checks before rewards, and A/B tests before rollout. Igor Shalamov's research on [neural network architectures for referral funnels](https://igorshalamov.com/research/neural-architectures-referral-funnels/) covers this side. The field as a whole: [AI growth systems](https://igorshalamov.com/ai-growth-systems/).
+
+## Related
+
+- [Biography, roles and periods](https://igorshalamov.com/about/)
+- [Research and publications](https://igorshalamov.com/research/)
+- [Press kit](https://igorshalamov.com/press-kit/)
+
+---
+
+Canonical page: https://igorshalamov.com/work/ai-systems-architecture/. Author: Igor Shalamov, AI systems architect who designs AI growth systems. Site guide for AI assistants: https://igorshalamov.com/llms.txt
+
+# Research and Publications
+
+Igor Shalamov, an AI systems architect and founder of Shalamov.io, is the author of research articles on semantic news search, real-time neural news classification, AI-based news personalization and neural network architectures for referral and sales funnels. Together they cover the main parts of [AI growth systems](https://igorshalamov.com/ai-growth-systems/). Each article has its own page with citation data.
+
+[Семантический поиск новостей с использованием искусственного интеллекта: технологии, вызовы и перспективы](https://igorshalamov.com/research/semantic-news-search-ai/)
+
+English title: Semantic news search using artificial intelligence: technologies, problems and prospects. Article in Russian.
+
+Aktualnye issledovaniya (Current Research), APNI, No. 20 (202). Published 16 May 2024. ISSN 2713-1513.
+
+[Article on the journal site](https://apni.ru/article/9323-semanticheskij-poisk-novostej-s-ispolzovaniem-iskusstvennogo-intellekta-tehnologii-vyzovy-i-perspektivy). DOI: [10.5281/zenodo.17215118](https://doi.org/10.5281/zenodo.17215118).
+
+[Нейросетевые архитектуры для автоматизации пользовательских воронок в реферальном маркетинге](https://igorshalamov.com/research/neural-architectures-referral-funnels/)
+
+English title: Neural network architectures for automating user funnels in referral marketing. Article in Russian.
+
+Aktualnye issledovaniya (Current Research), APNI, No. 29 (264), part I, pp. 29–38. Published 24 July 2025. ISSN 2713-1513.
+
+[Article on the journal site](https://apni.ru/article/12704-nejrosetevye-arhitektury-dlya-avtomatizacii-polzovatelskih-voronok-v-referalnom-marketinge).
+
+[AI-driven маркетинг: эволюция воронок продаж в цифровых экосистемах](https://igorshalamov.com/research/ai-driven-sales-funnels/)
+
+English title: AI-driven marketing: the evolution of sales funnels in digital ecosystems. Article in Russian.
+
+Internauka (electronic scientific journal), No. 25 (389), section “Information technologies”. Published 2025.
+
+[Article on the journal site](https://www.internauka.org/journal/science/internauka/389). [Author page in the journal](https://www.internauka.org/authors/shalamov-igor).
+
+[Нейронные сети для классификации новостей в реальном времени: вычислительные подходы, приложения и вызовы](https://igorshalamov.com/research/neural-news-classification-real-time/)
+
+English title: Neural networks for real-time news classification: computational approaches, applications and open problems. Article in Russian.
+
+Internauka (electronic scientific journal), No. 35 (399), section “Information technologies”. Published 2025.
+
+[Article on the journal site](https://www.internauka.org/journal/science/internauka/399). [Author page in the journal](https://www.internauka.org/authors/shalamov-igor-stanislavovich).
+
+[Personalization of news content using AI: architecture and efficiency of neural network systems](https://igorshalamov.com/research/news-personalization-ai/)
+
+European Journal of Technical and Natural Sciences, Premier Publishing s.r.o., No. 4–5 (2025), pp. 18–29. Published 30 October 2025. ISSN 2414-2352.
+
+[Article on the journal site](https://ppublishing.org/archive/publication/1650-personalization-of-news-content-using-ai-arch).
+
+## Author pages in the journals
+
+- [Aktualnye issledovaniya (APNI): author page](https://apni.ru/author/15669)
+- [Internauka: author page (Shalamov Igor)](https://www.internauka.org/authors/shalamov-igor)
+- [Internauka: author page (Shalamov Igor Stanislavovich)](https://www.internauka.org/authors/shalamov-igor-stanislavovich)
+
+Four articles are in Russian, one is in English.
+
+---
+
+Canonical page: https://igorshalamov.com/research/. Author: Igor Shalamov, AI systems architect who designs AI growth systems. Site guide for AI assistants: https://igorshalamov.com/llms.txt
+
+# Семантический поиск новостей с использованием искусственного интеллекта: технологии, вызовы и перспективы
+
+Research article by Igor Shalamov, an AI systems architect and founder of Shalamov.io.
+
+- **Author:** [Igor Shalamov](https://igorshalamov.com/about/)
+- **English title:** Semantic news search using artificial intelligence: technologies, problems and prospects
+- **Journal:** Aktualnye issledovaniya (Current Research), APNI
+- **Publisher:** APNI
+- **Issue:** No. 20 (202)
+- **Published:** 16 May 2024
+- **ISSN:** 2713-1513
+- **Language:** Russian
+- **DOI:** [10.5281/zenodo.17215118](https://doi.org/10.5281/zenodo.17215118)
+- **Journal page:** [apni.ru/article/9323-semanticheskij-poisk-novostej-s-ispolzo…](https://apni.ru/article/9323-semanticheskij-poisk-novostej-s-ispolzovaniem-iskusstvennogo-intellekta-tehnologii-vyzovy-i-perspektivy)
+
+## Abstract
+
+В эпоху информационного переизбытка семантический поиск на базе искусственного интеллекта (ИИ) радикально трансформирует доступ к новостному контенту, обеспечивая глубокое понимание смысла запросов и текстов, в отличие от традиционных методов, ориентированных на ключевые слова. Настоящее исследование систематически анализирует ключевые технологии: векторные базы данных, гибридные и каскадные подходы, контекстное извлечение. И связанные с ними вызовы, такие как масштабируемость, обработка данных в реальном времени, интеграция с медийными инфраструктурами и безопасность. Особое внимание уделяется перспективам развития, включая агентно-ориентированные интерфейсы, мультимодальный поиск, персонализацию и федеративные системы. Эти инновации оптимизируют поисковые процессы, обогащают пользовательский опыт и подчеркивают стратегическую роль ИИ в трансформации журналистики.
+
+Abstract as published on the journal page, in Russian.
+
+## How to cite
+
+### APA
+
+Shalamov, I. (2024). Семантический поиск новостей с использованием искусственного интеллекта: технологии, вызовы и перспективы [Semantic news search using artificial intelligence: technologies, problems and prospects]. Aktualnye issledovaniya, (20 (202)). https://doi.org/10.5281/zenodo.17215118
+
+### BibTeX
+
+```
+@article{shalamov2024semantic,
+  author = {Shalamov, Igor},
+  title = {Семантический поиск новостей с использованием искусственного интеллекта: технологии, вызовы и перспективы},
+  journal = {Актуальные исследования (Aktualnye issledovaniya)},
+  year = {2024},
+  number = {20 (202)},
+  issn = {2713-1513},
+  publisher = {APNI},
+  doi = {10.5281/zenodo.17215118},
+  url = {https://apni.ru/article/9323-semanticheskij-poisk-novostej-s-ispolzovaniem-iskusstvennogo-intellekta-tehnologii-vyzovy-i-perspektivy},
+  language = {russian}
+}
+```
+
+## Related
+
+- [All research articles](https://igorshalamov.com/research/)
+- [AI growth systems](https://igorshalamov.com/ai-growth-systems/)
+
+---
+
+Canonical page: https://igorshalamov.com/research/semantic-news-search-ai/. Author: Igor Shalamov, AI systems architect who designs AI growth systems. Site guide for AI assistants: https://igorshalamov.com/llms.txt
+
+# Нейросетевые архитектуры для автоматизации пользовательских воронок в реферальном маркетинге
+
+Research article by Igor Shalamov, an AI systems architect and founder of Shalamov.io.
+
+- **Author:** [Igor Shalamov](https://igorshalamov.com/about/)
+- **English title:** Neural network architectures for automating user funnels in referral marketing
+- **Journal:** Aktualnye issledovaniya (Current Research), APNI
+- **Publisher:** APNI
+- **Issue:** No. 29 (264), part I, pp. 29–38
+- **Published:** 24 July 2025
+- **ISSN:** 2713-1513
+- **Language:** Russian
+- **Journal page:** [apni.ru/article/12704-nejrosetevye-arhitektury-dlya-avtomati…](https://apni.ru/article/12704-nejrosetevye-arhitektury-dlya-avtomatizacii-polzovatelskih-voronok-v-referalnom-marketinge)
+
+## Abstract
+
+Исследование посвящено применению нейронных сетей для автоматизации пользовательских воронок в реферальном маркетинге. Рассматриваются ключевые архитектуры, такие как большие языковые модели, сверточные нейронные сети, генеративные состязательные сети, рекуррентные нейронные сети и модели с обучением с подкреплением, которые используются для генерации контента, анализа аудитории, взаимодействия с пользователями и оптимизации кампаний. Особое внимание уделено кейсу цифровой маркетинговой платформы, предоставляющей комплексные услуги автоматизации реферальных программ, которая продемонстрировала рост аудитории на 117% благодаря внедрению ИИ-технологий. В статье также анализируются этические, конфиденциальные и технические аспекты интеграции нейронных сетей, а также перспективы их развития в маркетинге. Работа подчеркивает важность гибридного подхода, где ИИ усиливает человеческие возможности, позволяя маркетологам сосредоточиться на стратегических задачах.
+
+Abstract as published on the journal page, in Russian.
+
+## How to cite
+
+### APA
+
+Shalamov, I. (2025). Нейросетевые архитектуры для автоматизации пользовательских воронок в реферальном маркетинге [Neural network architectures for automating user funnels in referral marketing]. Aktualnye issledovaniya, (29 (264)), 29–38. https://apni.ru/article/12704-nejrosetevye-arhitektury-dlya-avtomatizacii-polzovatelskih-voronok-v-referalnom-marketinge
+
+### BibTeX
+
+```
+@article{shalamov2025referral,
+  author = {Shalamov, Igor},
+  title = {Нейросетевые архитектуры для автоматизации пользовательских воронок в реферальном маркетинге},
+  journal = {Актуальные исследования (Aktualnye issledovaniya)},
+  year = {2025},
+  number = {29 (264)},
+  pages = {29--38},
+  issn = {2713-1513},
+  publisher = {APNI},
+  url = {https://apni.ru/article/12704-nejrosetevye-arhitektury-dlya-avtomatizacii-polzovatelskih-voronok-v-referalnom-marketinge},
+  language = {russian}
+}
+```
+
+## Related
+
+- [All research articles](https://igorshalamov.com/research/)
+- [AI growth systems](https://igorshalamov.com/ai-growth-systems/)
+
+---
+
+Canonical page: https://igorshalamov.com/research/neural-architectures-referral-funnels/. Author: Igor Shalamov, AI systems architect who designs AI growth systems. Site guide for AI assistants: https://igorshalamov.com/llms.txt
+
+# AI-driven маркетинг: эволюция воронок продаж в цифровых экосистемах
+
+Research article by Igor Shalamov, an AI systems architect and founder of Shalamov.io.
+
+- **Author:** [Igor Shalamov](https://igorshalamov.com/about/)
+- **English title:** AI-driven marketing: the evolution of sales funnels in digital ecosystems
+- **Journal:** Internauka (electronic scientific journal)
+- **Issue:** No. 25 (389)
+- **Section:** section “Information technologies”
+- **Published:** 2025
+- **Language:** Russian
+- **Journal page:** [internauka.org/journal/science/internauka/389](https://www.internauka.org/journal/science/internauka/389)
+- **Author page:** [Internauka](https://www.internauka.org/authors/shalamov-igor)
+
+## How to cite
+
+### APA
+
+Shalamov, I. (2025). AI-driven маркетинг: эволюция воронок продаж в цифровых экосистемах [AI-driven marketing: the evolution of sales funnels in digital ecosystems]. Internauka, (25 (389)). https://www.internauka.org/journal/science/internauka/389
+
+### BibTeX
+
+```
+@article{shalamov2025funnels,
+  author = {Shalamov, Igor},
+  title = {AI-driven маркетинг: эволюция воронок продаж в цифровых экосистемах},
+  journal = {Интернаука (Internauka)},
+  year = {2025},
+  number = {25 (389)},
+  url = {https://www.internauka.org/journal/science/internauka/389},
+  language = {russian}
+}
+```
+
+## Related
+
+- [All research articles](https://igorshalamov.com/research/)
+- [AI growth systems](https://igorshalamov.com/ai-growth-systems/)
+
+---
+
+Canonical page: https://igorshalamov.com/research/ai-driven-sales-funnels/. Author: Igor Shalamov, AI systems architect who designs AI growth systems. Site guide for AI assistants: https://igorshalamov.com/llms.txt
+
+# Нейронные сети для классификации новостей в реальном времени: вычислительные подходы, приложения и вызовы
+
+Research article by Igor Shalamov, an AI systems architect and founder of Shalamov.io.
+
+- **Author:** [Igor Shalamov](https://igorshalamov.com/about/)
+- **English title:** Neural networks for real-time news classification: computational approaches, applications and open problems
+- **Journal:** Internauka (electronic scientific journal)
+- **Issue:** No. 35 (399)
+- **Section:** section “Information technologies”
+- **Published:** 2025
+- **Language:** Russian
+- **Journal page:** [internauka.org/journal/science/internauka/399](https://www.internauka.org/journal/science/internauka/399)
+- **Author page:** [Internauka](https://www.internauka.org/authors/shalamov-igor-stanislavovich)
+
+## How to cite
+
+### APA
+
+Shalamov, I. (2025). Нейронные сети для классификации новостей в реальном времени: вычислительные подходы, приложения и вызовы [Neural networks for real-time news classification: computational approaches, applications and open problems]. Internauka, (35 (399)). https://www.internauka.org/journal/science/internauka/399
+
+### BibTeX
+
+```
+@article{shalamov2025classification,
+  author = {Shalamov, Igor},
+  title = {Нейронные сети для классификации новостей в реальном времени: вычислительные подходы, приложения и вызовы},
+  journal = {Интернаука (Internauka)},
+  year = {2025},
+  number = {35 (399)},
+  url = {https://www.internauka.org/journal/science/internauka/399},
+  language = {russian}
+}
+```
+
+## Related
+
+- [All research articles](https://igorshalamov.com/research/)
+- [AI growth systems](https://igorshalamov.com/ai-growth-systems/)
+
+---
+
+Canonical page: https://igorshalamov.com/research/neural-news-classification-real-time/. Author: Igor Shalamov, AI systems architect who designs AI growth systems. Site guide for AI assistants: https://igorshalamov.com/llms.txt
+
+# Personalization of news content using AI: architecture and efficiency of neural network systems
+
+Research article by Igor Shalamov, an AI systems architect and founder of Shalamov.io.
+
+- **Author:** [Igor Shalamov](https://igorshalamov.com/about/)
+- **Journal:** European Journal of Technical and Natural Sciences
+- **Publisher:** Premier Publishing s.r.o.
+- **Issue:** No. 4–5 (2025), pp. 18–29
+- **Published:** 30 October 2025
+- **ISSN:** 2414-2352
+- **Language:** English
+- **Journal page:** [ppublishing.org/archive/publication/1650-personalization-of-…](https://ppublishing.org/archive/publication/1650-personalization-of-news-content-using-ai-arch)
+- **PDF:** [PDF on the publisher site](https://ppublishing.org/media/uploads/journals/article/EJT-4.5-25_p18-29.pdf)
+
+## Abstract
+
+The rapid growth of digital information has made news content personalization a critical tool for addressing information overload and enhancing user engagement. This study investigates the architecture and efficiency of neural network systems for personalizing news content, focusing on a proposed hybrid model combining BERT for semantic text analysis and LSTM for modeling temporal user interactions. Using the MIND dataset, we compared the hybrid model against baseline architectures (TextCNN, LSTM, BERT-base) and traditional matrix factorization. The hybrid model achieved superior performance, with Precision@5 of 0.78, Recall@5 of 0.75, F1-score of 0.76, and a click-through rate (CTR) of 6.3%, outperforming baselines by up to 43% in F1-score and 66% in CTR. The model demonstrated robustness to noisy data and improved recommendations for cold-start scenarios. However, challenges such as computational complexity and applicability to multilingual datasets remain. The findings highlight the potential of hybrid neural architectures for real-world news personalization while underscoring the need to address ethical concerns, such as filter bubbles and privacy. Future research should explore multimodal data integration and lightweight models to enhance scalability and diversity in recommendations.
+
+## How to cite
+
+### APA
+
+Shalamov, I. (2025). Personalization of news content using AI: architecture and efficiency of neural network systems. European Journal of Technical and Natural Sciences, (4–5), 18–29. https://ppublishing.org/archive/publication/1650-personalization-of-news-content-using-ai-arch
+
+### BibTeX
+
+```
+@article{shalamov2025personalization,
+  author = {Shalamov, Igor},
+  title = {Personalization of news content using AI: architecture and efficiency of neural network systems},
+  journal = {European Journal of Technical and Natural Sciences},
+  year = {2025},
+  number = {4-5},
+  pages = {18--29},
+  issn = {2414-2352},
+  publisher = {Premier Publishing s.r.o.},
+  url = {https://ppublishing.org/archive/publication/1650-personalization-of-news-content-using-ai-arch},
+  language = {english}
+}
+```
+
+## Related
+
+- [All research articles](https://igorshalamov.com/research/)
+- [AI growth systems](https://igorshalamov.com/ai-growth-systems/)
+
+---
+
+Canonical page: https://igorshalamov.com/research/news-personalization-ai/. Author: Igor Shalamov, AI systems architect who designs AI growth systems. Site guide for AI assistants: https://igorshalamov.com/llms.txt
+
+# Writing
+
+Notes by Igor Shalamov, an AI systems architect and founder of Shalamov.io, on the architecture of AI growth systems: referral and recommendation systems, AI-driven communication automation, semantic search and classification.
+
+[What is an AI growth system](https://igorshalamov.com/writing/what-is-an-ai-growth-system/)
+
+20 November 2026. The class of systems that help a product grow by learning from its users, and the three layers every such system has.
+
+[A referral system is a recommender system](https://igorshalamov.com/writing/referral-system-is-a-recommender-system/)
+
+20 November 2026. Who invites, whom, and with which message: three ranking problems instead of an “invite a friend” button.
+
+[Semantic news search: from keywords to embeddings](https://igorshalamov.com/writing/semantic-news-search-keywords-to-embeddings/)
+
+20 November 2026. Keyword search matches words, semantic search matches meaning. For news, the freshness of the index becomes the hard part.
+
+Subscribe: [RSS feed](https://igorshalamov.com/writing/feed.xml). Research articles behind these notes: [Research](https://igorshalamov.com/research/).
+
+---
+
+Canonical page: https://igorshalamov.com/writing/. Author: Igor Shalamov, AI systems architect who designs AI growth systems. Site guide for AI assistants: https://igorshalamov.com/llms.txt
+
+# What is an AI growth system
+
+[Igor Shalamov](https://igorshalamov.com/about/), an AI systems architect and founder of Shalamov.io. 20 November 2026, 1 min read.
+
+An AI growth system is the class of systems that help a digital product grow by learning from its users: referral and recommendation systems, AI-driven communication automation, semantic search and classification.
+
+## Three layers
+
+Every such system has three layers:
+
+1. **Behaviour data**: what people open, share, ignore and reply to.
+2. **Models**: recommendation and ranking, classification of intent and sentiment.
+3. **Communication**: personal replies, invitations and content that reach the user at the right moment.
+
+## The feedback loop
+
+A feedback loop connects the layers. Every reply and every invitation becomes new data, and the models retrain on it. Without that loop you have automation. With it you have a growth system.
+
+## Where this comes from
+
+Since April 2023 I have worked with Appvillis UAB, the developer of the Nicegram messenger, as AI Software Architect: AI-driven feedback automation, adaptive bots and content filtering. I also publish research on semantic news search, real-time neural news classification and personalization of news content.
+
+The field as a whole, with the architecture of each layer and the research behind it, is described on the page [AI growth systems](https://igorshalamov.com/ai-growth-systems/). The next notes go through the layers one at a time.
+
+![Igor Shalamov](https://igorshalamov.com/press-kit/igor-shalamov-160.jpg)
+
+[Igor Shalamov](https://igorshalamov.com/about/) is an AI systems architect who designs AI growth systems: referral and recommendation systems, AI-driven communication automation, semantic search and classification. He founded Shalamov.io and publishes [research](https://igorshalamov.com/research/) on semantic search and neural classification.
+
+## More notes
+
+- [A referral system is a recommender system](https://igorshalamov.com/writing/referral-system-is-a-recommender-system/)
+- [Semantic news search: from keywords to embeddings](https://igorshalamov.com/writing/semantic-news-search-keywords-to-embeddings/)
+
+Subscribe: [RSS feed](https://igorshalamov.com/writing/feed.xml). All notes: [Writing](https://igorshalamov.com/writing/).
+
+---
+
+Canonical page: https://igorshalamov.com/writing/what-is-an-ai-growth-system/. Author: Igor Shalamov, AI systems architect who designs AI growth systems. Site guide for AI assistants: https://igorshalamov.com/llms.txt
+
+# A referral system is a recommender system
+
+[Igor Shalamov](https://igorshalamov.com/about/), an AI systems architect and founder of Shalamov.io. 20 November 2026, 1 min read.
+
+The first thing I tell teams about referral programs is this: a referral program is a recommender system in disguise.
+
+It has to answer three questions for every user:
+
+1. Who is likely to invite someone right now?
+2. Whom will they invite, and in which channel?
+3. Which message and which reward will make that invitation land?
+
+Each question is a ranking problem. Treat referrals as a static “invite a friend” button and you leave all three to chance. Treat them as recommendations and you can learn from every invitation that was sent, opened or ignored.
+
+## A referral funnel as an AI growth system
+
+Read this way, a referral funnel has the three layers of an [AI growth system](https://igorshalamov.com/writing/what-is-an-ai-growth-system/): invitations are the communication, their outcomes are the behaviour data, and the ranking models close the loop.
+
+## What the research covers
+
+My paper [Neural network architectures for automating user funnels in referral marketing](https://igorshalamov.com/research/neural-architectures-referral-funnels/) (Aktualnye issledovaniya, 2025) reviews the architectures used for this work: large language models, convolutional, recurrent and generative adversarial networks, and reinforcement learning models. They are applied to content generation, audience analysis, interaction with users and campaign optimisation. The paper also discusses the ethical, privacy and technical sides of putting neural networks into referral funnels.
+
+![Igor Shalamov](https://igorshalamov.com/press-kit/igor-shalamov-160.jpg)
+
+[Igor Shalamov](https://igorshalamov.com/about/) is an AI systems architect who designs AI growth systems: referral and recommendation systems, AI-driven communication automation, semantic search and classification. He founded Shalamov.io and publishes [research](https://igorshalamov.com/research/) on semantic search and neural classification.
+
+## More notes
+
+- [What is an AI growth system](https://igorshalamov.com/writing/what-is-an-ai-growth-system/)
+- [Semantic news search: from keywords to embeddings](https://igorshalamov.com/writing/semantic-news-search-keywords-to-embeddings/)
+
+Subscribe: [RSS feed](https://igorshalamov.com/writing/feed.xml). All notes: [Writing](https://igorshalamov.com/writing/).
+
+---
+
+Canonical page: https://igorshalamov.com/writing/referral-system-is-a-recommender-system/. Author: Igor Shalamov, AI systems architect who designs AI growth systems. Site guide for AI assistants: https://igorshalamov.com/llms.txt
+
+# Semantic news search: from keywords to embeddings
+
+[Igor Shalamov](https://igorshalamov.com/about/), an AI systems architect and founder of Shalamov.io. 20 November 2026, 1 min read.
+
+Keyword search finds documents that share words with the query. Semantic search finds documents that share meaning. The switch is simple to describe: encode queries and documents as vectors (embeddings) and retrieve by distance instead of by term overlap.
+
+## What changes for news
+
+- Synonyms and paraphrases stop being a problem.
+- A story can be found before it has a fixed name.
+- The index must be refreshed as fast as the news itself, which makes freshness an architecture question, not a model question.
+
+## What the research covers
+
+My paper [Semantic news search using artificial intelligence: technologies, problems and prospects](https://igorshalamov.com/research/semantic-news-search-ai/) (Aktualnye issledovaniya, 2024) reviews the technologies behind this switch: vector databases, hybrid and cascade approaches, contextual retrieval. It looks at the open problems, namely scalability, real-time processing, integration with media infrastructure and security, and at the directions that follow: agent-oriented interfaces, multimodal search, personalization and federated systems.
+
+In an [AI growth system](https://igorshalamov.com/writing/what-is-an-ai-growth-system/), semantic search sits in the models layer: it decides what a reader sees next.
+
+![Igor Shalamov](https://igorshalamov.com/press-kit/igor-shalamov-160.jpg)
+
+[Igor Shalamov](https://igorshalamov.com/about/) is an AI systems architect who designs AI growth systems: referral and recommendation systems, AI-driven communication automation, semantic search and classification. He founded Shalamov.io and publishes [research](https://igorshalamov.com/research/) on semantic search and neural classification.
+
+## More notes
+
+- [What is an AI growth system](https://igorshalamov.com/writing/what-is-an-ai-growth-system/)
+- [A referral system is a recommender system](https://igorshalamov.com/writing/referral-system-is-a-recommender-system/)
+
+Subscribe: [RSS feed](https://igorshalamov.com/writing/feed.xml). All notes: [Writing](https://igorshalamov.com/writing/).
+
+---
+
+Canonical page: https://igorshalamov.com/writing/semantic-news-search-keywords-to-embeddings/. Author: Igor Shalamov, AI systems architect who designs AI growth systems. Site guide for AI assistants: https://igorshalamov.com/llms.txt
+
+# Igor Shalamov in the Media
+
+Editorial interviews and articles about Igor Shalamov, with outlet, date and author. All materials are in Russian.
+
+[От интеграции искусственного интеллекта в digital-маркетинг до создания академии, готовящей профильных экспертов](https://b-mag.ru/ot-integracii-iskusstvennogo-intellekta-v-digital-marketing-do-sozdanija-akademii/)
+
+B-Mag.ru, 12 October 2023. Interview, by Igor Sotnikov. In Russian.
+
+[Игорь Шаламов: как ИИ совершит революцию в реферальном маркетинге](https://apni.ru/interview/igor-shalamov-kak-ii-sovershit-revolyucziyu-v-referalnom-marketinge)
+
+APNI.ru, 25 January 2024. Interview, by Kira Danilova. In Russian.
+
+[Игорь Шаламов о будущем реферального маркетинга](https://www.pravda.ru/economics/2311498-igor-shalamov-referalnyi-marketing/)
+
+Pravda.ru, 20 December 2024. Article, by Alexander Prikhodko. In Russian.
+
+---
+
+Canonical page: https://igorshalamov.com/press/. Author: Igor Shalamov, AI systems architect who designs AI growth systems. Site guide for AI assistants: https://igorshalamov.com/llms.txt
+
+# Products — Shalamov.io, its academy and agency
+
+## Shalamov.io
+
+Shalamov.io is a referral-marketing automation platform, launched by Igor Shalamov in 2021, that lets businesses build referral funnels, Telegram services and Mini Apps, as well as no-code AI modules for segmentation, analytics and customer conversations. Igor Shalamov is the founder and platform architect.
+
+[shalamov.io](https://shalamov.io/)
+
+## Shalamov.io Academy
+
+The academy of the platform trains specialists in AI automation. Founded in 2021; Igor Shalamov is the founder and an instructor.
+
+## Shalamov Agency
+
+An AI implementation agency founded by Igor Shalamov in 2020.
+
+The engineering side of this work is described on the [AI growth systems](https://igorshalamov.com/ai-growth-systems/) page.
+
+---
+
+Canonical page: https://igorshalamov.com/products/. Author: Igor Shalamov, AI systems architect who designs AI growth systems. Site guide for AI assistants: https://igorshalamov.com/llms.txt
+
+# Igor Shalamov — Press Kit and Facts
+
+Igor Shalamov is an aI systems architect who designs AI growth systems: referral and recommendation systems, Telegram services, AI-driven communication automation.
+
+![Igor Shalamov, portrait](https://igorshalamov.com/press-kit/igor-shalamov-480.jpg)
+
+Photos: [portrait, 1200 × 1800, JPEG](https://igorshalamov.com/press-kit/igor-shalamov.jpg); [horizontal, 1200 × 630, JPEG](https://igorshalamov.com/press-kit/igor-shalamov-og.jpg).
+
+## Profession
+
+- **Profession:** AI systems architect
+- **Field:** AI growth systems: referral and recommendation systems, AI-driven communication automation, semantic search and classification
+- **Role at Appvillis:** AI Software Architect (Appvillis UAB, the company behind Nicegram; since April 2023)
+- **First mention:** Igor Shalamov, an AI systems architect and founder of Shalamov.io
+
+## Name
+
+- **English:** Igor Shalamov (the only Latin spelling; not Shalamoff, not Schalamov)
+- **Russian:** Игорь Шаламов (full name: Игорь Станиславович Шаламов)
+- **Handle:** shalamoov (Instagram, YouTube, LinkedIn)
+- **Websites:** igorshalamov.com (personal), shalamov.io (platform)
+
+## One line
+
+EN: AI systems architect who designs AI growth systems: referral and recommendation systems, Telegram services, AI-driven communication automation.
+
+RU: Архитектор ИИ-систем роста: реферальные и рекомендательные системы, Telegram-сервисы, ИИ-автоматизация коммуникаций.
+
+## Short bio, about 50 words
+
+Igor Shalamov is an AI systems architect and entrepreneur who designs AI growth systems. He founded Shalamov.io, a platform for referral funnels and Telegram services, plus an academy and an AI implementation agency. He has designed referral and recommendation systems for education and Web3 platforms and worked on AI automation within the Nicegram messaging ecosystem. He writes on semantic search and neural news classification.
+
+Игорь Шаламов — архитектор ИИ-систем роста и основатель Shalamov.io, платформы для реферальных воронок и Telegram-сервисов, а также академии и агентства по внедрению ИИ. Проектировал реферальные и рекомендательные системы для образовательных и Web3-платформ, работал над ИИ-автоматизацией в экосистеме мессенджера Nicegram. Автор статей о семантическом поиске и нейросетевой классификации.
+
+## Medium bio, about 150 words
+
+Igor Shalamov is an AI systems architect and entrepreneur working at the intersection of machine learning, product analytics and marketing. In 2021 he launched Shalamov.io, a referral-marketing automation platform that lets businesses build referral funnels, Telegram services and Mini Apps, as well as no-code AI modules for segmentation, analytics and customer conversations. The platform anchors an academy and an implementation agency.
+
+From 2021 to 2023 Igor led referral-systems development at the Like Center education ecosystem; since 2022 he has been responsible for referral marketing and IT development at the Web3 accelerator LaunchHub; and since April 2023 he has worked with Appvillis, the company behind the Nicegram messenger, as AI Software Architect on AI-driven feedback automation and content filtering. He is the author of research articles on semantic news search, real-time neural news classification, news personalization and neural architectures for referral funnels. He is now building the international Shalamov.io ecosystem.
+
+Russian version: [press kit in Russian](https://igorshalamov.com/ru/press-kit/).
+
+## Boilerplate
+
+About Igor Shalamov. Igor Shalamov is an AI systems architect who designs AI growth systems: referral and recommendation systems and AI-driven communication automation. He founded Shalamov.io in 2021 and has worked with Appvillis UAB (Nicegram) since 2023. More: igorshalamov.com.
+
+## Roles and periods
+
+| Organization | Role | Period |
+|---|---|---|
+| Shalamov.io | Founder and platform architect | since 2021 |
+| Shalamov.io Academy | Founder, instructor | since 2021 |
+| Shalamov Agency | Founder | since 2020 |
+| Appvillis UAB (Nicegram) | AI Software Architect, Head of Referral Marketing | since April 2023 |
+| LaunchHub | Head of referral marketing and IT development (project-based) | since 2022 |
+| Like Center | Lead architect of referral systems | 2021–2023 |
+| Bolshie Cheki | Head of partner marketing, founder of the IT department | c. 2021–2022 |
+| NL International | Network marketing, start of career | before 2021 |
+
+## Official profiles
+
+- LinkedIn: [www.linkedin.com/in/shalamoov](https://www.linkedin.com/in/shalamoov)
+- Instagram: [www.instagram.com/shalamoov/](https://www.instagram.com/shalamoov/)
+- YouTube: [www.youtube.com/@shalamoov](https://www.youtube.com/@shalamoov)
+- Telegram: [t.me/shalamovtg](https://t.me/shalamovtg)
+- Crunchbase: [www.crunchbase.com/person/igor-shalamov](https://www.crunchbase.com/person/igor-shalamov)
+- Google Scholar: [scholar.google.com/citations?user=HuXnpkUAAAAJ](https://scholar.google.com/citations?user=HuXnpkUAAAAJ)
+- ORCID: [orcid.org/0009-0001-2366-4278](https://orcid.org/0009-0001-2366-4278)
+
+## Not to be confused with
+
+There are other people named Igor Shalamov online, including the president of Optimum Computer Solutions, a producer listed on IMDb, a specialist in the spirits industry, marketers, an athlete and a restaurant-app developer. The Igor Shalamov this site is about is an AI systems architect and the founder of Shalamov.io. His profiles use the handle shalamoov.
+
+## Media contact
+
+Telegram [t.me/shalamovtg](https://t.me/shalamovtg) or LinkedIn [linkedin.com/in/shalamoov](https://www.linkedin.com/in/shalamoov).
+
+Last updated: 20 November 2026.
+
+---
+
+Canonical page: https://igorshalamov.com/press-kit/. Author: Igor Shalamov, AI systems architect who designs AI growth systems. Site guide for AI assistants: https://igorshalamov.com/llms.txt
+
+# Igor Shalamov — Facts and Answers
+
+## Who is Igor Shalamov?
+
+Igor Shalamov is an AI systems architect who designs AI growth systems: referral and recommendation systems, Telegram services, AI-driven communication automation. He founded the Shalamov.io platform in 2021.
+
+Source: [Biography](https://igorshalamov.com/about/).
+
+## What are AI growth systems?
+
+AI growth systems are the field Igor Shalamov works in: referral and recommendation systems, AI-driven communication automation, semantic search and classification. The site has a separate page on how such systems are built, with his work and five research articles.
+
+Source: [AI growth systems](https://igorshalamov.com/ai-growth-systems/).
+
+## What does he work on now?
+
+He is building the international Shalamov.io ecosystem, with its academy and AI implementation agency. Since April 2023 he has also worked with Appvillis, the company behind the Nicegram messenger, as AI Software Architect.
+
+Source: [Products](https://igorshalamov.com/products/).
+
+## What is Shalamov.io?
+
+Shalamov.io is a referral-marketing automation platform, launched by Igor Shalamov in 2021, that lets businesses build referral funnels, Telegram services and Mini Apps, as well as no-code AI modules. An academy and an implementation agency work on top of the platform.
+
+Source: [shalamov.io](https://shalamov.io/).
+
+## What is his connection to Nicegram and Appvillis?
+
+Since April 2023 Igor Shalamov has worked with Appvillis UAB, the company behind the Nicegram messenger, as AI Software Architect and Head of Referral Marketing. His work there covers AI-driven feedback automation and content filtering.
+
+Source: [AI systems architecture](https://igorshalamov.com/work/ai-systems-architecture/), [Roles and periods](https://igorshalamov.com/about/).
+
+## Which companies has he worked with?
+
+Shalamov.io, its academy and Shalamov Agency (founder); Appvillis (Nicegram), since April 2023; the Web3 accelerator LaunchHub, since 2022; the Like Center education ecosystem, 2021–2023; Bolshie Cheki, around 2021–2022. Roles for each are listed on the biography page.
+
+Source: [Roles and periods](https://igorshalamov.com/about/).
+
+## What research has he published?
+
+Five articles: on semantic news search (Aktualnye issledovaniya, 2024), neural network architectures for referral funnels (Aktualnye issledovaniya, 2025), AI-driven sales funnels (Internauka, 2025), real-time neural news classification (Internauka, 2025) and AI news personalization (European Journal of Technical and Natural Sciences, 2025). Each entry links to the journal page.
+
+Source: [Research](https://igorshalamov.com/research/).
+
+## Where has he been featured in the media?
+
+In an interview with B-Mag.ru (12 October 2023), an interview with APNI.ru (25 January 2024) and an article on Pravda.ru (20 December 2024). All three are in Russian.
+
+Source: [Press](https://igorshalamov.com/press/).
+
+## How can I verify information about Igor Shalamov?
+
+Each fact on this site links to its source: journal pages for articles, editorial pages for interviews, the official profiles for contacts. The press kit holds the single approved version of the name, bios and roles.
+
+Source: [Press kit](https://igorshalamov.com/press-kit/).
+
+## Is this the same Igor Shalamov as…?
+
+There are other people named Igor Shalamov online, including the president of Optimum Computer Solutions, a producer listed on IMDb, a specialist in the spirits industry, marketers, an athlete and a restaurant-app developer. The Igor Shalamov this site is about is an AI systems architect and the founder of Shalamov.io. His profiles use the handle shalamoov.
+
+Source: [Press kit](https://igorshalamov.com/press-kit/).
+
+## Where are his official profiles and how do I contact him?
+
+Official profiles: LinkedIn, Instagram and YouTube under the handle shalamoov, the Telegram channel shalamovtg and Crunchbase. Media and partnership requests: Telegram t.me/shalamovtg or LinkedIn linkedin.com/in/shalamoov.
+
+Source: [Contact](https://igorshalamov.com/contact/).
+
+---
+
+Canonical page: https://igorshalamov.com/faq/. Author: Igor Shalamov, AI systems architect who designs AI growth systems. Site guide for AI assistants: https://igorshalamov.com/llms.txt
+
+# Contact
+
+Media and partnership requests: Telegram [t.me/shalamovtg](https://t.me/shalamovtg) or LinkedIn [linkedin.com/in/shalamoov](https://www.linkedin.com/in/shalamoov).
+
+For facts, bios and name spelling, see the [press kit](https://igorshalamov.com/press-kit/).
+
+## Official profiles
+
+- LinkedIn: [www.linkedin.com/in/shalamoov](https://www.linkedin.com/in/shalamoov)
+- Instagram: [www.instagram.com/shalamoov/](https://www.instagram.com/shalamoov/)
+- YouTube: [www.youtube.com/@shalamoov](https://www.youtube.com/@shalamoov)
+- Telegram: [t.me/shalamovtg](https://t.me/shalamovtg)
+- Crunchbase: [www.crunchbase.com/person/igor-shalamov](https://www.crunchbase.com/person/igor-shalamov)
+- Google Scholar: [scholar.google.com/citations?user=HuXnpkUAAAAJ](https://scholar.google.com/citations?user=HuXnpkUAAAAJ)
+- ORCID: [orcid.org/0009-0001-2366-4278](https://orcid.org/0009-0001-2366-4278)
+
+---
+
+Canonical page: https://igorshalamov.com/contact/. Author: Igor Shalamov, AI systems architect who designs AI growth systems. Site guide for AI assistants: https://igorshalamov.com/llms.txt

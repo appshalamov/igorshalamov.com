@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Writing — Igor Shalamov, AI Systems Architect</title>
+<meta name="description" content="Notes by Igor Shalamov, AI systems architect, on the architecture of AI growth systems: referral and recommendation systems, semantic search, classification.">
+<meta name="author" content="Igor Shalamov">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f4ef" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1c1b19" media="(prefers-color-scheme: dark)">
+<link rel="canonical" href="https://igorshalamov.com/writing/">
+<link rel="alternate" hreflang="en" href="https://igorshalamov.com/writing/">
+<link rel="alternate" hreflang="ru" href="https://igorshalamov.com/ru/writing/">
+<link rel="alternate" hreflang="x-default" href="https://igorshalamov.com/writing/">
+<link rel="alternate" type="text/markdown" href="/writing/index.md" title="Markdown">
+<link rel="alternate" type="application/rss+xml" href="/writing/feed.xml" title="Igor Shalamov — Writing">
+<link rel="author" href="/about/">
+<link rel="me" href="https://www.linkedin.com/in/shalamoov">
+<link rel="me" href="https://orcid.org/0009-0001-2366-4278">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Igor Shalamov">
+<meta property="og:title" content="Writing — Igor Shalamov, AI Systems Architect">
+<meta property="og:description" content="Notes by Igor Shalamov, AI systems architect, on the architecture of AI growth systems: referral and recommendation systems, semantic search, classification.">
+<meta property="og:url" content="https://igorshalamov.com/writing/">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta property="og:image" content="https://igorshalamov.com/press-kit/igor-shalamov-og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Igor Shalamov">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@shalamoov">
+<meta name="twitter:creator" content="@shalamoov">
+<meta name="twitter:title" content="Writing — Igor Shalamov, AI Systems Architect">
+<meta name="twitter:description" content="Notes by Igor Shalamov, AI systems architect, on the architecture of AI growth systems: referral and recommendation systems, semantic search, classification.">
+<meta name="twitter:image" content="https://igorshalamov.com/press-kit/igor-shalamov-og.jpg">
+<link rel="preload" href="/fonts/piazzolla-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/style.css?v=4">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "BreadcrumbList",
+   "@id": "https://igorshalamov.com/writing/#breadcrumb",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://igorshalamov.com/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Writing",
+     "item": "https://igorshalamov.com/writing/"
+    }
+   ]
+  },
+  {
+   "@type": "CollectionPage",
+   "@id": "https://igorshalamov.com/writing/#webpage",
+   "url": "https://igorshalamov.com/writing/",
+   "name": "Writing — Igor Shalamov, AI Systems Architect",
+   "inLanguage": "en",
+   "isPartOf": {
+    "@id": "https://igorshalamov.com/#website"
+   },
+   "about": {
+    "@id": "https://igorshalamov.com/#person"
+   },
+   "breadcrumb": {
+    "@id": "https://igorshalamov.com/writing/#breadcrumb"
+   },
+   "dateModified": "2026-11-20",
+   "mainEntity": {
+    "@id": "https://igorshalamov.com/writing/#blog"
+   }
+  },
+  {
+   "@type": "Blog",
+   "@id": "https://igorshalamov.com/writing/#blog",
+   "url": "https://igorshalamov.com/writing/",
+   "name": "Igor Shalamov — Writing",
+   "description": "Notes on the architecture of AI growth systems.",
+   "inLanguage": "en",
+   "author": {
+    "@id": "https://igorshalamov.com/#person"
+   },
+   "publisher": {
+    "@id": "https://igorshalamov.com/#person"
+   },
+   "blogPost": [
+    {
+     "@id": "https://igorshalamov.com/writing/what-is-an-ai-growth-system/#posting"
+    },
+    {
+     "@id": "https://igorshalamov.com/writing/referral-system-is-a-recommender-system/#posting"
+    },
+    {
+     "@id": "https://igorshalamov.com/writing/semantic-news-search-keywords-to-embeddings/#posting"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site">
+<div class="wrap bar">
+<a class="brand" href="/">Igor Shalamov</a>
+<nav aria-label="Main"><ul><li><a href="/about/">About</a></li><li><a href="/ai-growth-systems/">AI growth systems</a></li><li><a href="/research/">Research</a></li><li><a href="/writing/" aria-current="page">Writing</a></li><li><a href="/press/">Press</a></li><li><a href="/contact/">Contact</a></li><li class="lang"><a href="/ru/writing/" hreflang="ru" lang="ru">Русский</a></li></ul></nav>
+</div>
+</header>
+<main id="main" class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><span aria-current="page">Writing</span></li></ol></nav>
+<h1>Writing</h1>
+<p class="lead">Notes by Igor Shalamov, an AI systems architect and founder of Shalamov.io, on the architecture of AI growth systems: referral and recommendation systems, AI-driven communication automation, semantic search and classification.</p>
+<ul class="entries"><li><p class="t"><a href="/writing/what-is-an-ai-growth-system/">What is an AI growth system</a></p><p><time datetime="2026-11-20">20 November 2026</time>. The class of systems that help a product grow by learning from its users, and the three layers every such system has.</p></li><li><p class="t"><a href="/writing/referral-system-is-a-recommender-system/">A referral system is a recommender system</a></p><p><time datetime="2026-11-20">20 November 2026</time>. Who invites, whom, and with which message: three ranking problems instead of an “invite a friend” button.</p></li><li><p class="t"><a href="/writing/semantic-news-search-keywords-to-embeddings/">Semantic news search: from keywords to embeddings</a></p><p><time datetime="2026-11-20">20 November 2026</time>. Keyword search matches words, semantic search matches meaning. For news, the freshness of the index becomes the hard part.</p></li></ul>
+<p class="src">Subscribe: <a href="/writing/feed.xml">RSS feed</a>. Research articles behind these notes: <a href="/research/">Research</a>.</p>
+</main>
+<footer class="site">
+<div class="wrap">
+<p class="sig">Igor Shalamov — AI systems architect who designs AI growth systems.</p>
+<div class="cols">
+<nav aria-label="More pages"><h2>More</h2><ul><li><a href="/work/ai-systems-architecture/">AI systems architecture</a></li><li><a href="/products/">Products</a></li><li><a href="/press-kit/">Press kit</a></li><li><a href="/faq/">FAQ</a></li></ul></nav>
+<div><h2>Official profiles</h2><ul><li><a href="https://www.linkedin.com/in/shalamoov" rel="me noopener">LinkedIn</a></li><li><a href="https://www.instagram.com/shalamoov/" rel="me noopener">Instagram</a></li><li><a href="https://www.youtube.com/@shalamoov" rel="me noopener">YouTube</a></li><li><a href="https://t.me/shalamovtg" rel="me noopener">Telegram</a></li><li><a href="https://www.crunchbase.com/person/igor-shalamov" rel="me noopener">Crunchbase</a></li><li><a href="https://scholar.google.com/citations?user=HuXnpkUAAAAJ" rel="me noopener">Google Scholar</a></li><li><a href="https://orcid.org/0009-0001-2366-4278" rel="me noopener">ORCID</a></li></ul></div>
+<div><h2>Author pages</h2><ul><li><a href="https://apni.ru/author/15669" rel="noopener">APNI</a></li><li><a href="https://www.internauka.org/authors/shalamov-igor" rel="noopener">Internauka (Igor Shalamov)</a></li><li><a href="https://www.internauka.org/authors/shalamov-igor-stanislavovich" rel="noopener">Internauka (Igor Stanislavovich Shalamov)</a></li></ul></div>
+</div>
+<p class="meta">© 2026 Igor Shalamov. Updated: <time datetime="2026-11-20">2026-11-20</time>. Contact: Telegram <a href="https://t.me/shalamovtg" rel="noopener">t.me/shalamovtg</a> or LinkedIn <a href="https://www.linkedin.com/in/shalamoov" rel="noopener">linkedin.com/in/shalamoov</a>.</p>
+<p class="meta">Machine-readable versions: <a href="/writing/index.md">Markdown</a>, <a href="/llms.txt">llms.txt</a>, <a href="/llms-full.txt">llms-full.txt</a>, <a href="/writing/feed.xml">RSS</a>.</p>
+</div>
+</footer>
+</body>
+</html>

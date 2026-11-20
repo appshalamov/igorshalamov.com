@@ -127,6 +127,20 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://igorshalamov.com/research/"/>
   </url>
   <url>
+    <loc>https://igorshalamov.com/writing/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://igorshalamov.com/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://igorshalamov.com/ru/writing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://igorshalamov.com/writing/"/>
+  </url>
+  <url>
+    <loc>https://igorshalamov.com/ru/writing/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://igorshalamov.com/writing/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://igorshalamov.com/ru/writing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://igorshalamov.com/writing/"/>
+  </url>
+  <url>
     <loc>https://igorshalamov.com/research/ai-driven-sales-funnels/</loc>
     <lastmod>2026-11-20</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://igorshalamov.com/research/ai-driven-sales-funnels/"/>
@@ -209,5 +223,23 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://igorshalamov.com/work/ai-systems-architecture/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://igorshalamov.com/ru/work/ai-systems-architecture/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://igorshalamov.com/work/ai-systems-architecture/"/>
+  </url>
+  <url>
+    <loc>https://igorshalamov.com/writing/referral-system-is-a-recommender-system/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://igorshalamov.com/writing/referral-system-is-a-recommender-system/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://igorshalamov.com/writing/referral-system-is-a-recommender-system/"/>
+  </url>
+  <url>
+    <loc>https://igorshalamov.com/writing/semantic-news-search-keywords-to-embeddings/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://igorshalamov.com/writing/semantic-news-search-keywords-to-embeddings/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://igorshalamov.com/writing/semantic-news-search-keywords-to-embeddings/"/>
+  </url>
+  <url>
+    <loc>https://igorshalamov.com/writing/what-is-an-ai-growth-system/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://igorshalamov.com/writing/what-is-an-ai-growth-system/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://igorshalamov.com/writing/what-is-an-ai-growth-system/"/>
   </url>
 </urlset>

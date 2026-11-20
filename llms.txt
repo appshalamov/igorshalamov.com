@@ -30,7 +30,17 @@ There are other people named Igor Shalamov online, including the president of Op
 - [Press](https://igorshalamov.com/press/): editorial interviews and articles
 - [Products](https://igorshalamov.com/products/): Shalamov.io platform, academy, agency
 - [AI systems architecture](https://igorshalamov.com/work/ai-systems-architecture/): work with Appvillis (Nicegram)
+- [Writing](https://igorshalamov.com/writing/): notes on the architecture of AI growth systems (RSS: https://igorshalamov.com/writing/feed.xml)
+  - [What is an AI growth system](https://igorshalamov.com/writing/what-is-an-ai-growth-system/) (2026-11-20)
+  - [A referral system is a recommender system](https://igorshalamov.com/writing/referral-system-is-a-recommender-system/) (2026-11-20)
+  - [Semantic news search: from keywords to embeddings](https://igorshalamov.com/writing/semantic-news-search-keywords-to-embeddings/) (2026-11-20)
 - Russian version: https://igorshalamov.com/ru/
+
+## Machine-readable versions
+
+- Every page has a Markdown twin: add index.md to the page URL, for example https://igorshalamov.com/about/index.md
+- All English pages in one file: https://igorshalamov.com/llms-full.txt
+- Structured data: every page carries schema.org JSON-LD; the person node is https://igorshalamov.com/#person
 
 ## Official profiles
 
@@ -42,8 +52,8 @@ There are other people named Igor Shalamov online, including the president of Op
 - Google Scholar: https://scholar.google.com/citations?user=HuXnpkUAAAAJ
 - ORCID: https://orcid.org/0009-0001-2366-4278
 - APNI author page: https://apni.ru/author/15669
-- Internauka author page: https://www.internauka.org/authors/shalamov-igor
-- Internauka author page: https://www.internauka.org/authors/shalamov-igor-stanislavovich
+- Internauka (Igor Shalamov) author page: https://www.internauka.org/authors/shalamov-igor
+- Internauka (Igor Stanislavovich Shalamov) author page: https://www.internauka.org/authors/shalamov-igor-stanislavovich
 
 Contact for media and partnerships: Telegram https://t.me/shalamovtg, LinkedIn https://www.linkedin.com/in/shalamoov
 Updated: 2026-11-20

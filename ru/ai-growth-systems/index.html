@@ -5,11 +5,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>ИИ-системы роста — архитектура и исследования, Игорь Шаламов</title>
 <meta name="description" content="ИИ-системы роста: реферальные и рекомендательные системы, ИИ-автоматизация коммуникаций, семантический поиск и классификация. Архитектура, работы, статьи.">
-<meta name="robots" content="index, follow">
+<meta name="author" content="Igor Shalamov">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f4ef" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1c1b19" media="(prefers-color-scheme: dark)">
 <link rel="canonical" href="https://igorshalamov.com/ru/ai-growth-systems/">
 <link rel="alternate" hreflang="en" href="https://igorshalamov.com/ai-growth-systems/">
 <link rel="alternate" hreflang="ru" href="https://igorshalamov.com/ru/ai-growth-systems/">
 <link rel="alternate" hreflang="x-default" href="https://igorshalamov.com/ai-growth-systems/">
+<link rel="alternate" type="text/markdown" href="/ru/ai-growth-systems/index.md" title="Markdown">
+<link rel="alternate" type="application/rss+xml" href="/writing/feed.xml" title="Igor Shalamov — Writing">
+<link rel="author" href="/ru/about/">
+<link rel="me" href="https://www.linkedin.com/in/shalamoov">
+<link rel="me" href="https://orcid.org/0009-0001-2366-4278">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Игорь Шаламов">
 <meta property="og:title" content="ИИ-системы роста — архитектура и исследования, Игорь Шаламов">
@@ -22,10 +32,13 @@
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Игорь Шаламов">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@shalamoov">
+<meta name="twitter:creator" content="@shalamoov">
 <meta name="twitter:title" content="ИИ-системы роста — архитектура и исследования, Игорь Шаламов">
 <meta name="twitter:description" content="ИИ-системы роста: реферальные и рекомендательные системы, ИИ-автоматизация коммуникаций, семантический поиск и классификация. Архитектура, работы, статьи.">
 <meta name="twitter:image" content="https://igorshalamov.com/press-kit/igor-shalamov-og.jpg">
-<link rel="stylesheet" href="/style.css">
+<link rel="preload" href="/fonts/piazzolla-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/style.css?v=4">
 <script type="application/ld+json">
 {
  "@context": "https://schema.org",
@@ -278,16 +291,17 @@
 <body>
 <a class="skip" href="#main">К содержанию</a>
 <header class="site">
-<div class="wrap">
+<div class="wrap bar">
 <a class="brand" href="/ru/">Игорь Шаламов</a>
-<nav aria-label="Main"><ul><li><a href="/ru/about/">Биография</a></li><li><a href="/ru/ai-growth-systems/">ИИ-системы роста</a></li><li><a href="/ru/work/ai-systems-architecture/">Архитектура ИИ-систем</a></li><li><a href="/ru/research/">Публикации</a></li><li><a href="/ru/press/">СМИ</a></li><li><a href="/ru/products/">Продукты</a></li><li><a href="/ru/press-kit/">Пресс-кит</a></li><li><a href="/ru/faq/">Факты и ответы</a></li><li><a href="/ru/contact/">Контакты</a></li><li><a href="/ai-growth-systems/" hreflang="en" lang="en">English</a></li></ul></nav>
+<nav aria-label="Основное меню"><ul><li><a href="/ru/about/">Биография</a></li><li><a href="/ru/ai-growth-systems/" aria-current="page">ИИ-системы роста</a></li><li><a href="/ru/research/">Публикации</a></li><li><a href="/ru/writing/">Записи</a></li><li><a href="/ru/press/">СМИ</a></li><li><a href="/ru/contact/">Контакты</a></li><li class="lang"><a href="/ai-growth-systems/" hreflang="en" lang="en">English</a></li></ul></nav>
 </div>
 </header>
 <main id="main" class="wrap">
 <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/ru/">Главная</a></li><li><span aria-current="page">ИИ-системы роста</span></li></ol></nav>
 <h1>ИИ-системы роста</h1>
 <p class="lead">ИИ-системы роста — программные системы, в которых модели машинного обучения определяют, как цифровой продукт привлекает, вовлекает и удерживает пользователей. Игорь Шаламов, архитектор ИИ-систем, основатель Shalamov.io, проектирует системы этого класса и публикует о них научные статьи.</p>
-<h2>Что входит в этот класс</h2>
+<nav class="toc" aria-label="Содержание"><p class="toc-h">Содержание</p><ol><li><a href="#что-входит-в-этот-класс">Что входит в этот класс</a></li><li><a href="#как-устроена-архитектура">Как устроена архитектура</a></li><li><a href="#работы-игоря-шаламова-в-этой-области">Работы Игоря Шаламова в этой области</a></li><li><a href="#научные-статьи">Научные статьи</a></li><li><a href="#по-теме">По теме</a></li></ol></nav>
+<h2 id="что-входит-в-этот-класс">Что входит в этот класс</h2>
 <h3>Реферальные системы</h3>
 <p>Реферальная система превращает текущих пользователей в канал привлечения новых: приглашения, партнёрские ссылки, привязка каждого нового пользователя к тому, кто его пригласил, вознаграждения. Нейросети берут на себя то, что раньше делалось вручную: генерацию сообщений, анализ аудитории, настройку пути пользователя по воронке и оптимизацию кампаний. Статьи: <a href="/ru/research/neural-architectures-referral-funnels/">Нейросетевые архитектуры для автоматизации пользовательских воронок в реферальном маркетинге</a>; <a href="/ru/research/ai-driven-sales-funnels/">AI-driven маркетинг: эволюция воронок продаж в цифровых экосистемах</a>.</p>
 <h3>Рекомендательные системы</h3>
@@ -296,7 +310,7 @@
 <p>В продукте для общения ИИ классифицирует обратную связь, направляет её в нужную очередь, готовит черновики ответов и отсеивает контент, нарушающий правила. Это направление его работы с Appvillis, разработчиком мессенджера Nicegram, где с апреля 2023 года его роль — AI Software Architect. Архитектура этого уровня описана на странице <a href="/ru/work/ai-systems-architecture/">«Архитектура ИИ-систем»</a>.</p>
 <h3>Семантический поиск и классификация</h3>
 <p>Семантический поиск находит материалы по смыслу, а не по ключевым словам; классификация присваивает каждому материалу тему, язык и уровень риска в момент поступления. Статьи: <a href="/ru/research/semantic-news-search-ai/">Семантический поиск новостей с использованием искусственного интеллекта: технологии, вызовы и перспективы</a> — обзор векторных баз данных, гибридного и каскадного поиска и контекстного извлечения; <a href="/ru/research/neural-news-classification-real-time/">Нейронные сети для классификации новостей в реальном времени: вычислительные подходы, приложения и вызовы</a>.</p>
-<h2>Как устроена архитектура</h2>
+<h2 id="как-устроена-архитектура">Как устроена архитектура</h2>
 <p>У всех четырёх видов систем общая структура:</p>
 <ol>
 <li><strong>Приём событий.</strong> Действия, сообщения и контент приходят через одну точку входа с устойчивой схемой, чтобы любое решение можно было проследить до входных данных.</li>
@@ -305,14 +319,14 @@
 <li><strong>Атрибуция и защита.</strong> В реферальных системах атрибуция должна выдерживать повторы и дубли, а антифрод-проверки идут до начисления вознаграждения.</li>
 <li><strong>Измерение.</strong> Каждое изменение сравнивается с исходным уровнем на той же выборке или в A/B-тесте до раскатки.</li>
 </ol>
-<h2>Работы Игоря Шаламова в этой области</h2>
+<h2 id="работы-игоря-шаламова-в-этой-области">Работы Игоря Шаламова в этой области</h2>
 <ul>
 <li>Shalamov.io (с 2021 года), основатель и архитектор платформы: реферальные воронки, распределение лидов, автоматические сообщения, партнёрские ссылки, сегментация и аналитика; ИИ-модули — чат-ассистенты, ИИ-сегментация, анализ данных, генерация контента. <a href="/ru/products/">Продукты</a>.</li>
 <li>Appvillis UAB (Nicegram), AI Software Architect с апреля 2023 года: ИИ-автоматизация обратной связи и фильтрация контента.</li>
 <li>LaunchHub, руководитель реферального маркетинга и IT-разработок (с 2022 года, проектный формат): реферальные системы для международных Web3-проектов.</li>
 <li>Like Center, ведущий архитектор реферальных систем (2021–2023).</li>
 </ul>
-<h2>Научные статьи</h2>
+<h2 id="научные-статьи">Научные статьи</h2>
 <ol class="entries">
 <li><p class="t"><a href="/ru/research/semantic-news-search-ai/">Семантический поиск новостей с использованием искусственного интеллекта: технологии, вызовы и перспективы</a></p><p>«Актуальные исследования», № 20 (202), 2024. DOI 10.5281/zenodo.17215118.</p></li>
 <li><p class="t"><a href="/ru/research/neural-architectures-referral-funnels/">Нейросетевые архитектуры для автоматизации пользовательских воронок в реферальном маркетинге</a></p><p>«Актуальные исследования», № 29 (264), 2025.</p></li>
@@ -320,16 +334,19 @@
 <li><p class="t"><a href="/ru/research/neural-news-classification-real-time/">Нейронные сети для классификации новостей в реальном времени: вычислительные подходы, приложения и вызовы</a></p><p>«Интернаука», № 35 (399), 2025.</p></li>
 <li><p class="t" lang="en"><a href="/ru/research/news-personalization-ai/">Personalization of news content using AI: architecture and efficiency of neural network systems</a></p><p>European Journal of Technical and Natural Sciences, № 4–5, 2025, с. 18–29. На английском языке.</p></li>
 </ol>
-<h2>По теме</h2>
+<h2 id="по-теме">По теме</h2>
 <ul><li><a href="/ru/work/ai-systems-architecture/">Архитектура ИИ-систем в Appvillis (Nicegram)</a></li><li><a href="/ru/research/">Публикации и исследования</a></li><li><a href="/ru/about/">Биография, роли и периоды</a></li></ul>
 </main>
 <footer class="site">
 <div class="wrap">
-<h2>Официальные профили</h2>
-<ul class="inline"><li><a href="https://www.linkedin.com/in/shalamoov" rel="noopener">LinkedIn</a></li><li><a href="https://www.instagram.com/shalamoov/" rel="noopener">Instagram</a></li><li><a href="https://www.youtube.com/@shalamoov" rel="noopener">YouTube</a></li><li><a href="https://t.me/shalamovtg" rel="noopener">Telegram</a></li><li><a href="https://www.crunchbase.com/person/igor-shalamov" rel="noopener">Crunchbase</a></li><li><a href="https://scholar.google.com/citations?user=HuXnpkUAAAAJ" rel="noopener">Google Scholar</a></li><li><a href="https://orcid.org/0009-0001-2366-4278" rel="noopener">ORCID</a></li></ul>
-<h2>Страницы автора в изданиях</h2>
-<ul class="inline"><li><a href="https://apni.ru/author/15669" rel="noopener">APNI</a></li><li><a href="https://www.internauka.org/authors/shalamov-igor" rel="noopener">Internauka</a></li><li><a href="https://www.internauka.org/authors/shalamov-igor-stanislavovich" rel="noopener">Internauka</a></li></ul>
-<p class="meta">© 2026 Игорь Шаламов. Обновлено: 2026-11-20. Связь: Telegram <a href="https://t.me/shalamovtg" rel="noopener">t.me/shalamovtg</a> или LinkedIn <a href="https://www.linkedin.com/in/shalamoov" rel="noopener">linkedin.com/in/shalamoov</a>.</p>
+<p class="sig">Игорь Шаламов — архитектор ИИ-систем роста.</p>
+<div class="cols">
+<nav aria-label="Другие страницы"><h2>Ещё</h2><ul><li><a href="/ru/work/ai-systems-architecture/">Архитектура ИИ-систем</a></li><li><a href="/ru/products/">Продукты</a></li><li><a href="/ru/press-kit/">Пресс-кит</a></li><li><a href="/ru/faq/">Факты и ответы</a></li></ul></nav>
+<div><h2>Официальные профили</h2><ul><li><a href="https://www.linkedin.com/in/shalamoov" rel="me noopener">LinkedIn</a></li><li><a href="https://www.instagram.com/shalamoov/" rel="me noopener">Instagram</a></li><li><a href="https://www.youtube.com/@shalamoov" rel="me noopener">YouTube</a></li><li><a href="https://t.me/shalamovtg" rel="me noopener">Telegram</a></li><li><a href="https://www.crunchbase.com/person/igor-shalamov" rel="me noopener">Crunchbase</a></li><li><a href="https://scholar.google.com/citations?user=HuXnpkUAAAAJ" rel="me noopener">Google Scholar</a></li><li><a href="https://orcid.org/0009-0001-2366-4278" rel="me noopener">ORCID</a></li></ul></div>
+<div><h2>Страницы автора в изданиях</h2><ul><li><a href="https://apni.ru/author/15669" rel="noopener">APNI</a></li><li><a href="https://www.internauka.org/authors/shalamov-igor" rel="noopener">Internauka (Igor Shalamov)</a></li><li><a href="https://www.internauka.org/authors/shalamov-igor-stanislavovich" rel="noopener">Internauka (Igor Stanislavovich Shalamov)</a></li></ul></div>
+</div>
+<p class="meta">© 2026 Игорь Шаламов. Обновлено: <time datetime="2026-11-20">2026-11-20</time>. Связь: Telegram <a href="https://t.me/shalamovtg" rel="noopener">t.me/shalamovtg</a> или LinkedIn <a href="https://www.linkedin.com/in/shalamoov" rel="noopener">linkedin.com/in/shalamoov</a>.</p>
+<p class="meta">Машиночитаемые версии: <a href="/ru/ai-growth-systems/index.md">Markdown</a>, <a href="/llms.txt">llms.txt</a>, <a href="/llms-full.txt">llms-full.txt</a>, <a href="/writing/feed.xml">RSS</a>.</p>
 </div>
 </footer>
 </body>

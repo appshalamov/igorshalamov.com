@@ -5,11 +5,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>AI Growth Systems — Architecture and Research, Igor Shalamov</title>
 <meta name="description" content="AI growth systems: referral and recommendation systems, AI communication automation, semantic search and classification. Architecture, work and research.">
-<meta name="robots" content="index, follow">
+<meta name="author" content="Igor Shalamov">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f4ef" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1c1b19" media="(prefers-color-scheme: dark)">
 <link rel="canonical" href="https://igorshalamov.com/ai-growth-systems/">
 <link rel="alternate" hreflang="en" href="https://igorshalamov.com/ai-growth-systems/">
 <link rel="alternate" hreflang="ru" href="https://igorshalamov.com/ru/ai-growth-systems/">
 <link rel="alternate" hreflang="x-default" href="https://igorshalamov.com/ai-growth-systems/">
+<link rel="alternate" type="text/markdown" href="/ai-growth-systems/index.md" title="Markdown">
+<link rel="alternate" type="application/rss+xml" href="/writing/feed.xml" title="Igor Shalamov — Writing">
+<link rel="author" href="/about/">
+<link rel="me" href="https://www.linkedin.com/in/shalamoov">
+<link rel="me" href="https://orcid.org/0009-0001-2366-4278">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Igor Shalamov">
 <meta property="og:title" content="AI Growth Systems — Architecture and Research, Igor Shalamov">
@@ -22,10 +32,13 @@
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Igor Shalamov">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@shalamoov">
+<meta name="twitter:creator" content="@shalamoov">
 <meta name="twitter:title" content="AI Growth Systems — Architecture and Research, Igor Shalamov">
 <meta name="twitter:description" content="AI growth systems: referral and recommendation systems, AI communication automation, semantic search and classification. Architecture, work and research.">
 <meta name="twitter:image" content="https://igorshalamov.com/press-kit/igor-shalamov-og.jpg">
-<link rel="stylesheet" href="/style.css">
+<link rel="preload" href="/fonts/piazzolla-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/style.css?v=4">
 <script type="application/ld+json">
 {
  "@context": "https://schema.org",
@@ -278,16 +291,17 @@
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site">
-<div class="wrap">
+<div class="wrap bar">
 <a class="brand" href="/">Igor Shalamov</a>
-<nav aria-label="Main"><ul><li><a href="/about/">About</a></li><li><a href="/ai-growth-systems/">AI growth systems</a></li><li><a href="/work/ai-systems-architecture/">AI systems architecture</a></li><li><a href="/research/">Research</a></li><li><a href="/press/">Press</a></li><li><a href="/products/">Products</a></li><li><a href="/press-kit/">Press kit</a></li><li><a href="/faq/">FAQ</a></li><li><a href="/contact/">Contact</a></li><li><a href="/ru/ai-growth-systems/" hreflang="ru" lang="ru">Русский</a></li></ul></nav>
+<nav aria-label="Main"><ul><li><a href="/about/">About</a></li><li><a href="/ai-growth-systems/" aria-current="page">AI growth systems</a></li><li><a href="/research/">Research</a></li><li><a href="/writing/">Writing</a></li><li><a href="/press/">Press</a></li><li><a href="/contact/">Contact</a></li><li class="lang"><a href="/ru/ai-growth-systems/" hreflang="ru" lang="ru">Русский</a></li></ul></nav>
 </div>
 </header>
 <main id="main" class="wrap">
 <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><span aria-current="page">AI growth systems</span></li></ol></nav>
 <h1>AI growth systems</h1>
 <p class="lead">AI growth systems are software systems in which machine-learning models decide how a digital product attracts, engages and keeps its users. Igor Shalamov, an AI systems architect and founder of Shalamov.io, designs systems of this class and publishes research on them.</p>
-<h2>What belongs to this class</h2>
+<nav class="toc" aria-label="Contents"><p class="toc-h">Contents</p><ol><li><a href="#what-belongs-to-this-class">What belongs to this class</a></li><li><a href="#how-the-architecture-is-built">How the architecture is built</a></li><li><a href="#igor-shalamovs-work-in-this-field">Igor Shalamov&#x27;s work in this field</a></li><li><a href="#research-articles">Research articles</a></li><li><a href="#related">Related</a></li></ol></nav>
+<h2 id="what-belongs-to-this-class">What belongs to this class</h2>
 <h3>Referral systems</h3>
 <p>A referral system turns existing users into a channel for new ones: invitations, partner links, attribution of each new user to the person who invited them, and rewards. Neural networks take over the parts that used to be manual: generating messages, analysing the audience, adapting each user's path through the funnel and optimising campaigns. Research: <a href="/research/neural-architectures-referral-funnels/">Neural network architectures for automating user funnels in referral marketing</a>; <a href="/research/ai-driven-sales-funnels/">AI-driven marketing: the evolution of sales funnels in digital ecosystems</a>.</p>
 <h3>Recommendation systems</h3>
@@ -296,7 +310,7 @@
 <p>In a messaging product AI classifies incoming feedback, routes it, drafts replies and filters content that breaks the rules. This is the direction of his work with Appvillis, the company behind the Nicegram messenger, where his role since April 2023 is AI Software Architect. The architecture of this layer is described on the <a href="/work/ai-systems-architecture/">AI systems architecture</a> page.</p>
 <h3>Semantic search and classification</h3>
 <p>Semantic search finds content by meaning rather than by keywords; classification assigns topic, language and risk to each item as it arrives. Research: <a href="/research/semantic-news-search-ai/">Semantic news search using artificial intelligence: technologies, problems and prospects</a>, which reviews vector databases, hybrid and cascade search and contextual retrieval; <a href="/research/neural-news-classification-real-time/">Neural networks for real-time news classification: computational approaches, applications and open problems</a>.</p>
-<h2>How the architecture is built</h2>
+<h2 id="how-the-architecture-is-built">How the architecture is built</h2>
 <p>The four kinds of systems share one structure:</p>
 <ol>
 <li><strong>Event intake.</strong> Actions, messages and content enter through one entry point with a stable schema, so that every later decision can be traced to its input.</li>
@@ -305,14 +319,14 @@
 <li><strong>Attribution and safeguards.</strong> In referral systems, attribution has to survive retries and duplicates, and anti-fraud checks run before any reward.</li>
 <li><strong>Measurement.</strong> Each change is compared with a baseline on the same sample or in an A/B test before rollout.</li>
 </ol>
-<h2>Igor Shalamov's work in this field</h2>
+<h2 id="igor-shalamovs-work-in-this-field">Igor Shalamov's work in this field</h2>
 <ul>
 <li>Shalamov.io (since 2021), founder and platform architect: a platform for referral funnels, lead distribution, automatic messages, partner links, segmentation and analytics, with AI modules for chat assistants, AI segmentation, data analysis and content generation. <a href="/products/">Products</a>.</li>
 <li>Appvillis UAB (Nicegram), AI Software Architect since April 2023: AI-driven feedback automation and content filtering.</li>
 <li>LaunchHub, head of referral marketing and IT development (since 2022, project-based): referral systems for international Web3 projects.</li>
 <li>Like Center, lead architect of referral systems (2021–2023).</li>
 </ul>
-<h2>Research articles</h2>
+<h2 id="research-articles">Research articles</h2>
 <ol class="entries">
 <li><p class="t"><a href="/research/semantic-news-search-ai/">Semantic news search using artificial intelligence: technologies, problems and prospects</a></p><p>Aktualnye issledovaniya, No. 20 (202), 2024. In Russian. DOI 10.5281/zenodo.17215118.</p></li>
 <li><p class="t"><a href="/research/neural-architectures-referral-funnels/">Neural network architectures for automating user funnels in referral marketing</a></p><p>Aktualnye issledovaniya, No. 29 (264), 2025. In Russian.</p></li>
@@ -320,16 +334,19 @@
 <li><p class="t"><a href="/research/neural-news-classification-real-time/">Neural networks for real-time news classification: computational approaches, applications and open problems</a></p><p>Internauka, No. 35 (399), 2025. In Russian.</p></li>
 <li><p class="t"><a href="/research/news-personalization-ai/">Personalization of news content using AI: architecture and efficiency of neural network systems</a></p><p>European Journal of Technical and Natural Sciences, No. 4–5, 2025, pp. 18–29.</p></li>
 </ol>
-<h2>Related</h2>
+<h2 id="related">Related</h2>
 <ul><li><a href="/work/ai-systems-architecture/">AI systems architecture at Appvillis (Nicegram)</a></li><li><a href="/research/">Research and publications</a></li><li><a href="/about/">Biography, roles and periods</a></li></ul>
 </main>
 <footer class="site">
 <div class="wrap">
-<h2>Official profiles</h2>
-<ul class="inline"><li><a href="https://www.linkedin.com/in/shalamoov" rel="noopener">LinkedIn</a></li><li><a href="https://www.instagram.com/shalamoov/" rel="noopener">Instagram</a></li><li><a href="https://www.youtube.com/@shalamoov" rel="noopener">YouTube</a></li><li><a href="https://t.me/shalamovtg" rel="noopener">Telegram</a></li><li><a href="https://www.crunchbase.com/person/igor-shalamov" rel="noopener">Crunchbase</a></li><li><a href="https://scholar.google.com/citations?user=HuXnpkUAAAAJ" rel="noopener">Google Scholar</a></li><li><a href="https://orcid.org/0009-0001-2366-4278" rel="noopener">ORCID</a></li></ul>
-<h2>Author pages</h2>
-<ul class="inline"><li><a href="https://apni.ru/author/15669" rel="noopener">APNI</a></li><li><a href="https://www.internauka.org/authors/shalamov-igor" rel="noopener">Internauka</a></li><li><a href="https://www.internauka.org/authors/shalamov-igor-stanislavovich" rel="noopener">Internauka</a></li></ul>
-<p class="meta">© 2026 Igor Shalamov. Updated: 2026-11-20. Contact: Telegram <a href="https://t.me/shalamovtg" rel="noopener">t.me/shalamovtg</a> or LinkedIn <a href="https://www.linkedin.com/in/shalamoov" rel="noopener">linkedin.com/in/shalamoov</a>.</p>
+<p class="sig">Igor Shalamov — AI systems architect who designs AI growth systems.</p>
+<div class="cols">
+<nav aria-label="More pages"><h2>More</h2><ul><li><a href="/work/ai-systems-architecture/">AI systems architecture</a></li><li><a href="/products/">Products</a></li><li><a href="/press-kit/">Press kit</a></li><li><a href="/faq/">FAQ</a></li></ul></nav>
+<div><h2>Official profiles</h2><ul><li><a href="https://www.linkedin.com/in/shalamoov" rel="me noopener">LinkedIn</a></li><li><a href="https://www.instagram.com/shalamoov/" rel="me noopener">Instagram</a></li><li><a href="https://www.youtube.com/@shalamoov" rel="me noopener">YouTube</a></li><li><a href="https://t.me/shalamovtg" rel="me noopener">Telegram</a></li><li><a href="https://www.crunchbase.com/person/igor-shalamov" rel="me noopener">Crunchbase</a></li><li><a href="https://scholar.google.com/citations?user=HuXnpkUAAAAJ" rel="me noopener">Google Scholar</a></li><li><a href="https://orcid.org/0009-0001-2366-4278" rel="me noopener">ORCID</a></li></ul></div>
+<div><h2>Author pages</h2><ul><li><a href="https://apni.ru/author/15669" rel="noopener">APNI</a></li><li><a href="https://www.internauka.org/authors/shalamov-igor" rel="noopener">Internauka (Igor Shalamov)</a></li><li><a href="https://www.internauka.org/authors/shalamov-igor-stanislavovich" rel="noopener">Internauka (Igor Stanislavovich Shalamov)</a></li></ul></div>
+</div>
+<p class="meta">© 2026 Igor Shalamov. Updated: <time datetime="2026-11-20">2026-11-20</time>. Contact: Telegram <a href="https://t.me/shalamovtg" rel="noopener">t.me/shalamovtg</a> or LinkedIn <a href="https://www.linkedin.com/in/shalamoov" rel="noopener">linkedin.com/in/shalamoov</a>.</p>
+<p class="meta">Machine-readable versions: <a href="/ai-growth-systems/index.md">Markdown</a>, <a href="/llms.txt">llms.txt</a>, <a href="/llms-full.txt">llms-full.txt</a>, <a href="/writing/feed.xml">RSS</a>.</p>
 </div>
 </footer>
 </body>

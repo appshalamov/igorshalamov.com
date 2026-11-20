@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+ <channel>
+  <title>Igor Shalamov — Writing</title>
+  <link>https://igorshalamov.com/writing/</link>
+  <atom:link href="https://igorshalamov.com/writing/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>Notes by Igor Shalamov, an AI systems architect, on the architecture of AI growth systems: referral and recommendation systems, AI-driven communication automation, semantic search and classification.</description>
+  <language>en</language>
+  <lastBuildDate>Fri, 20 Nov 2026 12:00:00 +0000</lastBuildDate>
+  <image><url>https://igorshalamov.com/press-kit/igor-shalamov-160.jpg</url><title>Igor Shalamov — Writing</title><link>https://igorshalamov.com/writing/</link></image>
+  <item>
+   <title>What is an AI growth system</title>
+   <link>https://igorshalamov.com/writing/what-is-an-ai-growth-system/</link>
+   <guid isPermaLink="true">https://igorshalamov.com/writing/what-is-an-ai-growth-system/</guid>
+   <pubDate>Fri, 20 Nov 2026 12:00:00 +0000</pubDate>
+   <dc:creator>Igor Shalamov</dc:creator>
+   <description>The class of systems that help a product grow by learning from its users, and the three layers every such system has.</description>
+   <content:encoded><![CDATA[<p><em>By Igor Shalamov, an AI systems architect and founder of Shalamov.io.</em></p><p>An AI growth system is the class of systems that help a digital product grow by learning from its users: referral and recommendation systems, AI-driven communication automation, semantic search and classification.</p>
+<h2>Three layers</h2>
+<p>Every such system has three layers:</p>
+<ol>
+<li><strong>Behaviour data</strong>: what people open, share, ignore and reply to.</li>
+<li><strong>Models</strong>: recommendation and ranking, classification of intent and sentiment.</li>
+<li><strong>Communication</strong>: personal replies, invitations and content that reach the user at the right moment.</li>
+</ol>
+<h2>The feedback loop</h2>
+<p>A feedback loop connects the layers. Every reply and every invitation becomes new data, and the models retrain on it. Without that loop you have automation. With it you have a growth system.</p>
+<h2>Where this comes from</h2>
+<p>Since April 2023 I have worked with Appvillis UAB, the developer of the Nicegram messenger, as AI Software Architect: AI-driven feedback automation, adaptive bots and content filtering. I also publish research on semantic news search, real-time neural news classification and personalization of news content.</p>
+<p>The field as a whole, with the architecture of each layer and the research behind it, is described on the page <a href="https://igorshalamov.com/ai-growth-systems/">AI growth systems</a>. The next notes go through the layers one at a time.</p>]]></content:encoded>
+  </item>
+  <item>
+   <title>A referral system is a recommender system</title>
+   <link>https://igorshalamov.com/writing/referral-system-is-a-recommender-system/</link>
+   <guid isPermaLink="true">https://igorshalamov.com/writing/referral-system-is-a-recommender-system/</guid>
+   <pubDate>Fri, 20 Nov 2026 12:00:00 +0000</pubDate>
+   <dc:creator>Igor Shalamov</dc:creator>
+   <description>Who invites, whom, and with which message: three ranking problems instead of an “invite a friend” button.</description>
+   <content:encoded><![CDATA[<p><em>By Igor Shalamov, an AI systems architect and founder of Shalamov.io.</em></p><p>The first thing I tell teams about referral programs is this: a referral program is a recommender system in disguise.</p>
+<p>It has to answer three questions for every user:</p>
+<ol>
+<li>Who is likely to invite someone right now?</li>
+<li>Whom will they invite, and in which channel?</li>
+<li>Which message and which reward will make that invitation land?</li>
+</ol>
+<p>Each question is a ranking problem. Treat referrals as a static “invite a friend” button and you leave all three to chance. Treat them as recommendations and you can learn from every invitation that was sent, opened or ignored.</p>
+<h2>A referral funnel as an AI growth system</h2>
+<p>Read this way, a referral funnel has the three layers of an <a href="https://igorshalamov.com/writing/what-is-an-ai-growth-system/">AI growth system</a>: invitations are the communication, their outcomes are the behaviour data, and the ranking models close the loop.</p>
+<h2>What the research covers</h2>
+<p>My paper <a href="https://igorshalamov.com/research/neural-architectures-referral-funnels/">Neural network architectures for automating user funnels in referral marketing</a> (Aktualnye issledovaniya, 2025) reviews the architectures used for this work: large language models, convolutional, recurrent and generative adversarial networks, and reinforcement learning models. They are applied to content generation, audience analysis, interaction with users and campaign optimisation. The paper also discusses the ethical, privacy and technical sides of putting neural networks into referral funnels.</p>]]></content:encoded>
+  </item>
+  <item>
+   <title>Semantic news search: from keywords to embeddings</title>
+   <link>https://igorshalamov.com/writing/semantic-news-search-keywords-to-embeddings/</link>
+   <guid isPermaLink="true">https://igorshalamov.com/writing/semantic-news-search-keywords-to-embeddings/</guid>
+   <pubDate>Fri, 20 Nov 2026 12:00:00 +0000</pubDate>
+   <dc:creator>Igor Shalamov</dc:creator>
+   <description>Keyword search matches words, semantic search matches meaning. For news, the freshness of the index becomes the hard part.</description>
+   <content:encoded><![CDATA[<p><em>By Igor Shalamov, an AI systems architect and founder of Shalamov.io.</em></p><p>Keyword search finds documents that share words with the query. Semantic search finds documents that share meaning. The switch is simple to describe: encode queries and documents as vectors (embeddings) and retrieve by distance instead of by term overlap.</p>
+<h2>What changes for news</h2>
+<ul>
+<li>Synonyms and paraphrases stop being a problem.</li>
+<li>A story can be found before it has a fixed name.</li>
+<li>The index must be refreshed as fast as the news itself, which makes freshness an architecture question, not a model question.</li>
+</ul>
+<h2>What the research covers</h2>
+<p>My paper <a href="https://igorshalamov.com/research/semantic-news-search-ai/">Semantic news search using artificial intelligence: technologies, problems and prospects</a> (Aktualnye issledovaniya, 2024) reviews the technologies behind this switch: vector databases, hybrid and cascade approaches, contextual retrieval. It looks at the open problems, namely scalability, real-time processing, integration with media infrastructure and security, and at the directions that follow: agent-oriented interfaces, multimodal search, personalization and federated systems.</p>
+<p>In an <a href="https://igorshalamov.com/writing/what-is-an-ai-growth-system/">AI growth system</a>, semantic search sits in the models layer: it decides what a reader sees next.</p>]]></content:encoded>
+  </item>
+ </channel>
+</rss>

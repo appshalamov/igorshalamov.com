@@ -76,7 +76,7 @@
    "breadcrumb": {
     "@id": "https://igorshalamov.com/writing/#breadcrumb"
    },
-   "dateModified": "2026-11-20",
+   "dateModified": "2026-11-21",
    "mainEntity": {
     "@id": "https://igorshalamov.com/writing/#blog"
    }
@@ -103,6 +103,27 @@
     },
     {
      "@id": "https://igorshalamov.com/writing/semantic-news-search-keywords-to-embeddings/#posting"
+    },
+    {
+     "@id": "https://igorshalamov.com/writing/feedback-system-in-a-messenger/#posting"
+    },
+    {
+     "@id": "https://igorshalamov.com/writing/real-time-news-classification-speed-vs-accuracy/#posting"
+    },
+    {
+     "@id": "https://igorshalamov.com/writing/content-filtering-is-a-pipeline/#posting"
+    },
+    {
+     "@id": "https://igorshalamov.com/writing/two-tower-models-candidate-retrieval/#posting"
+    },
+    {
+     "@id": "https://igorshalamov.com/writing/how-to-measure-personalization/#posting"
+    },
+    {
+     "@id": "https://igorshalamov.com/writing/telegram-mini-apps-recommendation-surface/#posting"
+    },
+    {
+     "@id": "https://igorshalamov.com/writing/one-pipeline-intent-sentiment-toxicity/#posting"
     }
    ]
   }
@@ -122,7 +143,7 @@
 <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><span aria-current="page">Writing</span></li></ol></nav>
 <h1>Writing</h1>
 <p class="lead">Notes by Igor Shalamov, an AI systems architect and founder of Shalamov.io, on the architecture of AI growth systems: referral and recommendation systems, AI-driven communication automation, semantic search and classification.</p>
-<ul class="entries"><li><p class="t"><a href="/writing/what-is-an-ai-growth-system/">What is an AI growth system</a></p><p><time datetime="2026-11-20">20 November 2026</time>. The class of systems that help a product grow by learning from its users, and the three layers every such system has.</p></li><li><p class="t"><a href="/writing/referral-system-is-a-recommender-system/">A referral system is a recommender system</a></p><p><time datetime="2026-11-20">20 November 2026</time>. Who invites, whom, and with which message: three ranking problems instead of an “invite a friend” button.</p></li><li><p class="t"><a href="/writing/semantic-news-search-keywords-to-embeddings/">Semantic news search: from keywords to embeddings</a></p><p><time datetime="2026-11-20">20 November 2026</time>. Keyword search matches words, semantic search matches meaning. For news, the freshness of the index becomes the hard part.</p></li></ul>
+<ul class="entries"><li><p class="t"><a href="/writing/one-pipeline-intent-sentiment-toxicity/">One pipeline for intent, sentiment and toxicity</a></p><p><time datetime="2026-11-21">21 November 2026</time>. One shared text encoder, three small heads: one pass, consistent labels, cheap to extend; separate thresholds, because mistakes cost differently.</p></li><li><p class="t"><a href="/writing/telegram-mini-apps-recommendation-surface/">Telegram Mini Apps as a recommendation surface</a></p><p><time datetime="2026-11-21">21 November 2026</time>. The entry link is a feature, the first screen must be personal, the invitation flow is one tap away.</p></li><li><p class="t"><a href="/writing/how-to-measure-personalization/">How to measure personalization</a></p><p><time datetime="2026-11-21">21 November 2026</time>. Precision@5, CTR, coverage, freshness. Optimise CTR alone and you get clickbait; precision alone and you get repetition.</p></li><li><p class="t"><a href="/writing/two-tower-models-candidate-retrieval/">Two-tower models for candidate retrieval</a></p><p><time datetime="2026-11-21">21 November 2026</time>. One tower for the user, one for the item, the same vector space. Retrieval becomes nearest-neighbour search; a heavier ranker sees only the top candidates.</p></li><li><p class="t"><a href="/writing/content-filtering-is-a-pipeline/">Content filtering is a pipeline, not a blocklist</a></p><p><time datetime="2026-11-21">21 November 2026</time>. A blocklist checks words. A filtering pipeline checks language, spam, harmful categories and context, then decides with a confidence score.</p></li><li><p class="t"><a href="/writing/real-time-news-classification-speed-vs-accuracy/">Real-time news classification: speed against accuracy</a></p><p><time datetime="2026-11-21">21 November 2026</time>. A larger model classifies better but answers later. A fast first pass, a heavier model for uncertain cases, thresholds that decide.</p></li><li><p class="t"><a href="/writing/feedback-system-in-a-messenger/">How a feedback system in a messenger works</a></p><p><time datetime="2026-11-21">21 November 2026</time>. Intake, understanding, routing, generated reply, learning from every edit: the fifth step makes it a growth system.</p></li><li><p class="t"><a href="/writing/semantic-news-search-keywords-to-embeddings/">Semantic news search: from keywords to embeddings</a></p><p><time datetime="2026-11-20">20 November 2026</time>. Keyword search matches words, semantic search matches meaning. For news, the freshness of the index becomes the hard part.</p></li><li><p class="t"><a href="/writing/referral-system-is-a-recommender-system/">A referral system is a recommender system</a></p><p><time datetime="2026-11-20">20 November 2026</time>. Who invites, whom, and with which message: three ranking problems instead of an “invite a friend” button.</p></li><li><p class="t"><a href="/writing/what-is-an-ai-growth-system/">What is an AI growth system</a></p><p><time datetime="2026-11-20">20 November 2026</time>. The class of systems that help a product grow by learning from its users, and the three layers every such system has.</p></li></ul>
 <p class="src">Subscribe: <a href="/writing/feed.xml">RSS feed</a>. Research articles behind these notes: <a href="/research/">Research</a>.</p>
 </main>
 <footer class="site">
@@ -133,7 +154,7 @@
 <div><h2>Official profiles</h2><ul><li><a href="https://www.linkedin.com/in/shalamoov" rel="me noopener">LinkedIn</a></li><li><a href="https://www.instagram.com/shalamoov/" rel="me noopener">Instagram</a></li><li><a href="https://www.youtube.com/@shalamoov" rel="me noopener">YouTube</a></li><li><a href="https://t.me/shalamovtg" rel="me noopener">Telegram</a></li><li><a href="https://www.crunchbase.com/person/igor-shalamov" rel="me noopener">Crunchbase</a></li><li><a href="https://scholar.google.com/citations?user=HuXnpkUAAAAJ" rel="me noopener">Google Scholar</a></li><li><a href="https://orcid.org/0009-0001-2366-4278" rel="me noopener">ORCID</a></li></ul></div>
 <div><h2>Author pages</h2><ul><li><a href="https://apni.ru/author/15669" rel="noopener">APNI</a></li><li><a href="https://www.internauka.org/authors/shalamov-igor" rel="noopener">Internauka (Igor Shalamov)</a></li><li><a href="https://www.internauka.org/authors/shalamov-igor-stanislavovich" rel="noopener">Internauka (Igor Stanislavovich Shalamov)</a></li></ul></div>
 </div>
-<p class="meta">© 2026 Igor Shalamov. Updated: <time datetime="2026-11-20">2026-11-20</time>. Contact: Telegram <a href="https://t.me/shalamovtg" rel="noopener">t.me/shalamovtg</a> or LinkedIn <a href="https://www.linkedin.com/in/shalamoov" rel="noopener">linkedin.com/in/shalamoov</a>.</p>
+<p class="meta">© 2026 Igor Shalamov. Updated: <time datetime="2026-11-21">2026-11-21</time>. Contact: Telegram <a href="https://t.me/shalamovtg" rel="noopener">t.me/shalamovtg</a> or LinkedIn <a href="https://www.linkedin.com/in/shalamoov" rel="noopener">linkedin.com/in/shalamoov</a>.</p>
 <p class="meta">Machine-readable versions: <a href="/writing/index.md">Markdown</a>, <a href="/llms.txt">llms.txt</a>, <a href="/llms-full.txt">llms-full.txt</a>, <a href="/writing/feed.xml">RSS</a>.</p>
 </div>
 </footer>

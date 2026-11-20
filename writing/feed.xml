@@ -6,8 +6,125 @@
   <atom:link href="https://igorshalamov.com/writing/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Notes by Igor Shalamov, an AI systems architect, on the architecture of AI growth systems: referral and recommendation systems, AI-driven communication automation, semantic search and classification.</description>
   <language>en</language>
-  <lastBuildDate>Fri, 20 Nov 2026 12:00:00 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 21 Nov 2026 12:00:00 +0000</lastBuildDate>
   <image><url>https://igorshalamov.com/press-kit/igor-shalamov-160.jpg</url><title>Igor Shalamov — Writing</title><link>https://igorshalamov.com/writing/</link></image>
+  <item>
+   <title>How a feedback system in a messenger works</title>
+   <link>https://igorshalamov.com/writing/feedback-system-in-a-messenger/</link>
+   <guid isPermaLink="true">https://igorshalamov.com/writing/feedback-system-in-a-messenger/</guid>
+   <pubDate>Sat, 21 Nov 2026 12:00:00 +0000</pubDate>
+   <dc:creator>Igor Shalamov</dc:creator>
+   <description>Intake, understanding, routing, generated reply, learning from every edit: the fifth step makes it a growth system.</description>
+   <content:encoded><![CDATA[<p><em>By Igor Shalamov, an AI systems architect and founder of Shalamov.io.</em></p><p>At Appvillis UAB, the developer of the Nicegram messenger, I work as AI Software Architect on AI-driven feedback automation. Here is the general shape of such a system.</p>
+<ol>
+<li><strong>Intake</strong>: every message from a user lands in one queue, whatever the channel.</li>
+<li><strong>Understanding</strong>: models classify the topic, the intent and the sentiment.</li>
+<li><strong>Routing</strong>: simple cases get an answer at once; complex or emotional ones go to a person, with context attached.</li>
+<li><strong>Reply</strong>: a generated draft that a person can send as is or edit.</li>
+<li><strong>Learning</strong>: every edit and every escalation becomes training data.</li>
+</ol>
+<p>The fifth step is what turns automation into a <a href="https://igorshalamov.com/writing/what-is-an-ai-growth-system/">growth system</a>.</p>]]></content:encoded>
+  </item>
+  <item>
+   <title>Real-time news classification: speed against accuracy</title>
+   <link>https://igorshalamov.com/writing/real-time-news-classification-speed-vs-accuracy/</link>
+   <guid isPermaLink="true">https://igorshalamov.com/writing/real-time-news-classification-speed-vs-accuracy/</guid>
+   <pubDate>Sat, 21 Nov 2026 12:00:00 +0000</pubDate>
+   <dc:creator>Igor Shalamov</dc:creator>
+   <description>A larger model classifies better but answers later. A fast first pass, a heavier model for uncertain cases, thresholds that decide.</description>
+   <content:encoded><![CDATA[<p><em>By Igor Shalamov, an AI systems architect and founder of Shalamov.io.</em></p><p>My 2025 paper looks at <a href="https://igorshalamov.com/research/neural-news-classification-real-time/">neural networks for real-time news classification</a>. The central trade-off is easy to state and hard to tune.</p>
+<p>A larger model classifies better but answers later. A news stream punishes lateness: a perfectly labelled story that arrives ten minutes late is worth less than a good label now.</p>
+<h2>Common answers</h2>
+<ul>
+<li>A fast first-pass classifier, with a heavier model for uncertain cases only.</li>
+<li>Distilled models that keep most of the accuracy at a fraction of the cost.</li>
+<li>Confidence thresholds that decide when to wait for the second opinion.</li>
+</ul>]]></content:encoded>
+  </item>
+  <item>
+   <title>Content filtering is a pipeline, not a blocklist</title>
+   <link>https://igorshalamov.com/writing/content-filtering-is-a-pipeline/</link>
+   <guid isPermaLink="true">https://igorshalamov.com/writing/content-filtering-is-a-pipeline/</guid>
+   <pubDate>Sat, 21 Nov 2026 12:00:00 +0000</pubDate>
+   <dc:creator>Igor Shalamov</dc:creator>
+   <description>A blocklist checks words. A filtering pipeline checks language, spam, harmful categories and context, then decides with a confidence score.</description>
+   <content:encoded><![CDATA[<p><em>By Igor Shalamov, an AI systems architect and founder of Shalamov.io.</em></p><p>Content filtering is part of my work at Appvillis UAB on the Nicegram messenger, and the main lesson is architectural.</p>
+<p>A blocklist answers one question: does this text contain a forbidden word? A filtering pipeline answers several, in order:</p>
+<ol>
+<li>language and format;</li>
+<li>spam and automation signals;</li>
+<li>classification of harmful categories;</li>
+<li>context: who sent it, where, in reply to what;</li>
+<li>a decision with a confidence score, and a path for appeals.</li>
+</ol>
+<p>Each stage can be measured and improved on its own. That is what makes the system maintainable.</p>]]></content:encoded>
+  </item>
+  <item>
+   <title>Two-tower models for candidate retrieval</title>
+   <link>https://igorshalamov.com/writing/two-tower-models-candidate-retrieval/</link>
+   <guid isPermaLink="true">https://igorshalamov.com/writing/two-tower-models-candidate-retrieval/</guid>
+   <pubDate>Sat, 21 Nov 2026 12:00:00 +0000</pubDate>
+   <dc:creator>Igor Shalamov</dc:creator>
+   <description>One tower for the user, one for the item, the same vector space. Retrieval becomes nearest-neighbour search; a heavier ranker sees only the top candidates.</description>
+   <content:encoded><![CDATA[<p><em>By Igor Shalamov, an AI systems architect and founder of Shalamov.io.</em></p><p>A short note on a building block I use in recommendation and referral systems: the two-tower model.</p>
+<p>One tower encodes the user, the other encodes the item (a post, a product, a person to invite). Both produce vectors in the same space. Retrieval becomes a nearest-neighbour search, which scales to millions of candidates.</p>
+<h2>Why it matters for growth systems</h2>
+<ul>
+<li>Item vectors can be computed in advance.</li>
+<li>The user vector updates with every action.</li>
+<li>A heavier ranking model then needs to look only at the top few hundred candidates.</li>
+</ul>
+<p>Retrieval first, ranking second: most production recommenders follow this split.</p>]]></content:encoded>
+  </item>
+  <item>
+   <title>How to measure personalization</title>
+   <link>https://igorshalamov.com/writing/how-to-measure-personalization/</link>
+   <guid isPermaLink="true">https://igorshalamov.com/writing/how-to-measure-personalization/</guid>
+   <pubDate>Sat, 21 Nov 2026 12:00:00 +0000</pubDate>
+   <dc:creator>Igor Shalamov</dc:creator>
+   <description>Precision@5, CTR, coverage, freshness. Optimise CTR alone and you get clickbait; precision alone and you get repetition.</description>
+   <content:encoded><![CDATA[<p><em>By Igor Shalamov, an AI systems architect and founder of Shalamov.io.</em></p><p>My paper on <a href="https://igorshalamov.com/research/news-personalization-ai/">personalization of news content with AI</a> uses ranking metrics, and they deserve a plain explanation.</p>
+<ul>
+<li><strong>Precision@5</strong>: of the first five items shown, how many were relevant.</li>
+<li><strong>CTR</strong>: the share of shown items that were opened.</li>
+<li><strong>Coverage</strong>: how much of the catalogue the system ever recommends.</li>
+<li><strong>Freshness</strong>: how old the recommended items are.</li>
+</ul>
+<p>A system tuned only for CTR drifts toward clickbait. A system tuned only for precision can become narrow and repetitive. Good personalization reports several metrics together and makes the trade-offs visible.</p>]]></content:encoded>
+  </item>
+  <item>
+   <title>Telegram Mini Apps as a recommendation surface</title>
+   <link>https://igorshalamov.com/writing/telegram-mini-apps-recommendation-surface/</link>
+   <guid isPermaLink="true">https://igorshalamov.com/writing/telegram-mini-apps-recommendation-surface/</guid>
+   <pubDate>Sat, 21 Nov 2026 12:00:00 +0000</pubDate>
+   <dc:creator>Igor Shalamov</dc:creator>
+   <description>The entry link is a feature, the first screen must be personal, the invitation flow is one tap away.</description>
+   <content:encoded><![CDATA[<p><em>By Igor Shalamov, an AI systems architect and founder of Shalamov.io.</em></p><p>Shalamov.io, which I founded, is a platform for referral funnels, Telegram services and Mini Apps with no-code AI modules.</p>
+<p>A Mini App inside a messenger is an unusual place for recommendations: the user arrives from a chat, a channel or a friend's link, often with clear intent and very little patience.</p>
+<h2>Design consequences</h2>
+<ul>
+<li>The entry point is a feature: the link a person came from tells you a lot.</li>
+<li>The first screen must already be personalised.</li>
+<li>The invitation flow lives one tap away, inside the same conversation.</li>
+</ul>
+<p>That makes the Mini App both a storefront and a <a href="https://igorshalamov.com/writing/referral-system-is-a-recommender-system/">referral surface</a>.</p>]]></content:encoded>
+  </item>
+  <item>
+   <title>One pipeline for intent, sentiment and toxicity</title>
+   <link>https://igorshalamov.com/writing/one-pipeline-intent-sentiment-toxicity/</link>
+   <guid isPermaLink="true">https://igorshalamov.com/writing/one-pipeline-intent-sentiment-toxicity/</guid>
+   <pubDate>Sat, 21 Nov 2026 12:00:00 +0000</pubDate>
+   <dc:creator>Igor Shalamov</dc:creator>
+   <description>One shared text encoder, three small heads: one pass, consistent labels, cheap to extend; separate thresholds, because mistakes cost differently.</description>
+   <content:encoded><![CDATA[<p><em>By Igor Shalamov, an AI systems architect and founder of Shalamov.io.</em></p><p>A pattern from AI communication automation: do not build three separate classifiers when one shared encoder will do.</p>
+<p>Intent, sentiment and toxicity all read the same message. A shared text encoder with three small heads:</p>
+<ul>
+<li>runs one forward pass instead of three;</li>
+<li>keeps the three labels consistent with each other;</li>
+<li>lets new heads (language, urgency) be added cheaply.</li>
+</ul>
+<p>The heads still get separate thresholds and separate evaluation, because the cost of a mistake differs: a missed toxic message is not the same as a misread intent.</p>]]></content:encoded>
+  </item>
   <item>
    <title>What is an AI growth system</title>
    <link>https://igorshalamov.com/writing/what-is-an-ai-growth-system/</link>

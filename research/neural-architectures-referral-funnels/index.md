@@ -3,7 +3,7 @@ title: "Neural network architectures for automating user funnels in referral mar
 url: https://igorshalamov.com/research/neural-architectures-referral-funnels/
 language: en
 author: Igor Shalamov
-updated: 2026-11-20
+updated: 2026-11-21
 ---
 
 # Нейросетевые архитектуры для автоматизации пользовательских воронок в реферальном маркетинге

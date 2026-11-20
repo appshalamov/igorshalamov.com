@@ -3,7 +3,7 @@ title: "Нейросетевые архитектуры для автомати�
 url: https://igorshalamov.com/ru/research/neural-architectures-referral-funnels/
 language: ru
 author: Igor Shalamov
-updated: 2026-11-20
+updated: 2026-11-21
 ---
 
 # Нейросетевые архитектуры для автоматизации пользовательских воронок в реферальном маркетинге

@@ -3,7 +3,7 @@ title: "Нейронные сети для классификации новос
 url: https://igorshalamov.com/ru/research/neural-news-classification-real-time/
 language: ru
 author: Igor Shalamov
-updated: 2026-11-20
+updated: 2026-11-21
 ---
 
 # Нейронные сети для классификации новостей в реальном времени: вычислительные подходы, приложения и вызовы

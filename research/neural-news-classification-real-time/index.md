@@ -3,7 +3,7 @@ title: "Neural networks for real-time news classification: computational approac
 url: https://igorshalamov.com/research/neural-news-classification-real-time/
 language: en
 author: Igor Shalamov
-updated: 2026-11-20
+updated: 2026-11-21
 ---
 
 # Нейронные сети для классификации новостей в реальном времени: вычислительные подходы, приложения и вызовы

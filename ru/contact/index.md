@@ -3,7 +3,7 @@ title: "Контакты Игоря Шаламова — СМИ и партнё�
 url: https://igorshalamov.com/ru/contact/
 language: ru
 author: Igor Shalamov
-updated: 2026-11-20
+updated: 2026-11-21
 ---
 
 # Контакты

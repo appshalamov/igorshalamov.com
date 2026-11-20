@@ -3,7 +3,7 @@ title: "Shalamov.io Platform, Academy and Agency — Products"
 url: https://igorshalamov.com/products/
 language: en
 author: Igor Shalamov
-updated: 2026-11-20
+updated: 2026-11-21
 ---
 
 # Products — Shalamov.io, its academy and agency

@@ -3,7 +3,7 @@ title: "AI-driven marketing: the evolution of sales funnels in digital ecosystem
 url: https://igorshalamov.com/research/ai-driven-sales-funnels/
 language: en
 author: Igor Shalamov
-updated: 2026-11-20
+updated: 2026-11-21
 ---
 
 # AI-driven маркетинг: эволюция воронок продаж в цифровых экосистемах

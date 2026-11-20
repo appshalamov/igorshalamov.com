@@ -3,7 +3,7 @@ title: "Igor Shalamov — Press Coverage and Interviews"
 url: https://igorshalamov.com/press/
 language: en
 author: Igor Shalamov
-updated: 2026-11-20
+updated: 2026-11-21
 ---
 
 # Igor Shalamov in the Media

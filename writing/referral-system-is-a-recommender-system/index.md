@@ -3,7 +3,7 @@ title: "A referral system is a recommender system — Igor Shalamov"
 url: https://igorshalamov.com/writing/referral-system-is-a-recommender-system/
 language: en
 author: Igor Shalamov
-updated: 2026-11-20
+updated: 2026-11-21
 ---
 
 # A referral system is a recommender system
@@ -34,8 +34,11 @@ My paper [Neural network architectures for automating user funnels in referral m
 
 ## More notes
 
-- [What is an AI growth system](https://igorshalamov.com/writing/what-is-an-ai-growth-system/)
-- [Semantic news search: from keywords to embeddings](https://igorshalamov.com/writing/semantic-news-search-keywords-to-embeddings/)
+- [One pipeline for intent, sentiment and toxicity](https://igorshalamov.com/writing/one-pipeline-intent-sentiment-toxicity/)
+- [Telegram Mini Apps as a recommendation surface](https://igorshalamov.com/writing/telegram-mini-apps-recommendation-surface/)
+- [How to measure personalization](https://igorshalamov.com/writing/how-to-measure-personalization/)
+- [Two-tower models for candidate retrieval](https://igorshalamov.com/writing/two-tower-models-candidate-retrieval/)
+- [Content filtering is a pipeline, not a blocklist](https://igorshalamov.com/writing/content-filtering-is-a-pipeline/)
 
 Subscribe: [RSS feed](https://igorshalamov.com/writing/feed.xml). All notes: [Writing](https://igorshalamov.com/writing/).
 

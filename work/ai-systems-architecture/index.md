@@ -3,7 +3,7 @@ title: "AI Systems Architecture — Igor Shalamov"
 url: https://igorshalamov.com/work/ai-systems-architecture/
 language: en
 author: Igor Shalamov
-updated: 2026-11-20
+updated: 2026-11-21
 ---
 
 # AI systems architecture

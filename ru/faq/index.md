@@ -3,7 +3,7 @@ title: "Игорь Шаламов — факты, ответы на вопрос
 url: https://igorshalamov.com/ru/faq/
 language: ru
 author: Igor Shalamov
-updated: 2026-11-20
+updated: 2026-11-21
 ---
 
 # Игорь Шаламов: факты и ответы на вопросы

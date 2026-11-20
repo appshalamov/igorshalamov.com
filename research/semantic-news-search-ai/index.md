@@ -3,7 +3,7 @@ title: "Semantic news search using artificial intelligence: technologies, proble
 url: https://igorshalamov.com/research/semantic-news-search-ai/
 language: en
 author: Igor Shalamov
-updated: 2026-11-20
+updated: 2026-11-21
 ---
 
 # Семантический поиск новостей с использованием искусственного интеллекта: технологии, вызовы и перспективы

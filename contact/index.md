@@ -3,7 +3,7 @@ title: "Contact Igor Shalamov — Media and Partnerships"
 url: https://igorshalamov.com/contact/
 language: en
 author: Igor Shalamov
-updated: 2026-11-20
+updated: 2026-11-21
 ---
 
 # Contact

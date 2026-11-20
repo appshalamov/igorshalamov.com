@@ -3,7 +3,7 @@ title: "Игорь Шаламов — научные статьи об ИИ, п�
 url: https://igorshalamov.com/ru/research/
 language: ru
 author: Igor Shalamov
-updated: 2026-11-20
+updated: 2026-11-21
 ---
 
 # Публикации и исследования

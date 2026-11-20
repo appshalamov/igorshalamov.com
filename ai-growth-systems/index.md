@@ -3,7 +3,7 @@ title: "AI Growth Systems — Architecture and Research, Igor Shalamov"
 url: https://igorshalamov.com/ai-growth-systems/
 language: en
 author: Igor Shalamov
-updated: 2026-11-20
+updated: 2026-11-21
 ---
 
 # AI growth systems

@@ -3,7 +3,7 @@ title: "Игорь Шаламов — архитектор ИИ-систем р�
 url: https://igorshalamov.com/ru/
 language: ru
 author: Igor Shalamov
-updated: 2026-11-20
+updated: 2026-11-21
 ---
 
 ![Игорь Шаламов, портрет](https://igorshalamov.com/press-kit/igor-shalamov-480.jpg)
@@ -38,17 +38,19 @@ updated: 2026-11-20
 
 Заметки об архитектуре ИИ-систем роста; пишутся на английском языке.
 
-[What is an AI growth system](https://igorshalamov.com/writing/what-is-an-ai-growth-system/)
+[One pipeline for intent, sentiment and toxicity](https://igorshalamov.com/writing/one-pipeline-intent-sentiment-toxicity/)
 
-20 ноября 2026. Класс систем, которые помогают продукту расти, обучаясь на поведении пользователей, и три слоя каждой такой системы.
+21 ноября 2026. Один общий кодировщик текста и три небольшие головы: один проход, согласованные метки, отдельные пороги.
 
-[A referral system is a recommender system](https://igorshalamov.com/writing/referral-system-is-a-recommender-system/)
+[Telegram Mini Apps as a recommendation surface](https://igorshalamov.com/writing/telegram-mini-apps-recommendation-surface/)
 
-20 ноября 2026. Кто пригласит, кого и с каким сообщением: три задачи ранжирования вместо кнопки «пригласи друга».
+21 ноября 2026. Ссылка входа — признак для модели, первый экран — уже персональный, приглашение — в одном касании.
 
-[Semantic news search: from keywords to embeddings](https://igorshalamov.com/writing/semantic-news-search-keywords-to-embeddings/)
+[How to measure personalization](https://igorshalamov.com/writing/how-to-measure-personalization/)
 
-20 ноября 2026. Поиск по ключевым словам совпадает по словам, семантический — по смыслу. Для новостей самым трудным становится свежесть индекса.
+21 ноября 2026. Precision@5, CTR, покрытие, свежесть. Только CTR ведёт к кликбейту, только точность — к однообразию.
+
+[Все записи](https://igorshalamov.com/ru/writing/)
 
 ## [Научные статьи](https://igorshalamov.com/ru/research/)
 

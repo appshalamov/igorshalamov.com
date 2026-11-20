@@ -3,7 +3,7 @@ title: "Igor Shalamov — AI Systems Architect, Growth Systems"
 url: https://igorshalamov.com/
 language: en
 author: Igor Shalamov
-updated: 2026-11-20
+updated: 2026-11-21
 ---
 
 ![Igor Shalamov, portrait](https://igorshalamov.com/press-kit/igor-shalamov-480.jpg)
@@ -36,17 +36,19 @@ Referral and recommendation systems for education and Web3 platforms: lead archi
 
 ## [Writing](https://igorshalamov.com/writing/)
 
-[What is an AI growth system](https://igorshalamov.com/writing/what-is-an-ai-growth-system/)
+[One pipeline for intent, sentiment and toxicity](https://igorshalamov.com/writing/one-pipeline-intent-sentiment-toxicity/)
 
-20 November 2026. The class of systems that help a product grow by learning from its users, and the three layers every such system has.
+21 November 2026. One shared text encoder, three small heads: one pass, consistent labels, cheap to extend; separate thresholds, because mistakes cost differently.
 
-[A referral system is a recommender system](https://igorshalamov.com/writing/referral-system-is-a-recommender-system/)
+[Telegram Mini Apps as a recommendation surface](https://igorshalamov.com/writing/telegram-mini-apps-recommendation-surface/)
 
-20 November 2026. Who invites, whom, and with which message: three ranking problems instead of an “invite a friend” button.
+21 November 2026. The entry link is a feature, the first screen must be personal, the invitation flow is one tap away.
 
-[Semantic news search: from keywords to embeddings](https://igorshalamov.com/writing/semantic-news-search-keywords-to-embeddings/)
+[How to measure personalization](https://igorshalamov.com/writing/how-to-measure-personalization/)
 
-20 November 2026. Keyword search matches words, semantic search matches meaning. For news, the freshness of the index becomes the hard part.
+21 November 2026. Precision@5, CTR, coverage, freshness. Optimise CTR alone and you get clickbait; precision alone and you get repetition.
+
+[All notes](https://igorshalamov.com/writing/)
 
 ## [Research](https://igorshalamov.com/research/)
 

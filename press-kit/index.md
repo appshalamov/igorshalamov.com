@@ -3,7 +3,7 @@ title: "Igor Shalamov Press Kit — Bio and Facts"
 url: https://igorshalamov.com/press-kit/
 language: en
 author: Igor Shalamov
-updated: 2026-11-20
+updated: 2026-11-21
 ---
 
 # Igor Shalamov — Press Kit and Facts

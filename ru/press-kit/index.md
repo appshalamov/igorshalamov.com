@@ -3,7 +3,7 @@ title: "Игорь Шаламов — пресс-кит: биография и �
 url: https://igorshalamov.com/ru/press-kit/
 language: ru
 author: Igor Shalamov
-updated: 2026-11-20
+updated: 2026-11-21
 ---
 
 # Игорь Шаламов — пресс-кит и факты

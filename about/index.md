@@ -3,7 +3,7 @@ title: "About Igor Shalamov — Biography, Roles and Timeline"
 url: https://igorshalamov.com/about/
 language: en
 author: Igor Shalamov
-updated: 2026-11-20
+updated: 2026-11-21
 ---
 
 # Igor Shalamov

@@ -3,7 +3,7 @@ title: "Personalization of news content using AI: architecture and efficiency of
 url: https://igorshalamov.com/ru/research/news-personalization-ai/
 language: ru
 author: Igor Shalamov
-updated: 2026-11-20
+updated: 2026-11-21
 ---
 
 # Personalization of news content using AI: architecture and efficiency of neural network systems

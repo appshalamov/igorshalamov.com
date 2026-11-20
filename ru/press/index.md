@@ -3,7 +3,7 @@ title: "Игорь Шаламов — публикации в СМИ и инте
 url: https://igorshalamov.com/ru/press/
 language: ru
 author: Igor Shalamov
-updated: 2026-11-20
+updated: 2026-11-21
 ---
 
 # Игорь Шаламов в СМИ

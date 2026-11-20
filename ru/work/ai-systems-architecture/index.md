@@ -3,7 +3,7 @@ title: "Архитектура ИИ-систем — Игорь Шаламов"
 url: https://igorshalamov.com/ru/work/ai-systems-architecture/
 language: ru
 author: Igor Shalamov
-updated: 2026-11-20
+updated: 2026-11-21
 ---
 
 # Архитектура ИИ-систем

@@ -3,7 +3,7 @@ title: "ИИ-системы роста — архитектура и иссле�
 url: https://igorshalamov.com/ru/ai-growth-systems/
 language: ru
 author: Igor Shalamov
-updated: 2026-11-20
+updated: 2026-11-21
 ---
 
 # ИИ-системы роста

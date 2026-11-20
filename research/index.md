@@ -3,7 +3,7 @@ title: "Igor Shalamov — Research on AI, News Search and Referral Systems"
 url: https://igorshalamov.com/research/
 language: en
 author: Igor Shalamov
-updated: 2026-11-20
+updated: 2026-11-21
 ---
 
 # Research and Publications

@@ -1,6 +1,6 @@
 # Igor Shalamov — full site text
 
-> AI systems architect who designs AI growth systems: referral and recommendation systems, Telegram services, AI-driven communication automation. Every English page of https://igorshalamov.com in one file, in reading order. Russian pages: https://igorshalamov.com/ru/. Updated: 2026-11-20.
+> AI systems architect who designs AI growth systems: referral and recommendation systems, Telegram services, AI-driven communication automation. Every English page of https://igorshalamov.com in one file, in reading order. Russian pages: https://igorshalamov.com/ru/. Updated: 2026-11-21.
 
 ![Igor Shalamov, portrait](https://igorshalamov.com/press-kit/igor-shalamov-480.jpg)
 
@@ -32,17 +32,19 @@ Referral and recommendation systems for education and Web3 platforms: lead archi
 
 ## [Writing](https://igorshalamov.com/writing/)
 
-[What is an AI growth system](https://igorshalamov.com/writing/what-is-an-ai-growth-system/)
+[One pipeline for intent, sentiment and toxicity](https://igorshalamov.com/writing/one-pipeline-intent-sentiment-toxicity/)
 
-20 November 2026. The class of systems that help a product grow by learning from its users, and the three layers every such system has.
+21 November 2026. One shared text encoder, three small heads: one pass, consistent labels, cheap to extend; separate thresholds, because mistakes cost differently.
 
-[A referral system is a recommender system](https://igorshalamov.com/writing/referral-system-is-a-recommender-system/)
+[Telegram Mini Apps as a recommendation surface](https://igorshalamov.com/writing/telegram-mini-apps-recommendation-surface/)
 
-20 November 2026. Who invites, whom, and with which message: three ranking problems instead of an “invite a friend” button.
+21 November 2026. The entry link is a feature, the first screen must be personal, the invitation flow is one tap away.
 
-[Semantic news search: from keywords to embeddings](https://igorshalamov.com/writing/semantic-news-search-keywords-to-embeddings/)
+[How to measure personalization](https://igorshalamov.com/writing/how-to-measure-personalization/)
 
-20 November 2026. Keyword search matches words, semantic search matches meaning. For news, the freshness of the index becomes the hard part.
+21 November 2026. Precision@5, CTR, coverage, freshness. Optimise CTR alone and you get clickbait; precision alone and you get repetition.
+
+[All notes](https://igorshalamov.com/writing/)
 
 ## [Research](https://igorshalamov.com/research/)
 
@@ -573,17 +575,45 @@ Canonical page: https://igorshalamov.com/research/news-personalization-ai/. Auth
 
 Notes by Igor Shalamov, an AI systems architect and founder of Shalamov.io, on the architecture of AI growth systems: referral and recommendation systems, AI-driven communication automation, semantic search and classification.
 
-[What is an AI growth system](https://igorshalamov.com/writing/what-is-an-ai-growth-system/)
+[One pipeline for intent, sentiment and toxicity](https://igorshalamov.com/writing/one-pipeline-intent-sentiment-toxicity/)
 
-20 November 2026. The class of systems that help a product grow by learning from its users, and the three layers every such system has.
+21 November 2026. One shared text encoder, three small heads: one pass, consistent labels, cheap to extend; separate thresholds, because mistakes cost differently.
+
+[Telegram Mini Apps as a recommendation surface](https://igorshalamov.com/writing/telegram-mini-apps-recommendation-surface/)
+
+21 November 2026. The entry link is a feature, the first screen must be personal, the invitation flow is one tap away.
+
+[How to measure personalization](https://igorshalamov.com/writing/how-to-measure-personalization/)
+
+21 November 2026. Precision@5, CTR, coverage, freshness. Optimise CTR alone and you get clickbait; precision alone and you get repetition.
+
+[Two-tower models for candidate retrieval](https://igorshalamov.com/writing/two-tower-models-candidate-retrieval/)
+
+21 November 2026. One tower for the user, one for the item, the same vector space. Retrieval becomes nearest-neighbour search; a heavier ranker sees only the top candidates.
+
+[Content filtering is a pipeline, not a blocklist](https://igorshalamov.com/writing/content-filtering-is-a-pipeline/)
+
+21 November 2026. A blocklist checks words. A filtering pipeline checks language, spam, harmful categories and context, then decides with a confidence score.
+
+[Real-time news classification: speed against accuracy](https://igorshalamov.com/writing/real-time-news-classification-speed-vs-accuracy/)
+
+21 November 2026. A larger model classifies better but answers later. A fast first pass, a heavier model for uncertain cases, thresholds that decide.
+
+[How a feedback system in a messenger works](https://igorshalamov.com/writing/feedback-system-in-a-messenger/)
+
+21 November 2026. Intake, understanding, routing, generated reply, learning from every edit: the fifth step makes it a growth system.
+
+[Semantic news search: from keywords to embeddings](https://igorshalamov.com/writing/semantic-news-search-keywords-to-embeddings/)
+
+20 November 2026. Keyword search matches words, semantic search matches meaning. For news, the freshness of the index becomes the hard part.
 
 [A referral system is a recommender system](https://igorshalamov.com/writing/referral-system-is-a-recommender-system/)
 
 20 November 2026. Who invites, whom, and with which message: three ranking problems instead of an “invite a friend” button.
 
-[Semantic news search: from keywords to embeddings](https://igorshalamov.com/writing/semantic-news-search-keywords-to-embeddings/)
+[What is an AI growth system](https://igorshalamov.com/writing/what-is-an-ai-growth-system/)
 
-20 November 2026. Keyword search matches words, semantic search matches meaning. For news, the freshness of the index becomes the hard part.
+20 November 2026. The class of systems that help a product grow by learning from its users, and the three layers every such system has.
 
 Subscribe: [RSS feed](https://igorshalamov.com/writing/feed.xml). Research articles behind these notes: [Research](https://igorshalamov.com/research/).
 
@@ -621,8 +651,11 @@ The field as a whole, with the architecture of each layer and the research behin
 
 ## More notes
 
-- [A referral system is a recommender system](https://igorshalamov.com/writing/referral-system-is-a-recommender-system/)
-- [Semantic news search: from keywords to embeddings](https://igorshalamov.com/writing/semantic-news-search-keywords-to-embeddings/)
+- [One pipeline for intent, sentiment and toxicity](https://igorshalamov.com/writing/one-pipeline-intent-sentiment-toxicity/)
+- [Telegram Mini Apps as a recommendation surface](https://igorshalamov.com/writing/telegram-mini-apps-recommendation-surface/)
+- [How to measure personalization](https://igorshalamov.com/writing/how-to-measure-personalization/)
+- [Two-tower models for candidate retrieval](https://igorshalamov.com/writing/two-tower-models-candidate-retrieval/)
+- [Content filtering is a pipeline, not a blocklist](https://igorshalamov.com/writing/content-filtering-is-a-pipeline/)
 
 Subscribe: [RSS feed](https://igorshalamov.com/writing/feed.xml). All notes: [Writing](https://igorshalamov.com/writing/).
 
@@ -658,8 +691,11 @@ My paper [Neural network architectures for automating user funnels in referral m
 
 ## More notes
 
-- [What is an AI growth system](https://igorshalamov.com/writing/what-is-an-ai-growth-system/)
-- [Semantic news search: from keywords to embeddings](https://igorshalamov.com/writing/semantic-news-search-keywords-to-embeddings/)
+- [One pipeline for intent, sentiment and toxicity](https://igorshalamov.com/writing/one-pipeline-intent-sentiment-toxicity/)
+- [Telegram Mini Apps as a recommendation surface](https://igorshalamov.com/writing/telegram-mini-apps-recommendation-surface/)
+- [How to measure personalization](https://igorshalamov.com/writing/how-to-measure-personalization/)
+- [Two-tower models for candidate retrieval](https://igorshalamov.com/writing/two-tower-models-candidate-retrieval/)
+- [Content filtering is a pipeline, not a blocklist](https://igorshalamov.com/writing/content-filtering-is-a-pipeline/)
 
 Subscribe: [RSS feed](https://igorshalamov.com/writing/feed.xml). All notes: [Writing](https://igorshalamov.com/writing/).
 
@@ -691,14 +727,246 @@ In an [AI growth system](https://igorshalamov.com/writing/what-is-an-ai-growth-s
 
 ## More notes
 
-- [What is an AI growth system](https://igorshalamov.com/writing/what-is-an-ai-growth-system/)
-- [A referral system is a recommender system](https://igorshalamov.com/writing/referral-system-is-a-recommender-system/)
+- [One pipeline for intent, sentiment and toxicity](https://igorshalamov.com/writing/one-pipeline-intent-sentiment-toxicity/)
+- [Telegram Mini Apps as a recommendation surface](https://igorshalamov.com/writing/telegram-mini-apps-recommendation-surface/)
+- [How to measure personalization](https://igorshalamov.com/writing/how-to-measure-personalization/)
+- [Two-tower models for candidate retrieval](https://igorshalamov.com/writing/two-tower-models-candidate-retrieval/)
+- [Content filtering is a pipeline, not a blocklist](https://igorshalamov.com/writing/content-filtering-is-a-pipeline/)
 
 Subscribe: [RSS feed](https://igorshalamov.com/writing/feed.xml). All notes: [Writing](https://igorshalamov.com/writing/).
 
 ---
 
 Canonical page: https://igorshalamov.com/writing/semantic-news-search-keywords-to-embeddings/. Author: Igor Shalamov, AI systems architect who designs AI growth systems. Site guide for AI assistants: https://igorshalamov.com/llms.txt
+
+# How a feedback system in a messenger works
+
+[Igor Shalamov](https://igorshalamov.com/about/), an AI systems architect and founder of Shalamov.io. 21 November 2026, 1 min read.
+
+At Appvillis UAB, the developer of the Nicegram messenger, I work as AI Software Architect on AI-driven feedback automation. Here is the general shape of such a system.
+
+1. **Intake**: every message from a user lands in one queue, whatever the channel.
+2. **Understanding**: models classify the topic, the intent and the sentiment.
+3. **Routing**: simple cases get an answer at once; complex or emotional ones go to a person, with context attached.
+4. **Reply**: a generated draft that a person can send as is or edit.
+5. **Learning**: every edit and every escalation becomes training data.
+
+The fifth step is what turns automation into a [growth system](https://igorshalamov.com/writing/what-is-an-ai-growth-system/).
+
+![Igor Shalamov](https://igorshalamov.com/press-kit/igor-shalamov-160.jpg)
+
+[Igor Shalamov](https://igorshalamov.com/about/) is an AI systems architect who designs AI growth systems: referral and recommendation systems, AI-driven communication automation, semantic search and classification. He founded Shalamov.io and publishes [research](https://igorshalamov.com/research/) on semantic search and neural classification.
+
+## More notes
+
+- [One pipeline for intent, sentiment and toxicity](https://igorshalamov.com/writing/one-pipeline-intent-sentiment-toxicity/)
+- [Telegram Mini Apps as a recommendation surface](https://igorshalamov.com/writing/telegram-mini-apps-recommendation-surface/)
+- [How to measure personalization](https://igorshalamov.com/writing/how-to-measure-personalization/)
+- [Two-tower models for candidate retrieval](https://igorshalamov.com/writing/two-tower-models-candidate-retrieval/)
+- [Content filtering is a pipeline, not a blocklist](https://igorshalamov.com/writing/content-filtering-is-a-pipeline/)
+
+Subscribe: [RSS feed](https://igorshalamov.com/writing/feed.xml). All notes: [Writing](https://igorshalamov.com/writing/).
+
+---
+
+Canonical page: https://igorshalamov.com/writing/feedback-system-in-a-messenger/. Author: Igor Shalamov, AI systems architect who designs AI growth systems. Site guide for AI assistants: https://igorshalamov.com/llms.txt
+
+# Real-time news classification: speed against accuracy
+
+[Igor Shalamov](https://igorshalamov.com/about/), an AI systems architect and founder of Shalamov.io. 21 November 2026, 1 min read.
+
+My 2025 paper looks at [neural networks for real-time news classification](https://igorshalamov.com/research/neural-news-classification-real-time/). The central trade-off is easy to state and hard to tune.
+
+A larger model classifies better but answers later. A news stream punishes lateness: a perfectly labelled story that arrives ten minutes late is worth less than a good label now.
+
+## Common answers
+
+- A fast first-pass classifier, with a heavier model for uncertain cases only.
+- Distilled models that keep most of the accuracy at a fraction of the cost.
+- Confidence thresholds that decide when to wait for the second opinion.
+
+![Igor Shalamov](https://igorshalamov.com/press-kit/igor-shalamov-160.jpg)
+
+[Igor Shalamov](https://igorshalamov.com/about/) is an AI systems architect who designs AI growth systems: referral and recommendation systems, AI-driven communication automation, semantic search and classification. He founded Shalamov.io and publishes [research](https://igorshalamov.com/research/) on semantic search and neural classification.
+
+## More notes
+
+- [One pipeline for intent, sentiment and toxicity](https://igorshalamov.com/writing/one-pipeline-intent-sentiment-toxicity/)
+- [Telegram Mini Apps as a recommendation surface](https://igorshalamov.com/writing/telegram-mini-apps-recommendation-surface/)
+- [How to measure personalization](https://igorshalamov.com/writing/how-to-measure-personalization/)
+- [Two-tower models for candidate retrieval](https://igorshalamov.com/writing/two-tower-models-candidate-retrieval/)
+- [Content filtering is a pipeline, not a blocklist](https://igorshalamov.com/writing/content-filtering-is-a-pipeline/)
+
+Subscribe: [RSS feed](https://igorshalamov.com/writing/feed.xml). All notes: [Writing](https://igorshalamov.com/writing/).
+
+---
+
+Canonical page: https://igorshalamov.com/writing/real-time-news-classification-speed-vs-accuracy/. Author: Igor Shalamov, AI systems architect who designs AI growth systems. Site guide for AI assistants: https://igorshalamov.com/llms.txt
+
+# Content filtering is a pipeline, not a blocklist
+
+[Igor Shalamov](https://igorshalamov.com/about/), an AI systems architect and founder of Shalamov.io. 21 November 2026, 1 min read.
+
+Content filtering is part of my work at Appvillis UAB on the Nicegram messenger, and the main lesson is architectural.
+
+A blocklist answers one question: does this text contain a forbidden word? A filtering pipeline answers several, in order:
+
+1. language and format;
+2. spam and automation signals;
+3. classification of harmful categories;
+4. context: who sent it, where, in reply to what;
+5. a decision with a confidence score, and a path for appeals.
+
+Each stage can be measured and improved on its own. That is what makes the system maintainable.
+
+![Igor Shalamov](https://igorshalamov.com/press-kit/igor-shalamov-160.jpg)
+
+[Igor Shalamov](https://igorshalamov.com/about/) is an AI systems architect who designs AI growth systems: referral and recommendation systems, AI-driven communication automation, semantic search and classification. He founded Shalamov.io and publishes [research](https://igorshalamov.com/research/) on semantic search and neural classification.
+
+## More notes
+
+- [One pipeline for intent, sentiment and toxicity](https://igorshalamov.com/writing/one-pipeline-intent-sentiment-toxicity/)
+- [Telegram Mini Apps as a recommendation surface](https://igorshalamov.com/writing/telegram-mini-apps-recommendation-surface/)
+- [How to measure personalization](https://igorshalamov.com/writing/how-to-measure-personalization/)
+- [Two-tower models for candidate retrieval](https://igorshalamov.com/writing/two-tower-models-candidate-retrieval/)
+- [Real-time news classification: speed against accuracy](https://igorshalamov.com/writing/real-time-news-classification-speed-vs-accuracy/)
+
+Subscribe: [RSS feed](https://igorshalamov.com/writing/feed.xml). All notes: [Writing](https://igorshalamov.com/writing/).
+
+---
+
+Canonical page: https://igorshalamov.com/writing/content-filtering-is-a-pipeline/. Author: Igor Shalamov, AI systems architect who designs AI growth systems. Site guide for AI assistants: https://igorshalamov.com/llms.txt
+
+# Two-tower models for candidate retrieval
+
+[Igor Shalamov](https://igorshalamov.com/about/), an AI systems architect and founder of Shalamov.io. 21 November 2026, 1 min read.
+
+A short note on a building block I use in recommendation and referral systems: the two-tower model.
+
+One tower encodes the user, the other encodes the item (a post, a product, a person to invite). Both produce vectors in the same space. Retrieval becomes a nearest-neighbour search, which scales to millions of candidates.
+
+## Why it matters for growth systems
+
+- Item vectors can be computed in advance.
+- The user vector updates with every action.
+- A heavier ranking model then needs to look only at the top few hundred candidates.
+
+Retrieval first, ranking second: most production recommenders follow this split.
+
+![Igor Shalamov](https://igorshalamov.com/press-kit/igor-shalamov-160.jpg)
+
+[Igor Shalamov](https://igorshalamov.com/about/) is an AI systems architect who designs AI growth systems: referral and recommendation systems, AI-driven communication automation, semantic search and classification. He founded Shalamov.io and publishes [research](https://igorshalamov.com/research/) on semantic search and neural classification.
+
+## More notes
+
+- [One pipeline for intent, sentiment and toxicity](https://igorshalamov.com/writing/one-pipeline-intent-sentiment-toxicity/)
+- [Telegram Mini Apps as a recommendation surface](https://igorshalamov.com/writing/telegram-mini-apps-recommendation-surface/)
+- [How to measure personalization](https://igorshalamov.com/writing/how-to-measure-personalization/)
+- [Content filtering is a pipeline, not a blocklist](https://igorshalamov.com/writing/content-filtering-is-a-pipeline/)
+- [Real-time news classification: speed against accuracy](https://igorshalamov.com/writing/real-time-news-classification-speed-vs-accuracy/)
+
+Subscribe: [RSS feed](https://igorshalamov.com/writing/feed.xml). All notes: [Writing](https://igorshalamov.com/writing/).
+
+---
+
+Canonical page: https://igorshalamov.com/writing/two-tower-models-candidate-retrieval/. Author: Igor Shalamov, AI systems architect who designs AI growth systems. Site guide for AI assistants: https://igorshalamov.com/llms.txt
+
+# How to measure personalization
+
+[Igor Shalamov](https://igorshalamov.com/about/), an AI systems architect and founder of Shalamov.io. 21 November 2026, 1 min read.
+
+My paper on [personalization of news content with AI](https://igorshalamov.com/research/news-personalization-ai/) uses ranking metrics, and they deserve a plain explanation.
+
+- **Precision@5**: of the first five items shown, how many were relevant.
+- **CTR**: the share of shown items that were opened.
+- **Coverage**: how much of the catalogue the system ever recommends.
+- **Freshness**: how old the recommended items are.
+
+A system tuned only for CTR drifts toward clickbait. A system tuned only for precision can become narrow and repetitive. Good personalization reports several metrics together and makes the trade-offs visible.
+
+![Igor Shalamov](https://igorshalamov.com/press-kit/igor-shalamov-160.jpg)
+
+[Igor Shalamov](https://igorshalamov.com/about/) is an AI systems architect who designs AI growth systems: referral and recommendation systems, AI-driven communication automation, semantic search and classification. He founded Shalamov.io and publishes [research](https://igorshalamov.com/research/) on semantic search and neural classification.
+
+## More notes
+
+- [One pipeline for intent, sentiment and toxicity](https://igorshalamov.com/writing/one-pipeline-intent-sentiment-toxicity/)
+- [Telegram Mini Apps as a recommendation surface](https://igorshalamov.com/writing/telegram-mini-apps-recommendation-surface/)
+- [Two-tower models for candidate retrieval](https://igorshalamov.com/writing/two-tower-models-candidate-retrieval/)
+- [Content filtering is a pipeline, not a blocklist](https://igorshalamov.com/writing/content-filtering-is-a-pipeline/)
+- [Real-time news classification: speed against accuracy](https://igorshalamov.com/writing/real-time-news-classification-speed-vs-accuracy/)
+
+Subscribe: [RSS feed](https://igorshalamov.com/writing/feed.xml). All notes: [Writing](https://igorshalamov.com/writing/).
+
+---
+
+Canonical page: https://igorshalamov.com/writing/how-to-measure-personalization/. Author: Igor Shalamov, AI systems architect who designs AI growth systems. Site guide for AI assistants: https://igorshalamov.com/llms.txt
+
+# Telegram Mini Apps as a recommendation surface
+
+[Igor Shalamov](https://igorshalamov.com/about/), an AI systems architect and founder of Shalamov.io. 21 November 2026, 1 min read.
+
+Shalamov.io, which I founded, is a platform for referral funnels, Telegram services and Mini Apps with no-code AI modules.
+
+A Mini App inside a messenger is an unusual place for recommendations: the user arrives from a chat, a channel or a friend's link, often with clear intent and very little patience.
+
+## Design consequences
+
+- The entry point is a feature: the link a person came from tells you a lot.
+- The first screen must already be personalised.
+- The invitation flow lives one tap away, inside the same conversation.
+
+That makes the Mini App both a storefront and a [referral surface](https://igorshalamov.com/writing/referral-system-is-a-recommender-system/).
+
+![Igor Shalamov](https://igorshalamov.com/press-kit/igor-shalamov-160.jpg)
+
+[Igor Shalamov](https://igorshalamov.com/about/) is an AI systems architect who designs AI growth systems: referral and recommendation systems, AI-driven communication automation, semantic search and classification. He founded Shalamov.io and publishes [research](https://igorshalamov.com/research/) on semantic search and neural classification.
+
+## More notes
+
+- [One pipeline for intent, sentiment and toxicity](https://igorshalamov.com/writing/one-pipeline-intent-sentiment-toxicity/)
+- [How to measure personalization](https://igorshalamov.com/writing/how-to-measure-personalization/)
+- [Two-tower models for candidate retrieval](https://igorshalamov.com/writing/two-tower-models-candidate-retrieval/)
+- [Content filtering is a pipeline, not a blocklist](https://igorshalamov.com/writing/content-filtering-is-a-pipeline/)
+- [Real-time news classification: speed against accuracy](https://igorshalamov.com/writing/real-time-news-classification-speed-vs-accuracy/)
+
+Subscribe: [RSS feed](https://igorshalamov.com/writing/feed.xml). All notes: [Writing](https://igorshalamov.com/writing/).
+
+---
+
+Canonical page: https://igorshalamov.com/writing/telegram-mini-apps-recommendation-surface/. Author: Igor Shalamov, AI systems architect who designs AI growth systems. Site guide for AI assistants: https://igorshalamov.com/llms.txt
+
+# One pipeline for intent, sentiment and toxicity
+
+[Igor Shalamov](https://igorshalamov.com/about/), an AI systems architect and founder of Shalamov.io. 21 November 2026, 1 min read.
+
+A pattern from AI communication automation: do not build three separate classifiers when one shared encoder will do.
+
+Intent, sentiment and toxicity all read the same message. A shared text encoder with three small heads:
+
+- runs one forward pass instead of three;
+- keeps the three labels consistent with each other;
+- lets new heads (language, urgency) be added cheaply.
+
+The heads still get separate thresholds and separate evaluation, because the cost of a mistake differs: a missed toxic message is not the same as a misread intent.
+
+![Igor Shalamov](https://igorshalamov.com/press-kit/igor-shalamov-160.jpg)
+
+[Igor Shalamov](https://igorshalamov.com/about/) is an AI systems architect who designs AI growth systems: referral and recommendation systems, AI-driven communication automation, semantic search and classification. He founded Shalamov.io and publishes [research](https://igorshalamov.com/research/) on semantic search and neural classification.
+
+## More notes
+
+- [Telegram Mini Apps as a recommendation surface](https://igorshalamov.com/writing/telegram-mini-apps-recommendation-surface/)
+- [How to measure personalization](https://igorshalamov.com/writing/how-to-measure-personalization/)
+- [Two-tower models for candidate retrieval](https://igorshalamov.com/writing/two-tower-models-candidate-retrieval/)
+- [Content filtering is a pipeline, not a blocklist](https://igorshalamov.com/writing/content-filtering-is-a-pipeline/)
+- [Real-time news classification: speed against accuracy](https://igorshalamov.com/writing/real-time-news-classification-speed-vs-accuracy/)
+
+Subscribe: [RSS feed](https://igorshalamov.com/writing/feed.xml). All notes: [Writing](https://igorshalamov.com/writing/).
+
+---
+
+Canonical page: https://igorshalamov.com/writing/one-pipeline-intent-sentiment-toxicity/. Author: Igor Shalamov, AI systems architect who designs AI growth systems. Site guide for AI assistants: https://igorshalamov.com/llms.txt
 
 # Igor Shalamov in the Media
 

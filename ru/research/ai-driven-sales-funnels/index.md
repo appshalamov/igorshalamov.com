@@ -3,7 +3,7 @@ title: "AI-driven маркетинг: эволюция воронок прода
 url: https://igorshalamov.com/ru/research/ai-driven-sales-funnels/
 language: ru
 author: Igor Shalamov
-updated: 2026-11-20
+updated: 2026-11-21
 ---
 
 # AI-driven маркетинг: эволюция воронок продаж в цифровых экосистемах

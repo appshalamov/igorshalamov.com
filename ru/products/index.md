@@ -3,7 +3,7 @@ title: "Платформа Shalamov.io, академия и агентство �
 url: https://igorshalamov.com/ru/products/
 language: ru
 author: Igor Shalamov
-updated: 2026-11-20
+updated: 2026-11-21
 ---
 
 # Продукты: Shalamov.io, академия и агентство

@@ -10,6 +10,10 @@ updated: 2026-11-21
 
 Notes by Igor Shalamov, an AI systems architect and founder of Shalamov.io, on the architecture of AI growth systems: referral and recommendation systems, AI-driven communication automation, semantic search and classification.
 
+[News personalization with BERT and LSTM: one model for the article, one for the reader](https://igorshalamov.com/writing/news-personalization-bert-lstm/)
+
+24 November 2026. BERT encodes the article, an LSTM reads the user history in order, a ranking layer picks the top five. Precision@5 0.78, CTR 6.3% on MIND.
+
 [One pipeline for intent, sentiment and toxicity](https://igorshalamov.com/writing/one-pipeline-intent-sentiment-toxicity/)
 
 21 November 2026. One shared text encoder, three small heads: one pass, consistent labels, cheap to extend; separate thresholds, because mistakes cost differently.

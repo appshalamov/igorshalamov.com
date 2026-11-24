@@ -26,11 +26,11 @@ The heads still get separate thresholds and separate evaluation, because the cos
 
 ## More notes
 
+- [News personalization with BERT and LSTM: one model for the article, one for the reader](https://igorshalamov.com/writing/news-personalization-bert-lstm/)
 - [Telegram Mini Apps as a recommendation surface](https://igorshalamov.com/writing/telegram-mini-apps-recommendation-surface/)
 - [How to measure personalization](https://igorshalamov.com/writing/how-to-measure-personalization/)
 - [Two-tower models for candidate retrieval](https://igorshalamov.com/writing/two-tower-models-candidate-retrieval/)
 - [Content filtering is a pipeline, not a blocklist](https://igorshalamov.com/writing/content-filtering-is-a-pipeline/)
-- [Real-time news classification: speed against accuracy](https://igorshalamov.com/writing/real-time-news-classification-speed-vs-accuracy/)
 
 Subscribe: [RSS feed](https://igorshalamov.com/writing/feed.xml). All notes: [Writing](https://igorshalamov.com/writing/).
 

@@ -10,6 +10,10 @@ updated: 2026-11-21
 
 Заметки: Игорь Шаламов, архитектор ИИ-систем, основатель Shalamov.io, об архитектуре ИИ-систем роста: реферальные и рекомендательные системы, ИИ-автоматизация коммуникаций, семантический поиск и классификация. Записи публикуются на английском языке.
 
+[News personalization with BERT and LSTM: one model for the article, one for the reader](https://igorshalamov.com/writing/news-personalization-bert-lstm/)
+
+24 ноября 2026. BERT кодирует статью, LSTM по порядку читает историю читателя, слой ранжирования выбирает пять материалов. На MIND: Precision@5 0,78, CTR 6,3%.
+
 [One pipeline for intent, sentiment and toxicity](https://igorshalamov.com/writing/one-pipeline-intent-sentiment-toxicity/)
 
 21 ноября 2026. Один общий кодировщик текста и три небольшие головы: один проход, согласованные метки, отдельные пороги.

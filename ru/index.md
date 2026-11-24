@@ -42,6 +42,10 @@ updated: 2026-11-21
 
 Заметки об архитектуре ИИ-систем роста; пишутся на английском языке.
 
+[News personalization with BERT and LSTM: one model for the article, one for the reader](https://igorshalamov.com/writing/news-personalization-bert-lstm/)
+
+24 ноября 2026. BERT кодирует статью, LSTM по порядку читает историю читателя, слой ранжирования выбирает пять материалов. На MIND: Precision@5 0,78, CTR 6,3%.
+
 [One pipeline for intent, sentiment and toxicity](https://igorshalamov.com/writing/one-pipeline-intent-sentiment-toxicity/)
 
 21 ноября 2026. Один общий кодировщик текста и три небольшие головы: один проход, согласованные метки, отдельные пороги.
@@ -49,10 +53,6 @@ updated: 2026-11-21
 [Telegram Mini Apps as a recommendation surface](https://igorshalamov.com/writing/telegram-mini-apps-recommendation-surface/)
 
 21 ноября 2026. Ссылка входа — признак для модели, первый экран — уже персональный, приглашение — в одном касании.
-
-[How to measure personalization](https://igorshalamov.com/writing/how-to-measure-personalization/)
-
-21 ноября 2026. Precision@5, CTR, покрытие, свежесть. Только CTR ведёт к кликбейту, только точность — к однообразию.
 
 [Все записи](https://igorshalamov.com/ru/writing/)
 

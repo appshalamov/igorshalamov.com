@@ -243,6 +243,12 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://igorshalamov.com/writing/how-to-measure-personalization/"/>
   </url>
   <url>
+    <loc>https://igorshalamov.com/writing/news-personalization-bert-lstm/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://igorshalamov.com/writing/news-personalization-bert-lstm/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://igorshalamov.com/writing/news-personalization-bert-lstm/"/>
+  </url>
+  <url>
     <loc>https://igorshalamov.com/writing/one-pipeline-intent-sentiment-toxicity/</loc>
     <lastmod>2026-11-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://igorshalamov.com/writing/one-pipeline-intent-sentiment-toxicity/"/>

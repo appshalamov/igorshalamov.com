@@ -9,6 +9,25 @@
   <lastBuildDate>Sat, 21 Nov 2026 12:00:00 +0000</lastBuildDate>
   <image><url>https://igorshalamov.com/press-kit/igor-shalamov-160.jpg</url><title>Igor Shalamov — Writing</title><link>https://igorshalamov.com/writing/</link></image>
   <item>
+   <title>News personalization with BERT and LSTM: one model for the article, one for the reader</title>
+   <link>https://igorshalamov.com/writing/news-personalization-bert-lstm/</link>
+   <guid isPermaLink="true">https://igorshalamov.com/writing/news-personalization-bert-lstm/</guid>
+   <pubDate>Tue, 24 Nov 2026 12:00:00 +0000</pubDate>
+   <dc:creator>Igor Shalamov</dc:creator>
+   <description>BERT encodes the article, an LSTM reads the user history in order, a ranking layer picks the top five. Precision@5 0.78, CTR 6.3% on MIND.</description>
+   <content:encoded><![CDATA[<p><em>By Igor Shalamov, an AI systems architect and founder of Shalamov.io.</em></p><p>A news recommender has to read two things at once: the article and the reader's recent history. In my 2025 paper on <a href="https://igorshalamov.com/research/news-personalization-ai/">personalization of news content with AI</a> I gave each of them its own model.</p>
+<h2>The setup</h2>
+<ol>
+<li><strong>BERT</strong> encodes the text of each article, so two stories about the same event end up close to each other even when they share few words.</li>
+<li><strong>An LSTM</strong> reads the articles a user opened, in order. A reader who moved from sport to markets last week gets a different state from one who did it a year ago.</li>
+<li><strong>A ranking layer</strong> scores candidate articles against that reader state and returns the top five.</li>
+</ol>
+<h2>Results</h2>
+<p>The experiments used MIND, Microsoft's public news-recommendation dataset (Wu et al., ACL 2020). The hybrid reached Precision@5 of 0.78, Recall@5 of 0.75, F1 of 0.76 and a CTR of 6.3%. Against the TextCNN, LSTM, BERT-base and matrix-factorization baselines that is up to 43% higher F1 and 66% higher CTR. It also did better in cold-start cases, which fits the design: a new article can be ranked from its text before anyone has clicked it.</p>
+<h2>The cost</h2>
+<p>Running BERT on every new article is heavy for a live feed, and MIND is English-only, so multilingual news stays an open problem. The next step the paper names is a lighter model that keeps most of the gain. How to read these metrics together is covered in <a href="https://igorshalamov.com/writing/how-to-measure-personalization/">How to measure personalization</a>.</p>]]></content:encoded>
+  </item>
+  <item>
    <title>How a feedback system in a messenger works</title>
    <link>https://igorshalamov.com/writing/feedback-system-in-a-messenger/</link>
    <guid isPermaLink="true">https://igorshalamov.com/writing/feedback-system-in-a-messenger/</guid>

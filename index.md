@@ -40,6 +40,10 @@ Referral and recommendation systems for education and Web3 platforms: lead archi
 
 ## [Writing](https://igorshalamov.com/writing/)
 
+[News personalization with BERT and LSTM: one model for the article, one for the reader](https://igorshalamov.com/writing/news-personalization-bert-lstm/)
+
+24 November 2026. BERT encodes the article, an LSTM reads the user history in order, a ranking layer picks the top five. Precision@5 0.78, CTR 6.3% on MIND.
+
 [One pipeline for intent, sentiment and toxicity](https://igorshalamov.com/writing/one-pipeline-intent-sentiment-toxicity/)
 
 21 November 2026. One shared text encoder, three small heads: one pass, consistent labels, cheap to extend; separate thresholds, because mistakes cost differently.
@@ -47,10 +51,6 @@ Referral and recommendation systems for education and Web3 platforms: lead archi
 [Telegram Mini Apps as a recommendation surface](https://igorshalamov.com/writing/telegram-mini-apps-recommendation-surface/)
 
 21 November 2026. The entry link is a feature, the first screen must be personal, the invitation flow is one tap away.
-
-[How to measure personalization](https://igorshalamov.com/writing/how-to-measure-personalization/)
-
-21 November 2026. Precision@5, CTR, coverage, freshness. Optimise CTR alone and you get clickbait; precision alone and you get repetition.
 
 [All notes](https://igorshalamov.com/writing/)
 

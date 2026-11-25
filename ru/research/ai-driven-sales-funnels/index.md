@@ -17,6 +17,7 @@ updated: 2026-11-21
 - **Раздел:** секция «Информационные технологии»
 - **Дата публикации:** 2025
 - **Язык:** русский
+- **Перевод на английский (препринт):** [DOI 10.5281/zenodo.24496814](https://doi.org/10.5281/zenodo.24496814)
 - **Страница в журнале:** [internauka.org/journal/science/internauka/389](https://www.internauka.org/journal/science/internauka/389)
 - **Страница автора:** [Internauka](https://www.internauka.org/authors/shalamov-igor)
 

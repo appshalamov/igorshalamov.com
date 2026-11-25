@@ -17,6 +17,7 @@ updated: 2026-11-21
 - **Дата публикации:** 30 октября 2025
 - **ISSN:** 2414-2352
 - **Язык:** английский
+- **DOI:** [10.29013/EJTNS-25-4.5-18-29](https://doi.org/10.29013/EJTNS-25-4.5-18-29)
 - **Страница в журнале:** [ppublishing.org/archive/publication/1650-personalization-of-…](https://ppublishing.org/archive/publication/1650-personalization-of-news-content-using-ai-arch)
 - **PDF:** [PDF на сайте издателя](https://ppublishing.org/media/uploads/journals/article/EJT-4.5-25_p18-29.pdf)
 
@@ -30,7 +31,7 @@ The rapid growth of digital information has made news content personalization a 
 
 ### APA
 
-Shalamov, I. (2025). Personalization of news content using AI: architecture and efficiency of neural network systems. European Journal of Technical and Natural Sciences, (4–5), 18–29. https://ppublishing.org/archive/publication/1650-personalization-of-news-content-using-ai-arch
+Shalamov, I. (2025). Personalization of news content using AI: architecture and efficiency of neural network systems. European Journal of Technical and Natural Sciences, (4–5), 18–29. https://doi.org/10.29013/EJTNS-25-4.5-18-29
 
 ### BibTeX
 
@@ -44,6 +45,7 @@ Shalamov, I. (2025). Personalization of news content using AI: architecture and 
   pages = {18--29},
   issn = {2414-2352},
   publisher = {Premier Publishing s.r.o.},
+  doi = {10.29013/EJTNS-25-4.5-18-29},
   url = {https://ppublishing.org/archive/publication/1650-personalization-of-news-content-using-ai-arch},
   language = {english}
 }

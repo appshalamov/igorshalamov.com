@@ -17,6 +17,7 @@ Research article by Igor Shalamov, an AI systems architect and founder of Shalam
 - **Section:** section “Information technologies”
 - **Published:** 2025
 - **Language:** Russian
+- **English translation (preprint):** [DOI 10.5281/zenodo.24496814](https://doi.org/10.5281/zenodo.24496814)
 - **Journal page:** [internauka.org/journal/science/internauka/389](https://www.internauka.org/journal/science/internauka/389)
 - **Author page:** [Internauka](https://www.internauka.org/authors/shalamov-igor)
 

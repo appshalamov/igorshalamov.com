@@ -46,7 +46,7 @@ Internauka (electronic scientific journal), No. 35 (399), section “Information
 
 European Journal of Technical and Natural Sciences, Premier Publishing s.r.o., No. 4–5 (2025), pp. 18–29. Published 30 October 2025. ISSN 2414-2352.
 
-[Article on the journal site](https://ppublishing.org/archive/publication/1650-personalization-of-news-content-using-ai-arch).
+[Article on the journal site](https://ppublishing.org/archive/publication/1650-personalization-of-news-content-using-ai-arch). DOI: [10.29013/EJTNS-25-4.5-18-29](https://doi.org/10.29013/EJTNS-25-4.5-18-29).
 
 ## Author pages in the journals
 

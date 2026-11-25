@@ -320,7 +320,7 @@ Internauka (electronic scientific journal), No. 35 (399), section “Information
 
 European Journal of Technical and Natural Sciences, Premier Publishing s.r.o., No. 4–5 (2025), pp. 18–29. Published 30 October 2025. ISSN 2414-2352.
 
-[Article on the journal site](https://ppublishing.org/archive/publication/1650-personalization-of-news-content-using-ai-arch).
+[Article on the journal site](https://ppublishing.org/archive/publication/1650-personalization-of-news-content-using-ai-arch). DOI: [10.29013/EJTNS-25-4.5-18-29](https://doi.org/10.29013/EJTNS-25-4.5-18-29).
 
 ## Author pages in the journals
 
@@ -450,6 +450,7 @@ Research article by Igor Shalamov, an AI systems architect and founder of Shalam
 - **Section:** section “Information technologies”
 - **Published:** 2025
 - **Language:** Russian
+- **English translation (preprint):** [DOI 10.5281/zenodo.24496814](https://doi.org/10.5281/zenodo.24496814)
 - **Journal page:** [internauka.org/journal/science/internauka/389](https://www.internauka.org/journal/science/internauka/389)
 - **Author page:** [Internauka](https://www.internauka.org/authors/shalamov-igor)
 
@@ -536,6 +537,7 @@ Research article by Igor Shalamov, an AI systems architect and founder of Shalam
 - **Published:** 30 October 2025
 - **ISSN:** 2414-2352
 - **Language:** English
+- **DOI:** [10.29013/EJTNS-25-4.5-18-29](https://doi.org/10.29013/EJTNS-25-4.5-18-29)
 - **Journal page:** [ppublishing.org/archive/publication/1650-personalization-of-…](https://ppublishing.org/archive/publication/1650-personalization-of-news-content-using-ai-arch)
 - **PDF:** [PDF on the publisher site](https://ppublishing.org/media/uploads/journals/article/EJT-4.5-25_p18-29.pdf)
 
@@ -547,7 +549,7 @@ The rapid growth of digital information has made news content personalization a 
 
 ### APA
 
-Shalamov, I. (2025). Personalization of news content using AI: architecture and efficiency of neural network systems. European Journal of Technical and Natural Sciences, (4–5), 18–29. https://ppublishing.org/archive/publication/1650-personalization-of-news-content-using-ai-arch
+Shalamov, I. (2025). Personalization of news content using AI: architecture and efficiency of neural network systems. European Journal of Technical and Natural Sciences, (4–5), 18–29. https://doi.org/10.29013/EJTNS-25-4.5-18-29
 
 ### BibTeX
 
@@ -561,6 +563,7 @@ Shalamov, I. (2025). Personalization of news content using AI: architecture and 
   pages = {18--29},
   issn = {2414-2352},
   publisher = {Premier Publishing s.r.o.},
+  doi = {10.29013/EJTNS-25-4.5-18-29},
   url = {https://ppublishing.org/archive/publication/1650-personalization-of-news-content-using-ai-arch},
   language = {english}
 }

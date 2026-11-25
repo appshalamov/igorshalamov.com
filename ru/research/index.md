@@ -38,7 +38,7 @@ updated: 2026-11-21
 
 European Journal of Technical and Natural Sciences, Premier Publishing s.r.o., № 4–5 (2025), с. 18–29. Опубликована: 30 октября 2025. ISSN 2414-2352. Статья на английском языке.
 
-[Статья на сайте журнала](https://ppublishing.org/archive/publication/1650-personalization-of-news-content-using-ai-arch).
+[Статья на сайте журнала](https://ppublishing.org/archive/publication/1650-personalization-of-news-content-using-ai-arch). DOI: [10.29013/EJTNS-25-4.5-18-29](https://doi.org/10.29013/EJTNS-25-4.5-18-29).
 
 ## Страницы автора в журналах
 

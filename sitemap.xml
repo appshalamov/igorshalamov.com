@@ -237,6 +237,24 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://igorshalamov.com/writing/feedback-system-in-a-messenger/"/>
   </url>
   <url>
+    <loc>https://igorshalamov.com/writing/how-to-build-a-referral-program/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://igorshalamov.com/writing/how-to-build-a-referral-program/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://igorshalamov.com/writing/how-to-build-a-referral-program/"/>
+  </url>
+  <url>
+    <loc>https://igorshalamov.com/writing/how-to-build-a-referral-system/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://igorshalamov.com/writing/how-to-build-a-referral-system/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://igorshalamov.com/writing/how-to-build-a-referral-system/"/>
+  </url>
+  <url>
+    <loc>https://igorshalamov.com/writing/how-to-evaluate-recommendation-systems/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://igorshalamov.com/writing/how-to-evaluate-recommendation-systems/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://igorshalamov.com/writing/how-to-evaluate-recommendation-systems/"/>
+  </url>
+  <url>
     <loc>https://igorshalamov.com/writing/how-to-measure-personalization/</loc>
     <lastmod>2026-11-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://igorshalamov.com/writing/how-to-measure-personalization/"/>
@@ -273,10 +291,22 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://igorshalamov.com/writing/semantic-news-search-keywords-to-embeddings/"/>
   </url>
   <url>
+    <loc>https://igorshalamov.com/writing/semantic-search-vs-keyword-search/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://igorshalamov.com/writing/semantic-search-vs-keyword-search/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://igorshalamov.com/writing/semantic-search-vs-keyword-search/"/>
+  </url>
+  <url>
     <loc>https://igorshalamov.com/writing/telegram-mini-apps-recommendation-surface/</loc>
     <lastmod>2026-11-21</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://igorshalamov.com/writing/telegram-mini-apps-recommendation-surface/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://igorshalamov.com/writing/telegram-mini-apps-recommendation-surface/"/>
+  </url>
+  <url>
+    <loc>https://igorshalamov.com/writing/two-tower-model-explained/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://igorshalamov.com/writing/two-tower-model-explained/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://igorshalamov.com/writing/two-tower-model-explained/"/>
   </url>
   <url>
     <loc>https://igorshalamov.com/writing/two-tower-models-candidate-retrieval/</loc>

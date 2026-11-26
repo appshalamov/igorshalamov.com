@@ -43,6 +43,140 @@
 <p>Uplift targeting sits in the models layer of an <a href="https://igorshalamov.com/writing/what-is-an-ai-growth-system/">AI growth system</a>: once a referral system knows who is likely to invite, uplift decides whom to pay.</p>]]></content:encoded>
   </item>
   <item>
+   <title>Two Tower Model Explained: Recommendation Retrieval at Scale</title>
+   <link>https://igorshalamov.com/writing/two-tower-model-explained/</link>
+   <guid isPermaLink="true">https://igorshalamov.com/writing/two-tower-model-explained/</guid>
+   <pubDate>Sun, 29 Nov 2026 12:00:00 +0000</pubDate>
+   <dc:creator>Igor Shalamov</dc:creator>
+   <description>Why a recommender cannot rank its whole catalogue, and how the two tower model solves candidate retrieval: separate user and item towers, a shared vector space, training on clicks with in-batch negati</description>
+   <content:encoded><![CDATA[<p><em>By Igor Shalamov, an AI systems architect and founder of Shalamov.io.</em></p><p>You have 10 million items, and 50 milliseconds to choose what one user sees. Your best ranking model cannot score them all in time. Every large recommender hits this wall, and most solve it the same way. With a two tower model.</p>
+<h2>Two stages</h2>
+<p>Example numbers: a good ranking model needs about 10 microseconds per item. 10 million items times 10 microseconds is 100 seconds. The budget is 50 milliseconds, so we are 2,000 times too slow. So the work is split into two stages. Retrieval cheaply narrows 10 million items to about 1,000 candidates. Ranking scores those 1,000 with the heavy model, in 10 milliseconds. Only the top 20 reach the feed. Two towers are the standard design for retrieval.</p>
+<h2>Two towers</h2>
+<p>The model has two separate neural networks, called towers. The user tower starts from a learned embedding of the user ID. The item tower does the same for the item. The user side adds history: recent clicks, watches and purchases. The item side adds content: text, category and creator. Both sides add more: context for the user, age and popularity for the item. Each tower outputs a vector of the same size, say 64 numbers.</p>
+<h2>Scoring</h2>
+<p>Both towers write into one shared space. This is a two-dimensional sketch of it. The user vector lands somewhere in that space. The score of a user and an item is the dot product of their two vectors. Normalise both vectors, and the dot product becomes cosine similarity. Retrieval is then a nearest neighbour search around the user. The key constraint: the towers never see each other's inputs. That is why item vectors can be precomputed.</p>
+<h2>Training</h2>
+<p>Training data: pairs of a user and an item they clicked. For each user in a batch, the other users' clicks serve as negatives. These are in-batch negatives: no extra sampling needed. The loss pushes the clicked item up and the others down. One catch: popular items appear in many batches, so they are punished as negatives too often. The fix, sampling bias correction: subtract the log of each item's sampling probability.</p>
+<h2>Serving</h2>
+<p>The two towers run at different times. The item tower runs offline, in batch, over the whole catalogue. It produces one vector per item. Those vectors go into an approximate nearest neighbour index, for example HNSW. At request time, only the user tower runs: one forward pass, one vector. The index returns the top 1,000 items in a few milliseconds. Whenever the item tower changes, the index is rebuilt.</p>
+<h2>Recall@K</h2>
+<p>Retrieval has one job: do not lose the good items. The ranker never sees what retrieval dropped. So we measure Recall@K: the share of all relevant items that reach the top K. Here K = 1,000, the candidate list size. In a made-up example, one user clicks 20 items in the test week. A popularity baseline retrieves six of them: 0.3. Two towers with ID features only find eleven: 0.55. Add content features, and they find fifteen: 0.75. Always split by time: train on the past, test on the next week.</p>
+<h2>Pitfalls</h2>
+<p>First, cold start: a new item has no clicks, so its ID embedding is noise. Content features in the item tower give it a sensible vector from day one. Second, leakage: a feature computed after the click, like a total view count. Offline metrics look great, and production does not. Use point-in-time features. Third, version skew: the user tower is updated, but the index still holds old item vectors. The vectors stop sharing a space. Version both towers and the index together.</p>
+<h2>Uses and recap</h2>
+<p>The pattern appears wherever a catalogue is too large to rank. Video, music and news feeds. Products for a shopper. Documents for a search query. And referral systems: who should a user invite? There, the inviter is the query, and possible invitees are the items. That is the retrieval step of the referral system from our first video. To recap: two towers, one space, items indexed offline, users encoded online, checked with Recall@K.</p>
+<p>It covers neural network architectures for referral funnels.</p>
+<h2>Video</h2>
+<p>Watch the episode: <a href="https://youtu.be/ZJXA4Q7RtdQ">Two Tower Model Explained: Recommendation Retrieval at Scale</a></p>]]></content:encoded>
+  </item>
+  <item>
+   <title>How to Build a Referral Program That Brings Users Who Stay</title>
+   <link>https://igorshalamov.com/writing/how-to-build-a-referral-program/</link>
+   <guid isPermaLink="true">https://igorshalamov.com/writing/how-to-build-a-referral-program/</guid>
+   <pubDate>Sat, 28 Nov 2026 12:00:00 +0000</pubDate>
+   <dc:creator>Igor Shalamov</dc:creator>
+   <description>How to build a referral program as a system: attribution of every invitation, reward rules tied to retention, fraud checks before payout, targeting the right users at the right moment, and measuring K</description>
+   <content:encoded><![CDATA[<p><em>By Igor Shalamov, an AI systems architect and founder of Shalamov.io.</em></p><p>Your referral program brings sign-ups. Then they never pay. Some are fake accounts. The rest leave within a week. The reward is not the problem. The system around it is.</p>
+<h2>Architecture</h2>
+<p>A referral program is not a share button. It is a system with five parts. Attribution records who brought whom. Reward rules decide what each side gets, and for what. Fraud checks stop fake invitations before anyone is paid. Targeting chooses who to ask, and when. Measurement tells you whether any of it worked. And the results flow back: they retrain targeting and tune the rewards.</p>
+<h2>Attribution</h2>
+<p>Start with attribution, because every reward depends on it. Each inviter gets a unique link or code. Then set an attribution window: for example, the friend must sign up within 7 days of the click. The hard part is devices. The friend taps the link on a phone, then signs up on a laptop. So carry the code through the app install, or ask for it at sign-up. And when two people invited the same friend, one written rule decides who gets credit.</p>
+<h2>Rewards</h2>
+<p>Paying for a sign-up rewards empty accounts. Pay for a target action instead: a first purchase, or still being active on day 30. If only the inviter is paid, the friend has no reason to act. A two-sided reward gives both people something real. And cash for any invitation attracts people who farm rewards. Product value, like credits or extra plan time, with a cap per person, attracts people who use the product.</p>
+<h2>Fraud</h2>
+<p>Any reward worth having will be gamed. The simplest fraud is a self-invite: a second account for yourself. The signal: the same device or the same payment card on both sides. Then account farms: dozens of sign-ups from one source. The signal: many accounts behind one IP address. And bots that rush through the target action. The signal is velocity: too many steps, too fast. Combine the signals into a risk score, and hold the reward until the checks pass.</p>
+<h2>Targeting</h2>
+<p>Most programs ask everyone right after sign-up, before the user has seen any value. Ask after the aha moment, the first time the product delivers real value. Ranked by activity alone, the busiest users come first. A propensity model predicts something better: the chance that this user invites a friend who stays. Chloe is quiet, but her friends stay. She moves up to second. Ask the top users first, and cap how often anyone is asked.</p>
+<h2>K-factor</h2>
+<p>Now measurement. The classic number is the K-factor. It equals invitations per user, times the share of invitations that convert. In a made-up example, 100 users send 3 invitations each, and 10% convert. 3 × 0.1 gives a K-factor of 0.3. Now count only the invited users still active on day 30: 12 of them. The K-factor that matters is 0.12. Above one, growth feeds itself. Below one, referrals amplify your other channels, but do not replace them.</p>
+<h2>Incrementality</h2>
+<p>The K-factor has a blind spot: some invited friends would have joined anyway. So keep a holdout: a random group of users who never see the program. Compare them with everyone else, and count retained users, not sign-ups. These numbers are illustrative. If the gap is close to zero, you are paying rewards for users you would have had anyway.</p>
+<h2>Mistakes</h2>
+<p>Four mistakes show up again and again. Paying for sign-ups instead of users who stay. Paying rewards before the fraud checks are done. Asking for invitations before the user has seen any value. And trusting the K-factor without a holdout. Fix these four, and each part of the system starts to work for the next one.</p>
+<h2>Recap</h2>
+<p>To recap: attribute every invitation, reward the action that matters, and check for fraud before paying. Ask the right users after the aha moment, and judge the result against a holdout.</p>
+<h2>Video</h2>
+<p>Watch the episode: <a href="https://youtu.be/PbHN5ZZMan4">How to Build a Referral Program That Brings Users Who Stay</a></p>]]></content:encoded>
+  </item>
+  <item>
+   <title>How to Evaluate Recommendation Systems: Precision@K, nDCG and A/B Tests</title>
+   <link>https://igorshalamov.com/writing/how-to-evaluate-recommendation-systems/</link>
+   <guid isPermaLink="true">https://igorshalamov.com/writing/how-to-evaluate-recommendation-systems/</guid>
+   <pubDate>Thu, 26 Nov 2026 12:00:00 +0000</pubDate>
+   <dc:creator>Igor Shalamov</dc:creator>
+   <description>How to measure a personalized feed: a metric for each layer, Precision@K with a worked example, beyond-accuracy metrics, why offline gains disappear online, and how an A/B test with guardrails makes t</description>
+   <content:encoded><![CDATA[<p><em>By Igor Shalamov, an AI systems architect and founder of Shalamov.io.</em></p><p>A new ranking model wins every offline metric. It goes into an A/B test, and nothing changes. This happens more often than teams expect.</p>
+<h2>Where metrics apply</h2>
+<p>A personalized feed is built in layers, and each layer needs its own metric. Candidate generation narrows millions of items to a few hundred. We measure its recall. A ranking model orders them. We measure ranking quality. A re-ranking step adds diversity, freshness and business rules. Only then does the user see the feed, and there we measure outcomes. A good number for one layer says little about the next one.</p>
+<h2>Precision@K</h2>
+<p>Offline, we replay historical data. Precision@K is the share of relevant items among the top K recommendations. Take K = 5. In a made-up example, one reader later opened three stories we could have shown. A popularity baseline gets one of them into its top five: 0.2. The old model gets two: 0.4. The new model gets all three: 0.6. Always split by time: train on the past, test on the future, or every number is inflated.</p>
+<h2>Beyond accuracy</h2>
+<p>Accuracy is not the whole picture. Precision and recall at K count relevant items in the top K. Coverage shows how much of the catalogue is ever recommended. nDCG also rewards placing relevant items higher, because people rarely scroll far. Diversity measures how different the items in one feed are. But none of the accuracy metrics tells you that a feed has become boring. Novelty and calibration check that the feed goes beyond the obvious and matches the reader's real mix of interests.</p>
+<h2>The offline-online gap</h2>
+<p>So why do offline gains disappear? First, position bias: people click what is shown on top, so the logs favour the old ranking. Second, a feedback loop: the training data was produced by the previous model. Third, there is no data on items that were never shown. Inverse propensity scoring helps, but it does not remove the bias. Finally, a click is only a proxy for satisfaction. The feedback loop is the one most teams underestimate.</p>
+<h2>Online test</h2>
+<p>Offline evaluation is a filter. The A/B test makes the decision. Split real traffic between the old model and the new one. Then measure what matters: click-through rate, dwell time, and above all, whether readers come back. These numbers are illustrative. The difference in return rate is the result that counts.</p>
+<h2>Recap</h2>
+<p>To recap: measure each layer with its own metric, and look beyond accuracy. Split offline data by time, and treat offline results as a filter. Then let a well-guarded A/B test make the final call.</p>
+<h2>Video</h2>
+<p>Watch the episode: <a href="https://youtu.be/eW9FAuHuYTI">How to Evaluate Recommendation Systems: Precision@K, nDCG and A/B Tests</a></p>]]></content:encoded>
+  </item>
+  <item>
+   <title>How to Build a Referral System That Works Like a Recommender</title>
+   <link>https://igorshalamov.com/writing/how-to-build-a-referral-system/</link>
+   <guid isPermaLink="true">https://igorshalamov.com/writing/how-to-build-a-referral-system/</guid>
+   <pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate>
+   <dc:creator>Igor Shalamov</dc:creator>
+   <description>How to design a referral system as a learned recommender: who should invite whom, how candidates are retrieved and ranked, and how to measure the result.</description>
+   <content:encoded><![CDATA[<p><em>By Igor Shalamov, an AI systems architect and founder of Shalamov.io.</em></p><p>Most referral programs are a reward table: invite a friend, get a bonus. But the reward is the easy part. The hard part is deciding who should invite whom. That is a ranking problem, and it makes a referral system a recommender system.</p>
+<h2>The problem</h2>
+<p>Take one user. Call her Ana. In this made-up example, Ana has eight contacts in the app. A static program sends the same invitation to all eight. Two of them join. Six people got a message they did not want. And realistically, Ana will message three people, not eight. So the real question is: which three should the system suggest?</p>
+<h2>Architecture</h2>
+<p>We start from a user graph: contacts, shared groups, interactions. From the graph we generate candidate pairs: an inviter and a possible invitee. A ranking model scores every pair. The best pairs become invitation suggestions. Now the key part: every accepted or ignored invitation becomes a training label. Without the loop, this is automation. With it, the system learns.</p>
+<h2>Retrieval</h2>
+<p>With eight contacts, we could score everyone. With millions of possible pairs we cannot, so retrieval comes first. A two-tower model maps the inviter and every candidate into one vector space. It is trained so that pairs with accepted invitations end up close together. Retrieval is then a nearest neighbour search around Ana. We keep the five nearest candidates.</p>
+<h2>Ranking</h2>
+<p>The ranking model scores these five pairs with richer features. Start with tie strength alone: how often and how recently two people talk. The top three would be Dev, Ben and Chloe. Now add invitee fit: the predicted chance that a new user stays active. The order changes: Fay moves up to second, and Dev drops out of the top three.</p>
+<h2>Precision@K</h2>
+<p>To check the ranking, we use Precision@K. It is the share of the top K suggestions that were accepted. Ana sends three invitations, so K = 3. In our made-up example, two of her eight contacts would accept. Three random picks give a precision of 0.25. Tie strength alone found one of the two: 0.33. The full model found both: 0.67. Same user, same three messages, over two and a half times the random baseline.</p>
+<h2>Incremental lift</h2>
+<p>One trap remains: some invited people would have joined anyway. So keep a holdout group with no model-driven suggestions. Compare it with the group that gets them, and count retained users, not acceptances. These numbers are illustrative. That difference is what the system actually earned.</p>
+<h2>Pitfalls</h2>
+<p>Three things go wrong in practice. First, the feedback loop is biased: the model only sees outcomes for pairs it chose. So keep a small slice of random suggestions. Second, optimising for acceptances rewards pressure. Optimise for retained users, and cap invitations per person. Third, contact data needs explicit consent. Without it, the feature stays off.</p>
+<h2>Recap</h2>
+<p>To recap: a referral system is a recommender over a user graph. Retrieve candidates, rank them, suggest the invitation, and learn from every outcome. Judge it by Precision@K, by retention, and by lift against a holdout.</p>
+<h2>Video</h2>
+<p>Watch the episode: <a href="https://youtu.be/fzfCppUap7Y">How to Build a Referral System That Works Like a Recommender</a></p>]]></content:encoded>
+  </item>
+  <item>
+   <title>Semantic Search vs Keyword Search: How Embeddings Find Meaning</title>
+   <link>https://igorshalamov.com/writing/semantic-search-vs-keyword-search/</link>
+   <guid isPermaLink="true">https://igorshalamov.com/writing/semantic-search-vs-keyword-search/</guid>
+   <pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate>
+   <dc:creator>Igor Shalamov</dc:creator>
+   <description>Semantic search compares meaning instead of words: how embeddings, nearest-neighbour indexes, hybrid retrieval with BM25 and cross-encoder re-ranking work together, and how to evaluate them.</description>
+   <content:encoded><![CDATA[<p><em>By Igor Shalamov, an AI systems architect and founder of Shalamov.io.</em></p><p>A user types a question, and the best answer does not share a single word with it. Keyword search misses it. Semantic search finds it, because it compares meaning, not words.</p>
+<h2>Vocabulary mismatch</h2>
+<p>A reader searches for: central bank raises the cost of borrowing. The story that answers it says: interest rates go up by a quarter point. The two texts share almost no words. Keyword scoring counts overlapping terms, so this story ranks low. We need to compare meaning instead.</p>
+<h2>Architecture</h2>
+<p>Every document is encoded offline into a vector, called an embedding. At query time, the same encoder turns the question into a vector. An approximate nearest neighbour index, for example HNSW, returns the closest documents in milliseconds. Then a re-ranker reads the top candidates more carefully. And it produces the final order. Follow one query through the system. The index is fast but approximate. The re-ranker is slow but precise.</p>
+<h2>Nearest neighbours</h2>
+<p>Picture the embedding space as a map, where stories with similar meaning sit close together. This is a two-dimensional sketch. Real embeddings have hundreds of dimensions. The query lands on the same map. Search becomes a nearest neighbour lookup around it. We keep the five nearest stories, and none of them has to share a word with the query.</p>
+<h2>Sparse vs dense</h2>
+<p>Keyword search is not obsolete. It simply fails in different places. Sparse retrieval, such as BM25, is precise on exact terms: names, numbers, product codes. Dense retrieval captures meaning and paraphrases. Sparse needs no training. Dense needs a trained encoder. Sparse misses paraphrases, while dense can miss rare names and codes. Because their errors differ, the strongest systems combine both.</p>
+<h2>Hybrid and re-ranking</h2>
+<p>BM25 alone puts the story with the most matching words on top. Add dense retrieval and merge both lists, for example with reciprocal rank fusion. Then a cross-encoder reads the query and each story together, and scores them again. The rate hike story, which shared no words with the query, is now first. A cross-encoder is accurate but slow, so it only runs on the short list.</p>
+<h2>Evaluation</h2>
+<p>Evaluate each stage on its own. For retrieval, use Recall@K: the share of all relevant documents that reach the top K. Here K = 100, the size of the short list. In a made-up example, the query has ten relevant stories. Sparse retrieval alone finds six of them: 0.6. Dense retrieval alone finds seven: 0.7. The hybrid finds nine: 0.9. For the final order, add nDCG@10, and track latency at the 95th percentile.</p>
+<h2>News search</h2>
+<p>News adds four requirements. Freshness: relevance is blended with a time decay. Deduplication: many outlets publish near-identical stories, so results are clustered. Streaming: a new story must be searchable within seconds. And entities: names and places must stay exact, one more reason to keep sparse retrieval in the mix.</p>
+<h2>Recap</h2>
+<p>To recap: encode documents and queries into one vector space. Retrieve with a hybrid of sparse and dense search, then re-rank the short list. Measure recall for retrieval, nDCG for the final order, and latency for the user.</p>
+<h2>Video</h2>
+<p>Watch the episode: <a href="https://youtu.be/x8RKXt7atjw">Semantic Search vs Keyword Search: How Embeddings Find Meaning</a></p>]]></content:encoded>
+  </item>
+  <item>
    <title>News personalization with BERT and LSTM: one model for the article, one for the reader</title>
    <link>https://igorshalamov.com/writing/news-personalization-bert-lstm/</link>
    <guid isPermaLink="true">https://igorshalamov.com/writing/news-personalization-bert-lstm/</guid>

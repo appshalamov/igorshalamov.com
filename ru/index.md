@@ -42,17 +42,17 @@ updated: 2026-11-21
 
 Заметки об архитектуре ИИ-систем роста; пишутся на английском языке.
 
-[Uplift modeling explained: pay the referral bonus only where it changes behaviour](https://igorshalamov.com/writing/uplift-modeling-explained/)
+[Two Tower Model Explained: Recommendation Retrieval at Scale](https://igorshalamov.com/writing/two-tower-model-explained/)
 
-30 ноября 2026. Модель отклика платит тем, кто пригласил бы и так. Модель uplift ранжирует пользователей по тому, насколько бонус меняет их поведение, а кривая uplift это проверяет.
+29 ноября 2026. Двухбашенная модель для отбора кандидатов: башни пользователя и объекта, общее пространство, обучение на кликах, индекс ближайших соседей, Recall@K.
 
-[News personalization with BERT and LSTM: one model for the article, one for the reader](https://igorshalamov.com/writing/news-personalization-bert-lstm/)
+[How to Build a Referral Program That Brings Users Who Stay](https://igorshalamov.com/writing/how-to-build-a-referral-program/)
 
-24 ноября 2026. BERT кодирует статью, LSTM по порядку читает историю читателя, слой ранжирования выбирает пять материалов. На MIND: Precision@5 0,78, CTR 6,3%.
+28 ноября 2026. Реферальная программа как система: атрибуция, награда за удержание, проверка на мошенничество, выбор момента и прирост против контрольной группы.
 
-[One pipeline for intent, sentiment and toxicity](https://igorshalamov.com/writing/one-pipeline-intent-sentiment-toxicity/)
+[How to Evaluate Recommendation Systems: Precision@K, nDCG and A/B Tests](https://igorshalamov.com/writing/how-to-evaluate-recommendation-systems/)
 
-21 ноября 2026. Один общий кодировщик текста и три небольшие головы: один проход, согласованные метки, отдельные пороги.
+26 ноября 2026. Как оценивать рекомендательную систему: метрика на каждый слой, Precision@K, nDCG, разрыв офлайн и онлайн, A/B-тест с ограничителями.
 
 [Все записи](https://igorshalamov.com/ru/writing/)
 

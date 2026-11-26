@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Semantic Search vs Keyword Search: How Embeddings Find Meaning — Igor Shalamov</title>
+<meta name="description" content="Igor Shalamov, an AI systems architect, explains: Semantic search compares meaning instead of words: how embeddings, nearest-neighbour indexes, hybrid retrieval with BM25 and cross-encoder re-ranking work together, and h">
+<meta name="author" content="Igor Shalamov">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#173152" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#11243a" media="(prefers-color-scheme: dark)">
+<link rel="canonical" href="https://igorshalamov.com/writing/semantic-search-vs-keyword-search/">
+<link rel="alternate" hreflang="en" href="https://igorshalamov.com/writing/semantic-search-vs-keyword-search/">
+<link rel="alternate" hreflang="x-default" href="https://igorshalamov.com/writing/semantic-search-vs-keyword-search/">
+<link rel="alternate" type="text/markdown" href="/writing/semantic-search-vs-keyword-search/index.md" title="Markdown">
+<link rel="alternate" type="application/rss+xml" href="/writing/feed.xml" title="Igor Shalamov — Writing">
+<link rel="author" href="/about/">
+<link rel="me" href="https://www.linkedin.com/in/shalamoov">
+<link rel="me" href="https://orcid.org/0009-0001-2366-4278">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Igor Shalamov">
+<meta property="og:title" content="Semantic Search vs Keyword Search: How Embeddings Find Meaning — Igor Shalamov">
+<meta property="og:description" content="Igor Shalamov, an AI systems architect, explains: Semantic search compares meaning instead of words: how embeddings, nearest-neighbour indexes, hybrid retrieval with BM25 and cross-encoder re-ranking work together, and h">
+<meta property="og:url" content="https://igorshalamov.com/writing/semantic-search-vs-keyword-search/">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://igorshalamov.com/press-kit/igor-shalamov-og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Igor Shalamov">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@shalamoov">
+<meta name="twitter:creator" content="@shalamoov">
+<meta name="twitter:title" content="Semantic Search vs Keyword Search: How Embeddings Find Meaning — Igor Shalamov">
+<meta name="twitter:description" content="Igor Shalamov, an AI systems architect, explains: Semantic search compares meaning instead of words: how embeddings, nearest-neighbour indexes, hybrid retrieval with BM25 and cross-encoder re-ranking work together, and h">
+<meta name="twitter:image" content="https://igorshalamov.com/press-kit/igor-shalamov-og.jpg">
+<meta property="article:published_time" content="2026-11-25">
+<meta property="article:author" content="https://igorshalamov.com/about/">
+<link rel="preload" href="/fonts/piazzolla-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/style.css?v=6">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "BreadcrumbList",
+   "@id": "https://igorshalamov.com/writing/semantic-search-vs-keyword-search/#breadcrumb",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://igorshalamov.com/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Writing",
+     "item": "https://igorshalamov.com/writing/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Semantic Search vs Keyword Search: How Embeddings Find Meaning",
+     "item": "https://igorshalamov.com/writing/semantic-search-vs-keyword-search/"
+    }
+   ]
+  },
+  {
+   "@type": "WebPage",
+   "@id": "https://igorshalamov.com/writing/semantic-search-vs-keyword-search/#webpage",
+   "url": "https://igorshalamov.com/writing/semantic-search-vs-keyword-search/",
+   "name": "Semantic Search vs Keyword Search: How Embeddings Find Meaning",
+   "inLanguage": "en",
+   "isPartOf": {
+    "@id": "https://igorshalamov.com/#website"
+   },
+   "about": {
+    "@id": "https://igorshalamov.com/#person"
+   },
+   "breadcrumb": {
+    "@id": "https://igorshalamov.com/writing/semantic-search-vs-keyword-search/#breadcrumb"
+   },
+   "dateModified": "2026-11-21",
+   "mainEntity": {
+    "@id": "https://igorshalamov.com/writing/semantic-search-vs-keyword-search/#posting"
+   },
+   "datePublished": "2026-11-25"
+  },
+  {
+   "@type": "BlogPosting",
+   "@id": "https://igorshalamov.com/writing/semantic-search-vs-keyword-search/#posting",
+   "headline": "Semantic Search vs Keyword Search: How Embeddings Find Meaning",
+   "name": "Semantic Search vs Keyword Search: How Embeddings Find Meaning",
+   "description": "Igor Shalamov, an AI systems architect, explains: Semantic search compares meaning instead of words: how embeddings, nearest-neighbour indexes, hybrid retrieval with BM25 and cross-encoder re-ranking work together, and h",
+   "url": "https://igorshalamov.com/writing/semantic-search-vs-keyword-search/",
+   "inLanguage": "en",
+   "datePublished": "2026-11-25",
+   "dateModified": "2026-11-25",
+   "author": {
+    "@id": "https://igorshalamov.com/#person"
+   },
+   "publisher": {
+    "@id": "https://igorshalamov.com/#person"
+   },
+   "mainEntityOfPage": {
+    "@id": "https://igorshalamov.com/writing/semantic-search-vs-keyword-search/#webpage"
+   },
+   "isPartOf": {
+    "@id": "https://igorshalamov.com/writing/#blog"
+   },
+   "image": "https://igorshalamov.com/press-kit/igor-shalamov-og.jpg",
+   "wordCount": 523,
+   "timeRequired": "PT2M",
+   "about": [
+    {
+     "@type": "Thing",
+     "name": "Semantic search"
+    },
+    {
+     "@type": "Thing",
+     "name": "Embeddings"
+    },
+    {
+     "@type": "Thing",
+     "name": "Information retrieval"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site">
+<div class="wrap bar">
+<a class="brand" href="/">Igor Shalamov</a>
+<nav aria-label="Main"><ul><li><a href="/about/">About</a></li><li><a href="/ai-growth-systems/">AI growth systems</a></li><li><a href="/research/">Research</a></li><li><a href="/writing/" aria-current="page">Writing</a></li><li><a href="/press/">Press</a></li><li><a href="/contact/">Contact</a></li><li class="lang"><a href="/ru/writing/" hreflang="ru" lang="ru">Русский</a></li></ul></nav>
+</div>
+</header>
+<main id="main" class="wrap">
+<article>
+<div class="pagehead">
+<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/writing/">Writing</a></li><li><span aria-current="page">Semantic Search vs Keyword Search: How Embeddings Find Meaning</span></li></ol></nav>
+
+<h1>Semantic Search vs Keyword Search: How Embeddings Find Meaning</h1>
+<p class="byline"><a href="/about/" rel="author">Igor Shalamov</a>, an AI systems architect and founder of Shalamov.io. <time datetime="2026-11-25">25 November 2026</time>, 2 min read.</p>
+</div>
+<div class="prose">
+<p>A user types a question, and the best answer does not share a single word with it. Keyword search misses it. Semantic search finds it, because it compares meaning, not words.</p>
+<h2 id="vocabulary-mismatch">Vocabulary mismatch</h2>
+<p>A reader searches for: central bank raises the cost of borrowing. The story that answers it says: interest rates go up by a quarter point. The two texts share almost no words. Keyword scoring counts overlapping terms, so this story ranks low. We need to compare meaning instead.</p>
+<h2 id="architecture">Architecture</h2>
+<p>Every document is encoded offline into a vector, called an embedding. At query time, the same encoder turns the question into a vector. An approximate nearest neighbour index, for example HNSW, returns the closest documents in milliseconds. Then a re-ranker reads the top candidates more carefully. And it produces the final order. Follow one query through the system. The index is fast but approximate. The re-ranker is slow but precise.</p>
+<h2 id="nearest-neighbours">Nearest neighbours</h2>
+<p>Picture the embedding space as a map, where stories with similar meaning sit close together. This is a two-dimensional sketch. Real embeddings have hundreds of dimensions. The query lands on the same map. Search becomes a nearest neighbour lookup around it. We keep the five nearest stories, and none of them has to share a word with the query.</p>
+<h2 id="sparse-vs-dense">Sparse vs dense</h2>
+<p>Keyword search is not obsolete. It simply fails in different places. Sparse retrieval, such as BM25, is precise on exact terms: names, numbers, product codes. Dense retrieval captures meaning and paraphrases. Sparse needs no training. Dense needs a trained encoder. Sparse misses paraphrases, while dense can miss rare names and codes. Because their errors differ, the strongest systems combine both.</p>
+<h2 id="hybrid-and-re-ranking">Hybrid and re-ranking</h2>
+<p>BM25 alone puts the story with the most matching words on top. Add dense retrieval and merge both lists, for example with reciprocal rank fusion. Then a cross-encoder reads the query and each story together, and scores them again. The rate hike story, which shared no words with the query, is now first. A cross-encoder is accurate but slow, so it only runs on the short list.</p>
+<h2 id="evaluation">Evaluation</h2>
+<p>Evaluate each stage on its own. For retrieval, use Recall@K: the share of all relevant documents that reach the top K. Here K = 100, the size of the short list. In a made-up example, the query has ten relevant stories. Sparse retrieval alone finds six of them: 0.6. Dense retrieval alone finds seven: 0.7. The hybrid finds nine: 0.9. For the final order, add nDCG@10, and track latency at the 95th percentile.</p>
+<h2 id="news-search">News search</h2>
+<p>News adds four requirements. Freshness: relevance is blended with a time decay. Deduplication: many outlets publish near-identical stories, so results are clustered. Streaming: a new story must be searchable within seconds. And entities: names and places must stay exact, one more reason to keep sparse retrieval in the mix.</p>
+<h2 id="recap">Recap</h2>
+<p>To recap: encode documents and queries into one vector space. Retrieve with a hybrid of sparse and dense search, then re-rank the short list. Measure recall for retrieval, nDCG for the final order, and latency for the user.</p>
+<h2 id="video">Video</h2>
+<p>Watch the episode: <a href="https://youtu.be/x8RKXt7atjw">Semantic Search vs Keyword Search: How Embeddings Find Meaning</a></p>
+</div>
+<aside class="author" aria-label="About the author"><img src="/press-kit/igor-shalamov-160.jpg" alt="Igor Shalamov" width="80" height="120" loading="lazy"><p><a href="/about/">Igor Shalamov</a> is an AI systems architect who designs AI growth systems: referral and recommendation systems, AI-driven communication automation, semantic search and classification. He founded Shalamov.io and publishes <a href="/research/">research</a> on semantic search and neural classification.</p></aside>
+<footer class="post"><h2 id="more-notes">More notes</h2><ul><li><a href="/writing/two-tower-model-explained/">Two Tower Model Explained: Recommendation Retrieval at Scale</a></li><li><a href="/writing/how-to-build-a-referral-program/">How to Build a Referral Program That Brings Users Who Stay</a></li><li><a href="/writing/how-to-evaluate-recommendation-systems/">How to Evaluate Recommendation Systems: Precision@K, nDCG and A/B Tests</a></li><li><a href="/writing/how-to-build-a-referral-system/">How to Build a Referral System That Works Like a Recommender</a></li><li><a href="/writing/uplift-modeling-explained/">Uplift modeling explained: pay the referral bonus only where it changes behaviour</a></li></ul><p class="src">Subscribe: <a href="/writing/feed.xml">RSS feed</a>. All notes: <a href="/writing/">Writing</a>.</p></footer>
+</article>
+</main>
+<footer class="site">
+<div class="wrap">
+<p class="sig">Igor Shalamov — AI systems architect who designs AI growth systems.</p>
+<div class="cols">
+<nav aria-label="More pages"><h2>More</h2><ul><li><a href="/work/ai-systems-architecture/">AI systems architecture</a></li><li><a href="/products/">Products</a></li><li><a href="/press-kit/">Press kit</a></li><li><a href="/faq/">FAQ</a></li></ul></nav>
+<div><h2>Official profiles</h2><ul><li><a href="https://www.linkedin.com/in/shalamoov" rel="me noopener">LinkedIn</a></li><li><a href="https://www.instagram.com/shalamoov/" rel="me noopener">Instagram</a></li><li><a href="https://www.youtube.com/@shalamoov" rel="me noopener">YouTube</a></li><li><a href="https://t.me/shalamovtg" rel="me noopener">Telegram</a></li><li><a href="https://www.crunchbase.com/person/igor-shalamov" rel="me noopener">Crunchbase</a></li><li><a href="https://scholar.google.com/citations?user=HuXnpkUAAAAJ" rel="me noopener">Google Scholar</a></li><li><a href="https://orcid.org/0009-0001-2366-4278" rel="me noopener">ORCID</a></li></ul></div>
+<div><h2>Author pages</h2><ul><li><a href="https://apni.ru/author/15669" rel="noopener">APNI</a></li><li><a href="https://www.internauka.org/authors/shalamov-igor" rel="noopener">Internauka (Igor Shalamov)</a></li><li><a href="https://www.internauka.org/authors/shalamov-igor-stanislavovich" rel="noopener">Internauka (Igor Stanislavovich Shalamov)</a></li></ul></div>
+</div>
+<p class="meta">© 2026 Igor Shalamov. Updated: <time datetime="2026-11-21">2026-11-21</time>. Contact: Telegram <a href="https://t.me/shalamovtg" rel="noopener">t.me/shalamovtg</a> or LinkedIn <a href="https://www.linkedin.com/in/shalamoov" rel="noopener">linkedin.com/in/shalamoov</a>.</p>
+<p class="meta">Machine-readable versions: <a href="/writing/semantic-search-vs-keyword-search/index.md">Markdown</a>, <a href="/llms.txt">llms.txt</a>, <a href="/llms-full.txt">llms-full.txt</a>, <a href="/writing/feed.xml">RSS</a>.</p>
+</div>
+</footer>
+</body>
+</html>

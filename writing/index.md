@@ -10,6 +10,26 @@ updated: 2026-11-21
 
 Notes by Igor Shalamov, an AI systems architect and founder of Shalamov.io, on the architecture of AI growth systems: referral and recommendation systems, AI-driven communication automation, semantic search and classification.
 
+[Two Tower Model Explained: Recommendation Retrieval at Scale](https://igorshalamov.com/writing/two-tower-model-explained/)
+
+29 November 2026. Why a recommender cannot rank its whole catalogue, and how the two tower model solves candidate retrieval: separate user and item towers, a shared vector space, training on clicks with in-batch negati
+
+[How to Build a Referral Program That Brings Users Who Stay](https://igorshalamov.com/writing/how-to-build-a-referral-program/)
+
+28 November 2026. How to build a referral program as a system: attribution of every invitation, reward rules tied to retention, fraud checks before payout, targeting the right users at the right moment, and measuring K
+
+[How to Evaluate Recommendation Systems: Precision@K, nDCG and A/B Tests](https://igorshalamov.com/writing/how-to-evaluate-recommendation-systems/)
+
+26 November 2026. How to measure a personalized feed: a metric for each layer, Precision@K with a worked example, beyond-accuracy metrics, why offline gains disappear online, and how an A/B test with guardrails makes t
+
+[Semantic Search vs Keyword Search: How Embeddings Find Meaning](https://igorshalamov.com/writing/semantic-search-vs-keyword-search/)
+
+25 November 2026. Semantic search compares meaning instead of words: how embeddings, nearest-neighbour indexes, hybrid retrieval with BM25 and cross-encoder re-ranking work together, and how to evaluate them.
+
+[How to Build a Referral System That Works Like a Recommender](https://igorshalamov.com/writing/how-to-build-a-referral-system/)
+
+25 November 2026. How to design a referral system as a learned recommender: who should invite whom, how candidates are retrieved and ranked, and how to measure the result.
+
 [Uplift modeling explained: pay the referral bonus only where it changes behaviour](https://igorshalamov.com/writing/uplift-modeling-explained/)
 
 30 November 2026. A response model pays users who would invite anyway. Uplift modeling ranks users by how much the bonus changes their behaviour, and the uplift curve checks it.

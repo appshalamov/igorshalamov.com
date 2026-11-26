@@ -36,17 +36,17 @@ Referral and recommendation systems for education and Web3 platforms: lead archi
 
 ## [Writing](https://igorshalamov.com/writing/)
 
-[Uplift modeling explained: pay the referral bonus only where it changes behaviour](https://igorshalamov.com/writing/uplift-modeling-explained/)
+[Two Tower Model Explained: Recommendation Retrieval at Scale](https://igorshalamov.com/writing/two-tower-model-explained/)
 
-30 November 2026. A response model pays users who would invite anyway. Uplift modeling ranks users by how much the bonus changes their behaviour, and the uplift curve checks it.
+29 November 2026. Why a recommender cannot rank its whole catalogue, and how the two tower model solves candidate retrieval: separate user and item towers, a shared vector space, training on clicks with in-batch negati
 
-[News personalization with BERT and LSTM: one model for the article, one for the reader](https://igorshalamov.com/writing/news-personalization-bert-lstm/)
+[How to Build a Referral Program That Brings Users Who Stay](https://igorshalamov.com/writing/how-to-build-a-referral-program/)
 
-24 November 2026. BERT encodes the article, an LSTM reads the user history in order, a ranking layer picks the top five. Precision@5 0.78, CTR 6.3% on MIND.
+28 November 2026. How to build a referral program as a system: attribution of every invitation, reward rules tied to retention, fraud checks before payout, targeting the right users at the right moment, and measuring K
 
-[One pipeline for intent, sentiment and toxicity](https://igorshalamov.com/writing/one-pipeline-intent-sentiment-toxicity/)
+[How to Evaluate Recommendation Systems: Precision@K, nDCG and A/B Tests](https://igorshalamov.com/writing/how-to-evaluate-recommendation-systems/)
 
-21 November 2026. One shared text encoder, three small heads: one pass, consistent labels, cheap to extend; separate thresholds, because mistakes cost differently.
+26 November 2026. How to measure a personalized feed: a metric for each layer, Precision@K with a worked example, beyond-accuracy metrics, why offline gains disappear online, and how an A/B test with guardrails makes t
 
 [All notes](https://igorshalamov.com/writing/)
 
@@ -582,6 +582,26 @@ Canonical page: https://igorshalamov.com/research/news-personalization-ai/. Auth
 
 Notes by Igor Shalamov, an AI systems architect and founder of Shalamov.io, on the architecture of AI growth systems: referral and recommendation systems, AI-driven communication automation, semantic search and classification.
 
+[Two Tower Model Explained: Recommendation Retrieval at Scale](https://igorshalamov.com/writing/two-tower-model-explained/)
+
+29 November 2026. Why a recommender cannot rank its whole catalogue, and how the two tower model solves candidate retrieval: separate user and item towers, a shared vector space, training on clicks with in-batch negati
+
+[How to Build a Referral Program That Brings Users Who Stay](https://igorshalamov.com/writing/how-to-build-a-referral-program/)
+
+28 November 2026. How to build a referral program as a system: attribution of every invitation, reward rules tied to retention, fraud checks before payout, targeting the right users at the right moment, and measuring K
+
+[How to Evaluate Recommendation Systems: Precision@K, nDCG and A/B Tests](https://igorshalamov.com/writing/how-to-evaluate-recommendation-systems/)
+
+26 November 2026. How to measure a personalized feed: a metric for each layer, Precision@K with a worked example, beyond-accuracy metrics, why offline gains disappear online, and how an A/B test with guardrails makes t
+
+[Semantic Search vs Keyword Search: How Embeddings Find Meaning](https://igorshalamov.com/writing/semantic-search-vs-keyword-search/)
+
+25 November 2026. Semantic search compares meaning instead of words: how embeddings, nearest-neighbour indexes, hybrid retrieval with BM25 and cross-encoder re-ranking work together, and how to evaluate them.
+
+[How to Build a Referral System That Works Like a Recommender](https://igorshalamov.com/writing/how-to-build-a-referral-system/)
+
+25 November 2026. How to design a referral system as a learned recommender: who should invite whom, how candidates are retrieved and ranked, and how to measure the result.
+
 [Uplift modeling explained: pay the referral bonus only where it changes behaviour](https://igorshalamov.com/writing/uplift-modeling-explained/)
 
 30 November 2026. A response model pays users who would invite anyway. Uplift modeling ranks users by how much the bonus changes their behaviour, and the uplift curve checks it.
@@ -670,11 +690,11 @@ The field as a whole, with the architecture of each layer and the research behin
 
 ## More notes
 
-- [Uplift modeling explained: pay the referral bonus only where it changes behaviour](https://igorshalamov.com/writing/uplift-modeling-explained/)
-- [News personalization with BERT and LSTM: one model for the article, one for the reader](https://igorshalamov.com/writing/news-personalization-bert-lstm/)
-- [One pipeline for intent, sentiment and toxicity](https://igorshalamov.com/writing/one-pipeline-intent-sentiment-toxicity/)
-- [Telegram Mini Apps as a recommendation surface](https://igorshalamov.com/writing/telegram-mini-apps-recommendation-surface/)
-- [How to measure personalization](https://igorshalamov.com/writing/how-to-measure-personalization/)
+- [Two Tower Model Explained: Recommendation Retrieval at Scale](https://igorshalamov.com/writing/two-tower-model-explained/)
+- [How to Build a Referral Program That Brings Users Who Stay](https://igorshalamov.com/writing/how-to-build-a-referral-program/)
+- [How to Evaluate Recommendation Systems: Precision@K, nDCG and A/B Tests](https://igorshalamov.com/writing/how-to-evaluate-recommendation-systems/)
+- [Semantic Search vs Keyword Search: How Embeddings Find Meaning](https://igorshalamov.com/writing/semantic-search-vs-keyword-search/)
+- [How to Build a Referral System That Works Like a Recommender](https://igorshalamov.com/writing/how-to-build-a-referral-system/)
 
 Subscribe: [RSS feed](https://igorshalamov.com/writing/feed.xml). All notes: [Writing](https://igorshalamov.com/writing/).
 
@@ -710,11 +730,11 @@ My paper [Neural network architectures for automating user funnels in referral m
 
 ## More notes
 
-- [Uplift modeling explained: pay the referral bonus only where it changes behaviour](https://igorshalamov.com/writing/uplift-modeling-explained/)
-- [News personalization with BERT and LSTM: one model for the article, one for the reader](https://igorshalamov.com/writing/news-personalization-bert-lstm/)
-- [One pipeline for intent, sentiment and toxicity](https://igorshalamov.com/writing/one-pipeline-intent-sentiment-toxicity/)
-- [Telegram Mini Apps as a recommendation surface](https://igorshalamov.com/writing/telegram-mini-apps-recommendation-surface/)
-- [How to measure personalization](https://igorshalamov.com/writing/how-to-measure-personalization/)
+- [Two Tower Model Explained: Recommendation Retrieval at Scale](https://igorshalamov.com/writing/two-tower-model-explained/)
+- [How to Build a Referral Program That Brings Users Who Stay](https://igorshalamov.com/writing/how-to-build-a-referral-program/)
+- [How to Evaluate Recommendation Systems: Precision@K, nDCG and A/B Tests](https://igorshalamov.com/writing/how-to-evaluate-recommendation-systems/)
+- [Semantic Search vs Keyword Search: How Embeddings Find Meaning](https://igorshalamov.com/writing/semantic-search-vs-keyword-search/)
+- [How to Build a Referral System That Works Like a Recommender](https://igorshalamov.com/writing/how-to-build-a-referral-system/)
 
 Subscribe: [RSS feed](https://igorshalamov.com/writing/feed.xml). All notes: [Writing](https://igorshalamov.com/writing/).
 
@@ -746,11 +766,11 @@ In an [AI growth system](https://igorshalamov.com/writing/what-is-an-ai-growth-s
 
 ## More notes
 
-- [Uplift modeling explained: pay the referral bonus only where it changes behaviour](https://igorshalamov.com/writing/uplift-modeling-explained/)
-- [News personalization with BERT and LSTM: one model for the article, one for the reader](https://igorshalamov.com/writing/news-personalization-bert-lstm/)
-- [One pipeline for intent, sentiment and toxicity](https://igorshalamov.com/writing/one-pipeline-intent-sentiment-toxicity/)
-- [Telegram Mini Apps as a recommendation surface](https://igorshalamov.com/writing/telegram-mini-apps-recommendation-surface/)
-- [How to measure personalization](https://igorshalamov.com/writing/how-to-measure-personalization/)
+- [Two Tower Model Explained: Recommendation Retrieval at Scale](https://igorshalamov.com/writing/two-tower-model-explained/)
+- [How to Build a Referral Program That Brings Users Who Stay](https://igorshalamov.com/writing/how-to-build-a-referral-program/)
+- [How to Evaluate Recommendation Systems: Precision@K, nDCG and A/B Tests](https://igorshalamov.com/writing/how-to-evaluate-recommendation-systems/)
+- [Semantic Search vs Keyword Search: How Embeddings Find Meaning](https://igorshalamov.com/writing/semantic-search-vs-keyword-search/)
+- [How to Build a Referral System That Works Like a Recommender](https://igorshalamov.com/writing/how-to-build-a-referral-system/)
 
 Subscribe: [RSS feed](https://igorshalamov.com/writing/feed.xml). All notes: [Writing](https://igorshalamov.com/writing/).
 
@@ -778,11 +798,11 @@ The fifth step is what turns automation into a [growth system](https://igorshala
 
 ## More notes
 
-- [Uplift modeling explained: pay the referral bonus only where it changes behaviour](https://igorshalamov.com/writing/uplift-modeling-explained/)
-- [News personalization with BERT and LSTM: one model for the article, one for the reader](https://igorshalamov.com/writing/news-personalization-bert-lstm/)
-- [One pipeline for intent, sentiment and toxicity](https://igorshalamov.com/writing/one-pipeline-intent-sentiment-toxicity/)
-- [Telegram Mini Apps as a recommendation surface](https://igorshalamov.com/writing/telegram-mini-apps-recommendation-surface/)
-- [How to measure personalization](https://igorshalamov.com/writing/how-to-measure-personalization/)
+- [Two Tower Model Explained: Recommendation Retrieval at Scale](https://igorshalamov.com/writing/two-tower-model-explained/)
+- [How to Build a Referral Program That Brings Users Who Stay](https://igorshalamov.com/writing/how-to-build-a-referral-program/)
+- [How to Evaluate Recommendation Systems: Precision@K, nDCG and A/B Tests](https://igorshalamov.com/writing/how-to-evaluate-recommendation-systems/)
+- [Semantic Search vs Keyword Search: How Embeddings Find Meaning](https://igorshalamov.com/writing/semantic-search-vs-keyword-search/)
+- [How to Build a Referral System That Works Like a Recommender](https://igorshalamov.com/writing/how-to-build-a-referral-system/)
 
 Subscribe: [RSS feed](https://igorshalamov.com/writing/feed.xml). All notes: [Writing](https://igorshalamov.com/writing/).
 
@@ -810,11 +830,11 @@ A larger model classifies better but answers later. A news stream punishes laten
 
 ## More notes
 
-- [Uplift modeling explained: pay the referral bonus only where it changes behaviour](https://igorshalamov.com/writing/uplift-modeling-explained/)
-- [News personalization with BERT and LSTM: one model for the article, one for the reader](https://igorshalamov.com/writing/news-personalization-bert-lstm/)
-- [One pipeline for intent, sentiment and toxicity](https://igorshalamov.com/writing/one-pipeline-intent-sentiment-toxicity/)
-- [Telegram Mini Apps as a recommendation surface](https://igorshalamov.com/writing/telegram-mini-apps-recommendation-surface/)
-- [How to measure personalization](https://igorshalamov.com/writing/how-to-measure-personalization/)
+- [Two Tower Model Explained: Recommendation Retrieval at Scale](https://igorshalamov.com/writing/two-tower-model-explained/)
+- [How to Build a Referral Program That Brings Users Who Stay](https://igorshalamov.com/writing/how-to-build-a-referral-program/)
+- [How to Evaluate Recommendation Systems: Precision@K, nDCG and A/B Tests](https://igorshalamov.com/writing/how-to-evaluate-recommendation-systems/)
+- [Semantic Search vs Keyword Search: How Embeddings Find Meaning](https://igorshalamov.com/writing/semantic-search-vs-keyword-search/)
+- [How to Build a Referral System That Works Like a Recommender](https://igorshalamov.com/writing/how-to-build-a-referral-system/)
 
 Subscribe: [RSS feed](https://igorshalamov.com/writing/feed.xml). All notes: [Writing](https://igorshalamov.com/writing/).
 
@@ -844,11 +864,11 @@ Each stage can be measured and improved on its own. That is what makes the syste
 
 ## More notes
 
-- [Uplift modeling explained: pay the referral bonus only where it changes behaviour](https://igorshalamov.com/writing/uplift-modeling-explained/)
-- [News personalization with BERT and LSTM: one model for the article, one for the reader](https://igorshalamov.com/writing/news-personalization-bert-lstm/)
-- [One pipeline for intent, sentiment and toxicity](https://igorshalamov.com/writing/one-pipeline-intent-sentiment-toxicity/)
-- [Telegram Mini Apps as a recommendation surface](https://igorshalamov.com/writing/telegram-mini-apps-recommendation-surface/)
-- [How to measure personalization](https://igorshalamov.com/writing/how-to-measure-personalization/)
+- [Two Tower Model Explained: Recommendation Retrieval at Scale](https://igorshalamov.com/writing/two-tower-model-explained/)
+- [How to Build a Referral Program That Brings Users Who Stay](https://igorshalamov.com/writing/how-to-build-a-referral-program/)
+- [How to Evaluate Recommendation Systems: Precision@K, nDCG and A/B Tests](https://igorshalamov.com/writing/how-to-evaluate-recommendation-systems/)
+- [Semantic Search vs Keyword Search: How Embeddings Find Meaning](https://igorshalamov.com/writing/semantic-search-vs-keyword-search/)
+- [How to Build a Referral System That Works Like a Recommender](https://igorshalamov.com/writing/how-to-build-a-referral-system/)
 
 Subscribe: [RSS feed](https://igorshalamov.com/writing/feed.xml). All notes: [Writing](https://igorshalamov.com/writing/).
 
@@ -878,11 +898,11 @@ Retrieval first, ranking second: most production recommenders follow this split.
 
 ## More notes
 
-- [Uplift modeling explained: pay the referral bonus only where it changes behaviour](https://igorshalamov.com/writing/uplift-modeling-explained/)
-- [News personalization with BERT and LSTM: one model for the article, one for the reader](https://igorshalamov.com/writing/news-personalization-bert-lstm/)
-- [One pipeline for intent, sentiment and toxicity](https://igorshalamov.com/writing/one-pipeline-intent-sentiment-toxicity/)
-- [Telegram Mini Apps as a recommendation surface](https://igorshalamov.com/writing/telegram-mini-apps-recommendation-surface/)
-- [How to measure personalization](https://igorshalamov.com/writing/how-to-measure-personalization/)
+- [Two Tower Model Explained: Recommendation Retrieval at Scale](https://igorshalamov.com/writing/two-tower-model-explained/)
+- [How to Build a Referral Program That Brings Users Who Stay](https://igorshalamov.com/writing/how-to-build-a-referral-program/)
+- [How to Evaluate Recommendation Systems: Precision@K, nDCG and A/B Tests](https://igorshalamov.com/writing/how-to-evaluate-recommendation-systems/)
+- [Semantic Search vs Keyword Search: How Embeddings Find Meaning](https://igorshalamov.com/writing/semantic-search-vs-keyword-search/)
+- [How to Build a Referral System That Works Like a Recommender](https://igorshalamov.com/writing/how-to-build-a-referral-system/)
 
 Subscribe: [RSS feed](https://igorshalamov.com/writing/feed.xml). All notes: [Writing](https://igorshalamov.com/writing/).
 
@@ -909,11 +929,11 @@ A system tuned only for CTR drifts toward clickbait. A system tuned only for pre
 
 ## More notes
 
-- [Uplift modeling explained: pay the referral bonus only where it changes behaviour](https://igorshalamov.com/writing/uplift-modeling-explained/)
-- [News personalization with BERT and LSTM: one model for the article, one for the reader](https://igorshalamov.com/writing/news-personalization-bert-lstm/)
-- [One pipeline for intent, sentiment and toxicity](https://igorshalamov.com/writing/one-pipeline-intent-sentiment-toxicity/)
-- [Telegram Mini Apps as a recommendation surface](https://igorshalamov.com/writing/telegram-mini-apps-recommendation-surface/)
-- [Two-tower models for candidate retrieval](https://igorshalamov.com/writing/two-tower-models-candidate-retrieval/)
+- [Two Tower Model Explained: Recommendation Retrieval at Scale](https://igorshalamov.com/writing/two-tower-model-explained/)
+- [How to Build a Referral Program That Brings Users Who Stay](https://igorshalamov.com/writing/how-to-build-a-referral-program/)
+- [How to Evaluate Recommendation Systems: Precision@K, nDCG and A/B Tests](https://igorshalamov.com/writing/how-to-evaluate-recommendation-systems/)
+- [Semantic Search vs Keyword Search: How Embeddings Find Meaning](https://igorshalamov.com/writing/semantic-search-vs-keyword-search/)
+- [How to Build a Referral System That Works Like a Recommender](https://igorshalamov.com/writing/how-to-build-a-referral-system/)
 
 Subscribe: [RSS feed](https://igorshalamov.com/writing/feed.xml). All notes: [Writing](https://igorshalamov.com/writing/).
 
@@ -943,11 +963,11 @@ That makes the Mini App both a storefront and a [referral surface](https://igors
 
 ## More notes
 
-- [Uplift modeling explained: pay the referral bonus only where it changes behaviour](https://igorshalamov.com/writing/uplift-modeling-explained/)
-- [News personalization with BERT and LSTM: one model for the article, one for the reader](https://igorshalamov.com/writing/news-personalization-bert-lstm/)
-- [One pipeline for intent, sentiment and toxicity](https://igorshalamov.com/writing/one-pipeline-intent-sentiment-toxicity/)
-- [How to measure personalization](https://igorshalamov.com/writing/how-to-measure-personalization/)
-- [Two-tower models for candidate retrieval](https://igorshalamov.com/writing/two-tower-models-candidate-retrieval/)
+- [Two Tower Model Explained: Recommendation Retrieval at Scale](https://igorshalamov.com/writing/two-tower-model-explained/)
+- [How to Build a Referral Program That Brings Users Who Stay](https://igorshalamov.com/writing/how-to-build-a-referral-program/)
+- [How to Evaluate Recommendation Systems: Precision@K, nDCG and A/B Tests](https://igorshalamov.com/writing/how-to-evaluate-recommendation-systems/)
+- [Semantic Search vs Keyword Search: How Embeddings Find Meaning](https://igorshalamov.com/writing/semantic-search-vs-keyword-search/)
+- [How to Build a Referral System That Works Like a Recommender](https://igorshalamov.com/writing/how-to-build-a-referral-system/)
 
 Subscribe: [RSS feed](https://igorshalamov.com/writing/feed.xml). All notes: [Writing](https://igorshalamov.com/writing/).
 
@@ -975,11 +995,11 @@ The heads still get separate thresholds and separate evaluation, because the cos
 
 ## More notes
 
-- [Uplift modeling explained: pay the referral bonus only where it changes behaviour](https://igorshalamov.com/writing/uplift-modeling-explained/)
-- [News personalization with BERT and LSTM: one model for the article, one for the reader](https://igorshalamov.com/writing/news-personalization-bert-lstm/)
-- [Telegram Mini Apps as a recommendation surface](https://igorshalamov.com/writing/telegram-mini-apps-recommendation-surface/)
-- [How to measure personalization](https://igorshalamov.com/writing/how-to-measure-personalization/)
-- [Two-tower models for candidate retrieval](https://igorshalamov.com/writing/two-tower-models-candidate-retrieval/)
+- [Two Tower Model Explained: Recommendation Retrieval at Scale](https://igorshalamov.com/writing/two-tower-model-explained/)
+- [How to Build a Referral Program That Brings Users Who Stay](https://igorshalamov.com/writing/how-to-build-a-referral-program/)
+- [How to Evaluate Recommendation Systems: Precision@K, nDCG and A/B Tests](https://igorshalamov.com/writing/how-to-evaluate-recommendation-systems/)
+- [Semantic Search vs Keyword Search: How Embeddings Find Meaning](https://igorshalamov.com/writing/semantic-search-vs-keyword-search/)
+- [How to Build a Referral System That Works Like a Recommender](https://igorshalamov.com/writing/how-to-build-a-referral-system/)
 
 Subscribe: [RSS feed](https://igorshalamov.com/writing/feed.xml). All notes: [Writing](https://igorshalamov.com/writing/).
 
@@ -1013,11 +1033,11 @@ Running BERT on every new article is heavy for a live feed, and MIND is English-
 
 ## More notes
 
-- [Uplift modeling explained: pay the referral bonus only where it changes behaviour](https://igorshalamov.com/writing/uplift-modeling-explained/)
-- [One pipeline for intent, sentiment and toxicity](https://igorshalamov.com/writing/one-pipeline-intent-sentiment-toxicity/)
-- [Telegram Mini Apps as a recommendation surface](https://igorshalamov.com/writing/telegram-mini-apps-recommendation-surface/)
-- [How to measure personalization](https://igorshalamov.com/writing/how-to-measure-personalization/)
-- [Two-tower models for candidate retrieval](https://igorshalamov.com/writing/two-tower-models-candidate-retrieval/)
+- [Two Tower Model Explained: Recommendation Retrieval at Scale](https://igorshalamov.com/writing/two-tower-model-explained/)
+- [How to Build a Referral Program That Brings Users Who Stay](https://igorshalamov.com/writing/how-to-build-a-referral-program/)
+- [How to Evaluate Recommendation Systems: Precision@K, nDCG and A/B Tests](https://igorshalamov.com/writing/how-to-evaluate-recommendation-systems/)
+- [Semantic Search vs Keyword Search: How Embeddings Find Meaning](https://igorshalamov.com/writing/semantic-search-vs-keyword-search/)
+- [How to Build a Referral System That Works Like a Recommender](https://igorshalamov.com/writing/how-to-build-a-referral-system/)
 
 Subscribe: [RSS feed](https://igorshalamov.com/writing/feed.xml). All notes: [Writing](https://igorshalamov.com/writing/).
 
@@ -1074,17 +1094,315 @@ Uplift targeting sits in the models layer of an [AI growth system](https://igors
 
 ## More notes
 
-- [News personalization with BERT and LSTM: one model for the article, one for the reader](https://igorshalamov.com/writing/news-personalization-bert-lstm/)
-- [One pipeline for intent, sentiment and toxicity](https://igorshalamov.com/writing/one-pipeline-intent-sentiment-toxicity/)
-- [Telegram Mini Apps as a recommendation surface](https://igorshalamov.com/writing/telegram-mini-apps-recommendation-surface/)
-- [How to measure personalization](https://igorshalamov.com/writing/how-to-measure-personalization/)
-- [Two-tower models for candidate retrieval](https://igorshalamov.com/writing/two-tower-models-candidate-retrieval/)
+- [Two Tower Model Explained: Recommendation Retrieval at Scale](https://igorshalamov.com/writing/two-tower-model-explained/)
+- [How to Build a Referral Program That Brings Users Who Stay](https://igorshalamov.com/writing/how-to-build-a-referral-program/)
+- [How to Evaluate Recommendation Systems: Precision@K, nDCG and A/B Tests](https://igorshalamov.com/writing/how-to-evaluate-recommendation-systems/)
+- [Semantic Search vs Keyword Search: How Embeddings Find Meaning](https://igorshalamov.com/writing/semantic-search-vs-keyword-search/)
+- [How to Build a Referral System That Works Like a Recommender](https://igorshalamov.com/writing/how-to-build-a-referral-system/)
 
 Subscribe: [RSS feed](https://igorshalamov.com/writing/feed.xml). All notes: [Writing](https://igorshalamov.com/writing/).
 
 ---
 
 Canonical page: https://igorshalamov.com/writing/uplift-modeling-explained/. Author: Igor Shalamov, AI systems architect who designs AI growth systems. Site guide for AI assistants: https://igorshalamov.com/llms.txt
+
+# How to Build a Referral System That Works Like a Recommender
+
+[Igor Shalamov](https://igorshalamov.com/about/), an AI systems architect and founder of Shalamov.io. 25 November 2026, 2 min read.
+
+Most referral programs are a reward table: invite a friend, get a bonus. But the reward is the easy part. The hard part is deciding who should invite whom. That is a ranking problem, and it makes a referral system a recommender system.
+
+## The problem
+
+Take one user. Call her Ana. In this made-up example, Ana has eight contacts in the app. A static program sends the same invitation to all eight. Two of them join. Six people got a message they did not want. And realistically, Ana will message three people, not eight. So the real question is: which three should the system suggest?
+
+## Architecture
+
+We start from a user graph: contacts, shared groups, interactions. From the graph we generate candidate pairs: an inviter and a possible invitee. A ranking model scores every pair. The best pairs become invitation suggestions. Now the key part: every accepted or ignored invitation becomes a training label. Without the loop, this is automation. With it, the system learns.
+
+## Retrieval
+
+With eight contacts, we could score everyone. With millions of possible pairs we cannot, so retrieval comes first. A two-tower model maps the inviter and every candidate into one vector space. It is trained so that pairs with accepted invitations end up close together. Retrieval is then a nearest neighbour search around Ana. We keep the five nearest candidates.
+
+## Ranking
+
+The ranking model scores these five pairs with richer features. Start with tie strength alone: how often and how recently two people talk. The top three would be Dev, Ben and Chloe. Now add invitee fit: the predicted chance that a new user stays active. The order changes: Fay moves up to second, and Dev drops out of the top three.
+
+## Precision@K
+
+To check the ranking, we use Precision@K. It is the share of the top K suggestions that were accepted. Ana sends three invitations, so K = 3. In our made-up example, two of her eight contacts would accept. Three random picks give a precision of 0.25. Tie strength alone found one of the two: 0.33. The full model found both: 0.67. Same user, same three messages, over two and a half times the random baseline.
+
+## Incremental lift
+
+One trap remains: some invited people would have joined anyway. So keep a holdout group with no model-driven suggestions. Compare it with the group that gets them, and count retained users, not acceptances. These numbers are illustrative. That difference is what the system actually earned.
+
+## Pitfalls
+
+Three things go wrong in practice. First, the feedback loop is biased: the model only sees outcomes for pairs it chose. So keep a small slice of random suggestions. Second, optimising for acceptances rewards pressure. Optimise for retained users, and cap invitations per person. Third, contact data needs explicit consent. Without it, the feature stays off.
+
+## Recap
+
+To recap: a referral system is a recommender over a user graph. Retrieve candidates, rank them, suggest the invitation, and learn from every outcome. Judge it by Precision@K, by retention, and by lift against a holdout.
+
+## Video
+
+Watch the episode: [How to Build a Referral System That Works Like a Recommender](https://youtu.be/fzfCppUap7Y)
+
+![Igor Shalamov](https://igorshalamov.com/press-kit/igor-shalamov-160.jpg)
+
+[Igor Shalamov](https://igorshalamov.com/about/) is an AI systems architect who designs AI growth systems: referral and recommendation systems, AI-driven communication automation, semantic search and classification. He founded Shalamov.io and publishes [research](https://igorshalamov.com/research/) on semantic search and neural classification.
+
+## More notes
+
+- [Two Tower Model Explained: Recommendation Retrieval at Scale](https://igorshalamov.com/writing/two-tower-model-explained/)
+- [How to Build a Referral Program That Brings Users Who Stay](https://igorshalamov.com/writing/how-to-build-a-referral-program/)
+- [How to Evaluate Recommendation Systems: Precision@K, nDCG and A/B Tests](https://igorshalamov.com/writing/how-to-evaluate-recommendation-systems/)
+- [Semantic Search vs Keyword Search: How Embeddings Find Meaning](https://igorshalamov.com/writing/semantic-search-vs-keyword-search/)
+- [Uplift modeling explained: pay the referral bonus only where it changes behaviour](https://igorshalamov.com/writing/uplift-modeling-explained/)
+
+Subscribe: [RSS feed](https://igorshalamov.com/writing/feed.xml). All notes: [Writing](https://igorshalamov.com/writing/).
+
+---
+
+Canonical page: https://igorshalamov.com/writing/how-to-build-a-referral-system/. Author: Igor Shalamov, AI systems architect who designs AI growth systems. Site guide for AI assistants: https://igorshalamov.com/llms.txt
+
+# Semantic Search vs Keyword Search: How Embeddings Find Meaning
+
+[Igor Shalamov](https://igorshalamov.com/about/), an AI systems architect and founder of Shalamov.io. 25 November 2026, 2 min read.
+
+A user types a question, and the best answer does not share a single word with it. Keyword search misses it. Semantic search finds it, because it compares meaning, not words.
+
+## Vocabulary mismatch
+
+A reader searches for: central bank raises the cost of borrowing. The story that answers it says: interest rates go up by a quarter point. The two texts share almost no words. Keyword scoring counts overlapping terms, so this story ranks low. We need to compare meaning instead.
+
+## Architecture
+
+Every document is encoded offline into a vector, called an embedding. At query time, the same encoder turns the question into a vector. An approximate nearest neighbour index, for example HNSW, returns the closest documents in milliseconds. Then a re-ranker reads the top candidates more carefully. And it produces the final order. Follow one query through the system. The index is fast but approximate. The re-ranker is slow but precise.
+
+## Nearest neighbours
+
+Picture the embedding space as a map, where stories with similar meaning sit close together. This is a two-dimensional sketch. Real embeddings have hundreds of dimensions. The query lands on the same map. Search becomes a nearest neighbour lookup around it. We keep the five nearest stories, and none of them has to share a word with the query.
+
+## Sparse vs dense
+
+Keyword search is not obsolete. It simply fails in different places. Sparse retrieval, such as BM25, is precise on exact terms: names, numbers, product codes. Dense retrieval captures meaning and paraphrases. Sparse needs no training. Dense needs a trained encoder. Sparse misses paraphrases, while dense can miss rare names and codes. Because their errors differ, the strongest systems combine both.
+
+## Hybrid and re-ranking
+
+BM25 alone puts the story with the most matching words on top. Add dense retrieval and merge both lists, for example with reciprocal rank fusion. Then a cross-encoder reads the query and each story together, and scores them again. The rate hike story, which shared no words with the query, is now first. A cross-encoder is accurate but slow, so it only runs on the short list.
+
+## Evaluation
+
+Evaluate each stage on its own. For retrieval, use Recall@K: the share of all relevant documents that reach the top K. Here K = 100, the size of the short list. In a made-up example, the query has ten relevant stories. Sparse retrieval alone finds six of them: 0.6. Dense retrieval alone finds seven: 0.7. The hybrid finds nine: 0.9. For the final order, add nDCG@10, and track latency at the 95th percentile.
+
+## News search
+
+News adds four requirements. Freshness: relevance is blended with a time decay. Deduplication: many outlets publish near-identical stories, so results are clustered. Streaming: a new story must be searchable within seconds. And entities: names and places must stay exact, one more reason to keep sparse retrieval in the mix.
+
+## Recap
+
+To recap: encode documents and queries into one vector space. Retrieve with a hybrid of sparse and dense search, then re-rank the short list. Measure recall for retrieval, nDCG for the final order, and latency for the user.
+
+## Video
+
+Watch the episode: [Semantic Search vs Keyword Search: How Embeddings Find Meaning](https://youtu.be/x8RKXt7atjw)
+
+![Igor Shalamov](https://igorshalamov.com/press-kit/igor-shalamov-160.jpg)
+
+[Igor Shalamov](https://igorshalamov.com/about/) is an AI systems architect who designs AI growth systems: referral and recommendation systems, AI-driven communication automation, semantic search and classification. He founded Shalamov.io and publishes [research](https://igorshalamov.com/research/) on semantic search and neural classification.
+
+## More notes
+
+- [Two Tower Model Explained: Recommendation Retrieval at Scale](https://igorshalamov.com/writing/two-tower-model-explained/)
+- [How to Build a Referral Program That Brings Users Who Stay](https://igorshalamov.com/writing/how-to-build-a-referral-program/)
+- [How to Evaluate Recommendation Systems: Precision@K, nDCG and A/B Tests](https://igorshalamov.com/writing/how-to-evaluate-recommendation-systems/)
+- [How to Build a Referral System That Works Like a Recommender](https://igorshalamov.com/writing/how-to-build-a-referral-system/)
+- [Uplift modeling explained: pay the referral bonus only where it changes behaviour](https://igorshalamov.com/writing/uplift-modeling-explained/)
+
+Subscribe: [RSS feed](https://igorshalamov.com/writing/feed.xml). All notes: [Writing](https://igorshalamov.com/writing/).
+
+---
+
+Canonical page: https://igorshalamov.com/writing/semantic-search-vs-keyword-search/. Author: Igor Shalamov, AI systems architect who designs AI growth systems. Site guide for AI assistants: https://igorshalamov.com/llms.txt
+
+# How to Evaluate Recommendation Systems: Precision@K, nDCG and A/B Tests
+
+[Igor Shalamov](https://igorshalamov.com/about/), an AI systems architect and founder of Shalamov.io. 26 November 2026, 2 min read.
+
+A new ranking model wins every offline metric. It goes into an A/B test, and nothing changes. This happens more often than teams expect.
+
+## Where metrics apply
+
+A personalized feed is built in layers, and each layer needs its own metric. Candidate generation narrows millions of items to a few hundred. We measure its recall. A ranking model orders them. We measure ranking quality. A re-ranking step adds diversity, freshness and business rules. Only then does the user see the feed, and there we measure outcomes. A good number for one layer says little about the next one.
+
+## Precision@K
+
+Offline, we replay historical data. Precision@K is the share of relevant items among the top K recommendations. Take K = 5. In a made-up example, one reader later opened three stories we could have shown. A popularity baseline gets one of them into its top five: 0.2. The old model gets two: 0.4. The new model gets all three: 0.6. Always split by time: train on the past, test on the future, or every number is inflated.
+
+## Beyond accuracy
+
+Accuracy is not the whole picture. Precision and recall at K count relevant items in the top K. Coverage shows how much of the catalogue is ever recommended. nDCG also rewards placing relevant items higher, because people rarely scroll far. Diversity measures how different the items in one feed are. But none of the accuracy metrics tells you that a feed has become boring. Novelty and calibration check that the feed goes beyond the obvious and matches the reader's real mix of interests.
+
+## The offline-online gap
+
+So why do offline gains disappear? First, position bias: people click what is shown on top, so the logs favour the old ranking. Second, a feedback loop: the training data was produced by the previous model. Third, there is no data on items that were never shown. Inverse propensity scoring helps, but it does not remove the bias. Finally, a click is only a proxy for satisfaction. The feedback loop is the one most teams underestimate.
+
+## Online test
+
+Offline evaluation is a filter. The A/B test makes the decision. Split real traffic between the old model and the new one. Then measure what matters: click-through rate, dwell time, and above all, whether readers come back. These numbers are illustrative. The difference in return rate is the result that counts.
+
+## Recap
+
+To recap: measure each layer with its own metric, and look beyond accuracy. Split offline data by time, and treat offline results as a filter. Then let a well-guarded A/B test make the final call.
+
+## Video
+
+Watch the episode: [How to Evaluate Recommendation Systems: Precision@K, nDCG and A/B Tests](https://youtu.be/eW9FAuHuYTI)
+
+![Igor Shalamov](https://igorshalamov.com/press-kit/igor-shalamov-160.jpg)
+
+[Igor Shalamov](https://igorshalamov.com/about/) is an AI systems architect who designs AI growth systems: referral and recommendation systems, AI-driven communication automation, semantic search and classification. He founded Shalamov.io and publishes [research](https://igorshalamov.com/research/) on semantic search and neural classification.
+
+## More notes
+
+- [Two Tower Model Explained: Recommendation Retrieval at Scale](https://igorshalamov.com/writing/two-tower-model-explained/)
+- [How to Build a Referral Program That Brings Users Who Stay](https://igorshalamov.com/writing/how-to-build-a-referral-program/)
+- [Semantic Search vs Keyword Search: How Embeddings Find Meaning](https://igorshalamov.com/writing/semantic-search-vs-keyword-search/)
+- [How to Build a Referral System That Works Like a Recommender](https://igorshalamov.com/writing/how-to-build-a-referral-system/)
+- [Uplift modeling explained: pay the referral bonus only where it changes behaviour](https://igorshalamov.com/writing/uplift-modeling-explained/)
+
+Subscribe: [RSS feed](https://igorshalamov.com/writing/feed.xml). All notes: [Writing](https://igorshalamov.com/writing/).
+
+---
+
+Canonical page: https://igorshalamov.com/writing/how-to-evaluate-recommendation-systems/. Author: Igor Shalamov, AI systems architect who designs AI growth systems. Site guide for AI assistants: https://igorshalamov.com/llms.txt
+
+# How to Build a Referral Program That Brings Users Who Stay
+
+[Igor Shalamov](https://igorshalamov.com/about/), an AI systems architect and founder of Shalamov.io. 28 November 2026, 3 min read.
+
+Your referral program brings sign-ups. Then they never pay. Some are fake accounts. The rest leave within a week. The reward is not the problem. The system around it is.
+
+## Architecture
+
+A referral program is not a share button. It is a system with five parts. Attribution records who brought whom. Reward rules decide what each side gets, and for what. Fraud checks stop fake invitations before anyone is paid. Targeting chooses who to ask, and when. Measurement tells you whether any of it worked. And the results flow back: they retrain targeting and tune the rewards.
+
+## Attribution
+
+Start with attribution, because every reward depends on it. Each inviter gets a unique link or code. Then set an attribution window: for example, the friend must sign up within 7 days of the click. The hard part is devices. The friend taps the link on a phone, then signs up on a laptop. So carry the code through the app install, or ask for it at sign-up. And when two people invited the same friend, one written rule decides who gets credit.
+
+## Rewards
+
+Paying for a sign-up rewards empty accounts. Pay for a target action instead: a first purchase, or still being active on day 30. If only the inviter is paid, the friend has no reason to act. A two-sided reward gives both people something real. And cash for any invitation attracts people who farm rewards. Product value, like credits or extra plan time, with a cap per person, attracts people who use the product.
+
+## Fraud
+
+Any reward worth having will be gamed. The simplest fraud is a self-invite: a second account for yourself. The signal: the same device or the same payment card on both sides. Then account farms: dozens of sign-ups from one source. The signal: many accounts behind one IP address. And bots that rush through the target action. The signal is velocity: too many steps, too fast. Combine the signals into a risk score, and hold the reward until the checks pass.
+
+## Targeting
+
+Most programs ask everyone right after sign-up, before the user has seen any value. Ask after the aha moment, the first time the product delivers real value. Ranked by activity alone, the busiest users come first. A propensity model predicts something better: the chance that this user invites a friend who stays. Chloe is quiet, but her friends stay. She moves up to second. Ask the top users first, and cap how often anyone is asked.
+
+## K-factor
+
+Now measurement. The classic number is the K-factor. It equals invitations per user, times the share of invitations that convert. In a made-up example, 100 users send 3 invitations each, and 10% convert. 3 × 0.1 gives a K-factor of 0.3. Now count only the invited users still active on day 30: 12 of them. The K-factor that matters is 0.12. Above one, growth feeds itself. Below one, referrals amplify your other channels, but do not replace them.
+
+## Incrementality
+
+The K-factor has a blind spot: some invited friends would have joined anyway. So keep a holdout: a random group of users who never see the program. Compare them with everyone else, and count retained users, not sign-ups. These numbers are illustrative. If the gap is close to zero, you are paying rewards for users you would have had anyway.
+
+## Mistakes
+
+Four mistakes show up again and again. Paying for sign-ups instead of users who stay. Paying rewards before the fraud checks are done. Asking for invitations before the user has seen any value. And trusting the K-factor without a holdout. Fix these four, and each part of the system starts to work for the next one.
+
+## Recap
+
+To recap: attribute every invitation, reward the action that matters, and check for fraud before paying. Ask the right users after the aha moment, and judge the result against a holdout.
+
+## Video
+
+Watch the episode: [How to Build a Referral Program That Brings Users Who Stay](https://youtu.be/PbHN5ZZMan4)
+
+![Igor Shalamov](https://igorshalamov.com/press-kit/igor-shalamov-160.jpg)
+
+[Igor Shalamov](https://igorshalamov.com/about/) is an AI systems architect who designs AI growth systems: referral and recommendation systems, AI-driven communication automation, semantic search and classification. He founded Shalamov.io and publishes [research](https://igorshalamov.com/research/) on semantic search and neural classification.
+
+## More notes
+
+- [Two Tower Model Explained: Recommendation Retrieval at Scale](https://igorshalamov.com/writing/two-tower-model-explained/)
+- [How to Evaluate Recommendation Systems: Precision@K, nDCG and A/B Tests](https://igorshalamov.com/writing/how-to-evaluate-recommendation-systems/)
+- [Semantic Search vs Keyword Search: How Embeddings Find Meaning](https://igorshalamov.com/writing/semantic-search-vs-keyword-search/)
+- [How to Build a Referral System That Works Like a Recommender](https://igorshalamov.com/writing/how-to-build-a-referral-system/)
+- [Uplift modeling explained: pay the referral bonus only where it changes behaviour](https://igorshalamov.com/writing/uplift-modeling-explained/)
+
+Subscribe: [RSS feed](https://igorshalamov.com/writing/feed.xml). All notes: [Writing](https://igorshalamov.com/writing/).
+
+---
+
+Canonical page: https://igorshalamov.com/writing/how-to-build-a-referral-program/. Author: Igor Shalamov, AI systems architect who designs AI growth systems. Site guide for AI assistants: https://igorshalamov.com/llms.txt
+
+# Two Tower Model Explained: Recommendation Retrieval at Scale
+
+[Igor Shalamov](https://igorshalamov.com/about/), an AI systems architect and founder of Shalamov.io. 29 November 2026, 3 min read.
+
+You have 10 million items, and 50 milliseconds to choose what one user sees. Your best ranking model cannot score them all in time. Every large recommender hits this wall, and most solve it the same way. With a two tower model.
+
+## Two stages
+
+Example numbers: a good ranking model needs about 10 microseconds per item. 10 million items times 10 microseconds is 100 seconds. The budget is 50 milliseconds, so we are 2,000 times too slow. So the work is split into two stages. Retrieval cheaply narrows 10 million items to about 1,000 candidates. Ranking scores those 1,000 with the heavy model, in 10 milliseconds. Only the top 20 reach the feed. Two towers are the standard design for retrieval.
+
+## Two towers
+
+The model has two separate neural networks, called towers. The user tower starts from a learned embedding of the user ID. The item tower does the same for the item. The user side adds history: recent clicks, watches and purchases. The item side adds content: text, category and creator. Both sides add more: context for the user, age and popularity for the item. Each tower outputs a vector of the same size, say 64 numbers.
+
+## Scoring
+
+Both towers write into one shared space. This is a two-dimensional sketch of it. The user vector lands somewhere in that space. The score of a user and an item is the dot product of their two vectors. Normalise both vectors, and the dot product becomes cosine similarity. Retrieval is then a nearest neighbour search around the user. The key constraint: the towers never see each other's inputs. That is why item vectors can be precomputed.
+
+## Training
+
+Training data: pairs of a user and an item they clicked. For each user in a batch, the other users' clicks serve as negatives. These are in-batch negatives: no extra sampling needed. The loss pushes the clicked item up and the others down. One catch: popular items appear in many batches, so they are punished as negatives too often. The fix, sampling bias correction: subtract the log of each item's sampling probability.
+
+## Serving
+
+The two towers run at different times. The item tower runs offline, in batch, over the whole catalogue. It produces one vector per item. Those vectors go into an approximate nearest neighbour index, for example HNSW. At request time, only the user tower runs: one forward pass, one vector. The index returns the top 1,000 items in a few milliseconds. Whenever the item tower changes, the index is rebuilt.
+
+## Recall@K
+
+Retrieval has one job: do not lose the good items. The ranker never sees what retrieval dropped. So we measure Recall@K: the share of all relevant items that reach the top K. Here K = 1,000, the candidate list size. In a made-up example, one user clicks 20 items in the test week. A popularity baseline retrieves six of them: 0.3. Two towers with ID features only find eleven: 0.55. Add content features, and they find fifteen: 0.75. Always split by time: train on the past, test on the next week.
+
+## Pitfalls
+
+First, cold start: a new item has no clicks, so its ID embedding is noise. Content features in the item tower give it a sensible vector from day one. Second, leakage: a feature computed after the click, like a total view count. Offline metrics look great, and production does not. Use point-in-time features. Third, version skew: the user tower is updated, but the index still holds old item vectors. The vectors stop sharing a space. Version both towers and the index together.
+
+## Uses and recap
+
+The pattern appears wherever a catalogue is too large to rank. Video, music and news feeds. Products for a shopper. Documents for a search query. And referral systems: who should a user invite? There, the inviter is the query, and possible invitees are the items. That is the retrieval step of the referral system from our first video. To recap: two towers, one space, items indexed offline, users encoded online, checked with Recall@K.
+
+It covers neural network architectures for referral funnels.
+
+## Video
+
+Watch the episode: [Two Tower Model Explained: Recommendation Retrieval at Scale](https://youtu.be/ZJXA4Q7RtdQ)
+
+![Igor Shalamov](https://igorshalamov.com/press-kit/igor-shalamov-160.jpg)
+
+[Igor Shalamov](https://igorshalamov.com/about/) is an AI systems architect who designs AI growth systems: referral and recommendation systems, AI-driven communication automation, semantic search and classification. He founded Shalamov.io and publishes [research](https://igorshalamov.com/research/) on semantic search and neural classification.
+
+## More notes
+
+- [How to Build a Referral Program That Brings Users Who Stay](https://igorshalamov.com/writing/how-to-build-a-referral-program/)
+- [How to Evaluate Recommendation Systems: Precision@K, nDCG and A/B Tests](https://igorshalamov.com/writing/how-to-evaluate-recommendation-systems/)
+- [Semantic Search vs Keyword Search: How Embeddings Find Meaning](https://igorshalamov.com/writing/semantic-search-vs-keyword-search/)
+- [How to Build a Referral System That Works Like a Recommender](https://igorshalamov.com/writing/how-to-build-a-referral-system/)
+- [Uplift modeling explained: pay the referral bonus only where it changes behaviour](https://igorshalamov.com/writing/uplift-modeling-explained/)
+
+Subscribe: [RSS feed](https://igorshalamov.com/writing/feed.xml). All notes: [Writing](https://igorshalamov.com/writing/).
+
+---
+
+Canonical page: https://igorshalamov.com/writing/two-tower-model-explained/. Author: Igor Shalamov, AI systems architect who designs AI growth systems. Site guide for AI assistants: https://igorshalamov.com/llms.txt
 
 # Igor Shalamov in the Media
 

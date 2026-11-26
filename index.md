@@ -40,17 +40,17 @@ Referral and recommendation systems for education and Web3 platforms: lead archi
 
 ## [Writing](https://igorshalamov.com/writing/)
 
-[Uplift modeling explained: pay the referral bonus only where it changes behaviour](https://igorshalamov.com/writing/uplift-modeling-explained/)
+[Two Tower Model Explained: Recommendation Retrieval at Scale](https://igorshalamov.com/writing/two-tower-model-explained/)
 
-30 November 2026. A response model pays users who would invite anyway. Uplift modeling ranks users by how much the bonus changes their behaviour, and the uplift curve checks it.
+29 November 2026. Why a recommender cannot rank its whole catalogue, and how the two tower model solves candidate retrieval: separate user and item towers, a shared vector space, training on clicks with in-batch negati
 
-[News personalization with BERT and LSTM: one model for the article, one for the reader](https://igorshalamov.com/writing/news-personalization-bert-lstm/)
+[How to Build a Referral Program That Brings Users Who Stay](https://igorshalamov.com/writing/how-to-build-a-referral-program/)
 
-24 November 2026. BERT encodes the article, an LSTM reads the user history in order, a ranking layer picks the top five. Precision@5 0.78, CTR 6.3% on MIND.
+28 November 2026. How to build a referral program as a system: attribution of every invitation, reward rules tied to retention, fraud checks before payout, targeting the right users at the right moment, and measuring K
 
-[One pipeline for intent, sentiment and toxicity](https://igorshalamov.com/writing/one-pipeline-intent-sentiment-toxicity/)
+[How to Evaluate Recommendation Systems: Precision@K, nDCG and A/B Tests](https://igorshalamov.com/writing/how-to-evaluate-recommendation-systems/)
 
-21 November 2026. One shared text encoder, three small heads: one pass, consistent labels, cheap to extend; separate thresholds, because mistakes cost differently.
+26 November 2026. How to measure a personalized feed: a metric for each layer, Precision@K with a worked example, beyond-accuracy metrics, why offline gains disappear online, and how an A/B test with guardrails makes t
 
 [All notes](https://igorshalamov.com/writing/)
 

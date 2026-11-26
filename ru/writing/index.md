@@ -10,6 +10,26 @@ updated: 2026-11-21
 
 Заметки: Игорь Шаламов, архитектор ИИ-систем, основатель Shalamov.io, об архитектуре ИИ-систем роста: реферальные и рекомендательные системы, ИИ-автоматизация коммуникаций, семантический поиск и классификация. Записи публикуются на английском языке.
 
+[Two Tower Model Explained: Recommendation Retrieval at Scale](https://igorshalamov.com/writing/two-tower-model-explained/)
+
+29 ноября 2026. Двухбашенная модель для отбора кандидатов: башни пользователя и объекта, общее пространство, обучение на кликах, индекс ближайших соседей, Recall@K.
+
+[How to Build a Referral Program That Brings Users Who Stay](https://igorshalamov.com/writing/how-to-build-a-referral-program/)
+
+28 ноября 2026. Реферальная программа как система: атрибуция, награда за удержание, проверка на мошенничество, выбор момента и прирост против контрольной группы.
+
+[How to Evaluate Recommendation Systems: Precision@K, nDCG and A/B Tests](https://igorshalamov.com/writing/how-to-evaluate-recommendation-systems/)
+
+26 ноября 2026. Как оценивать рекомендательную систему: метрика на каждый слой, Precision@K, nDCG, разрыв офлайн и онлайн, A/B-тест с ограничителями.
+
+[Semantic Search vs Keyword Search: How Embeddings Find Meaning](https://igorshalamov.com/writing/semantic-search-vs-keyword-search/)
+
+25 ноября 2026. Семантический поиск против поиска по словам: эмбеддинги, индексы ближайших соседей, гибрид с BM25 и переранжирование.
+
+[How to Build a Referral System That Works Like a Recommender](https://igorshalamov.com/writing/how-to-build-a-referral-system/)
+
+25 ноября 2026. Реферальная система как рекомендательная: граф пользователей, отбор кандидатов, ранжирование, Precision@K и прирост против контрольной группы.
+
 [Uplift modeling explained: pay the referral bonus only where it changes behaviour](https://igorshalamov.com/writing/uplift-modeling-explained/)
 
 30 ноября 2026. Модель отклика платит тем, кто пригласил бы и так. Модель uplift ранжирует пользователей по тому, насколько бонус меняет их поведение, а кривая uplift это проверяет.

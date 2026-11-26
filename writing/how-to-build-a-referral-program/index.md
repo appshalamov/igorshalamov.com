@@ -48,6 +48,10 @@ Four mistakes show up again and again. Paying for sign-ups instead of users who 
 
 To recap: attribute every invitation, reward the action that matters, and check for fraud before paying. Ask the right users after the aha moment, and judge the result against a holdout.
 
+## Related research
+
+The research behind this topic is my paper [Neural network architectures for automating user funnels in referral marketing](https://igorshalamov.com/research/neural-architectures-referral-funnels/) (2025).
+
 ## Video
 
 Watch the episode: [How to Build a Referral Program That Brings Users Who Stay](https://youtu.be/PbHN5ZZMan4)

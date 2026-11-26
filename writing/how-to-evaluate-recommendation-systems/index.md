@@ -36,6 +36,10 @@ Offline evaluation is a filter. The A/B test makes the decision. Split real traf
 
 To recap: measure each layer with its own metric, and look beyond accuracy. Split offline data by time, and treat offline results as a filter. Then let a well-guarded A/B test make the final call.
 
+## Related research
+
+The research behind this topic is my paper [Personalization of news content using AI: architecture and efficiency of neural network systems](https://igorshalamov.com/research/news-personalization-ai/) (2025).
+
 ## Video
 
 Watch the episode: [How to Evaluate Recommendation Systems: Precision@K, nDCG and A/B Tests](https://youtu.be/eW9FAuHuYTI)

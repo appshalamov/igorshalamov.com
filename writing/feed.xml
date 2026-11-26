@@ -40,7 +40,9 @@
 </ol>
 <p>The same logic applies wherever an action costs money or attention: discounts and coupons, retention offers for users about to leave, and push notifications, where the cost is the user's patience.</p>
 <h2>Where uplift fits</h2>
-<p>Uplift targeting sits in the models layer of an <a href="https://igorshalamov.com/writing/what-is-an-ai-growth-system/">AI growth system</a>: once a referral system knows who is likely to invite, uplift decides whom to pay.</p>]]></content:encoded>
+<p>Uplift targeting sits in the models layer of an <a href="https://igorshalamov.com/writing/what-is-an-ai-growth-system/">AI growth system</a>: once a referral system knows who is likely to invite, uplift decides whom to pay.</p>
+<h2>Related research</h2>
+<p>The research behind this topic is my paper <a href="https://igorshalamov.com/research/neural-architectures-referral-funnels/">Neural network architectures for automating user funnels in referral marketing</a> (2025).</p>]]></content:encoded>
   </item>
   <item>
    <title>Two Tower Model Explained: Recommendation Retrieval at Scale</title>
@@ -67,6 +69,8 @@
 <h2>Uses and recap</h2>
 <p>The pattern appears wherever a catalogue is too large to rank. Video, music and news feeds. Products for a shopper. Documents for a search query. And referral systems: who should a user invite? There, the inviter is the query, and possible invitees are the items. That is the retrieval step of the referral system from our first video. To recap: two towers, one space, items indexed offline, users encoded online, checked with Recall@K.</p>
 <p>It covers neural network architectures for referral funnels.</p>
+<h2>Related research</h2>
+<p>The research behind this topic is my paper <a href="https://igorshalamov.com/research/neural-architectures-referral-funnels/">Neural network architectures for automating user funnels in referral marketing</a> (2025).</p>
 <h2>Video</h2>
 <p>Watch the episode: <a href="https://youtu.be/ZJXA4Q7RtdQ">Two Tower Model Explained: Recommendation Retrieval at Scale</a></p>]]></content:encoded>
   </item>
@@ -96,6 +100,8 @@
 <p>Four mistakes show up again and again. Paying for sign-ups instead of users who stay. Paying rewards before the fraud checks are done. Asking for invitations before the user has seen any value. And trusting the K-factor without a holdout. Fix these four, and each part of the system starts to work for the next one.</p>
 <h2>Recap</h2>
 <p>To recap: attribute every invitation, reward the action that matters, and check for fraud before paying. Ask the right users after the aha moment, and judge the result against a holdout.</p>
+<h2>Related research</h2>
+<p>The research behind this topic is my paper <a href="https://igorshalamov.com/research/neural-architectures-referral-funnels/">Neural network architectures for automating user funnels in referral marketing</a> (2025).</p>
 <h2>Video</h2>
 <p>Watch the episode: <a href="https://youtu.be/PbHN5ZZMan4">How to Build a Referral Program That Brings Users Who Stay</a></p>]]></content:encoded>
   </item>
@@ -119,6 +125,8 @@
 <p>Offline evaluation is a filter. The A/B test makes the decision. Split real traffic between the old model and the new one. Then measure what matters: click-through rate, dwell time, and above all, whether readers come back. These numbers are illustrative. The difference in return rate is the result that counts.</p>
 <h2>Recap</h2>
 <p>To recap: measure each layer with its own metric, and look beyond accuracy. Split offline data by time, and treat offline results as a filter. Then let a well-guarded A/B test make the final call.</p>
+<h2>Related research</h2>
+<p>The research behind this topic is my paper <a href="https://igorshalamov.com/research/news-personalization-ai/">Personalization of news content using AI: architecture and efficiency of neural network systems</a> (2025).</p>
 <h2>Video</h2>
 <p>Watch the episode: <a href="https://youtu.be/eW9FAuHuYTI">How to Evaluate Recommendation Systems: Precision@K, nDCG and A/B Tests</a></p>]]></content:encoded>
   </item>
@@ -146,6 +154,8 @@
 <p>Three things go wrong in practice. First, the feedback loop is biased: the model only sees outcomes for pairs it chose. So keep a small slice of random suggestions. Second, optimising for acceptances rewards pressure. Optimise for retained users, and cap invitations per person. Third, contact data needs explicit consent. Without it, the feature stays off.</p>
 <h2>Recap</h2>
 <p>To recap: a referral system is a recommender over a user graph. Retrieve candidates, rank them, suggest the invitation, and learn from every outcome. Judge it by Precision@K, by retention, and by lift against a holdout.</p>
+<h2>Related research</h2>
+<p>The research behind this topic is my paper <a href="https://igorshalamov.com/research/neural-architectures-referral-funnels/">Neural network architectures for automating user funnels in referral marketing</a> (2025).</p>
 <h2>Video</h2>
 <p>Watch the episode: <a href="https://youtu.be/fzfCppUap7Y">How to Build a Referral System That Works Like a Recommender</a></p>]]></content:encoded>
   </item>
@@ -173,6 +183,8 @@
 <p>News adds four requirements. Freshness: relevance is blended with a time decay. Deduplication: many outlets publish near-identical stories, so results are clustered. Streaming: a new story must be searchable within seconds. And entities: names and places must stay exact, one more reason to keep sparse retrieval in the mix.</p>
 <h2>Recap</h2>
 <p>To recap: encode documents and queries into one vector space. Retrieve with a hybrid of sparse and dense search, then re-rank the short list. Measure recall for retrieval, nDCG for the final order, and latency for the user.</p>
+<h2>Related research</h2>
+<p>The research behind this topic is my paper <a href="https://igorshalamov.com/research/semantic-news-search-ai/">Semantic news search using artificial intelligence: technologies, problems and prospects</a> (2024).</p>
 <h2>Video</h2>
 <p>Watch the episode: <a href="https://youtu.be/x8RKXt7atjw">Semantic Search vs Keyword Search: How Embeddings Find Meaning</a></p>]]></content:encoded>
   </item>
@@ -193,7 +205,9 @@
 <h2>Results</h2>
 <p>The experiments used MIND, Microsoft's public news-recommendation dataset (Wu et al., ACL 2020). The hybrid reached Precision@5 of 0.78, Recall@5 of 0.75, F1 of 0.76 and a CTR of 6.3%. Against the TextCNN, LSTM, BERT-base and matrix-factorization baselines that is up to 43% higher F1 and 66% higher CTR. It also did better in cold-start cases, which fits the design: a new article can be ranked from its text before anyone has clicked it.</p>
 <h2>The cost</h2>
-<p>Running BERT on every new article is heavy for a live feed, and MIND is English-only, so multilingual news stays an open problem. The next step the paper names is a lighter model that keeps most of the gain. How to read these metrics together is covered in <a href="https://igorshalamov.com/writing/how-to-measure-personalization/">How to measure personalization</a>.</p>]]></content:encoded>
+<p>Running BERT on every new article is heavy for a live feed, and MIND is English-only, so multilingual news stays an open problem. The next step the paper names is a lighter model that keeps most of the gain. How to read these metrics together is covered in <a href="https://igorshalamov.com/writing/how-to-measure-personalization/">How to measure personalization</a>.</p>
+<h2>Video</h2>
+<p>Watch the episode: <a href="https://youtu.be/EkyC-8WAZ6g">Hybrid Recommendation System: BERT + LSTM News Recommender Explained</a></p>]]></content:encoded>
   </item>
   <item>
    <title>How a feedback system in a messenger works</title>

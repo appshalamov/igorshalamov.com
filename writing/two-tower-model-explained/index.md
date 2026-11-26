@@ -46,6 +46,10 @@ The pattern appears wherever a catalogue is too large to rank. Video, music and 
 
 It covers neural network architectures for referral funnels.
 
+## Related research
+
+The research behind this topic is my paper [Neural network architectures for automating user funnels in referral marketing](https://igorshalamov.com/research/neural-architectures-referral-funnels/) (2025).
+
 ## Video
 
 Watch the episode: [Two Tower Model Explained: Recommendation Retrieval at Scale](https://youtu.be/ZJXA4Q7RtdQ)

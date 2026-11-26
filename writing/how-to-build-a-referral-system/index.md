@@ -44,6 +44,10 @@ Three things go wrong in practice. First, the feedback loop is biased: the model
 
 To recap: a referral system is a recommender over a user graph. Retrieve candidates, rank them, suggest the invitation, and learn from every outcome. Judge it by Precision@K, by retention, and by lift against a holdout.
 
+## Related research
+
+The research behind this topic is my paper [Neural network architectures for automating user funnels in referral marketing](https://igorshalamov.com/research/neural-architectures-referral-funnels/) (2025).
+
 ## Video
 
 Watch the episode: [How to Build a Referral System That Works Like a Recommender](https://youtu.be/fzfCppUap7Y)

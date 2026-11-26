@@ -44,6 +44,10 @@ News adds four requirements. Freshness: relevance is blended with a time decay. 
 
 To recap: encode documents and queries into one vector space. Retrieve with a hybrid of sparse and dense search, then re-rank the short list. Measure recall for retrieval, nDCG for the final order, and latency for the user.
 
+## Related research
+
+The research behind this topic is my paper [Semantic news search using artificial intelligence: technologies, problems and prospects](https://igorshalamov.com/research/semantic-news-search-ai/) (2024).
+
 ## Video
 
 Watch the episode: [Semantic Search vs Keyword Search: How Embeddings Find Meaning](https://youtu.be/x8RKXt7atjw)

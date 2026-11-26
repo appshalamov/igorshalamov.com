@@ -49,6 +49,10 @@ The same logic applies wherever an action costs money or attention: discounts an
 
 Uplift targeting sits in the models layer of an [AI growth system](https://igorshalamov.com/writing/what-is-an-ai-growth-system/): once a referral system knows who is likely to invite, uplift decides whom to pay.
 
+## Related research
+
+The research behind this topic is my paper [Neural network architectures for automating user funnels in referral marketing](https://igorshalamov.com/research/neural-architectures-referral-funnels/) (2025).
+
 ![Igor Shalamov](https://igorshalamov.com/press-kit/igor-shalamov-160.jpg)
 
 [Igor Shalamov](https://igorshalamov.com/about/) is an AI systems architect who designs AI growth systems: referral and recommendation systems, AI-driven communication automation, semantic search and classification. He founded Shalamov.io and publishes [research](https://igorshalamov.com/research/) on semantic search and neural classification.

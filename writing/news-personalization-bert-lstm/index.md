@@ -26,6 +26,10 @@ The experiments used MIND, Microsoft's public news-recommendation dataset (Wu et
 
 Running BERT on every new article is heavy for a live feed, and MIND is English-only, so multilingual news stays an open problem. The next step the paper names is a lighter model that keeps most of the gain. How to read these metrics together is covered in [How to measure personalization](https://igorshalamov.com/writing/how-to-measure-personalization/).
 
+## Video
+
+Watch the episode: [Hybrid Recommendation System: BERT + LSTM News Recommender Explained](https://youtu.be/EkyC-8WAZ6g)
+
 ![Igor Shalamov](https://igorshalamov.com/press-kit/igor-shalamov-160.jpg)
 
 [Igor Shalamov](https://igorshalamov.com/about/) is an AI systems architect who designs AI growth systems: referral and recommendation systems, AI-driven communication automation, semantic search and classification. He founded Shalamov.io and publishes [research](https://igorshalamov.com/research/) on semantic search and neural classification.

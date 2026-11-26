@@ -10,6 +10,10 @@ updated: 2026-11-21
 
 Notes by Igor Shalamov, an AI systems architect and founder of Shalamov.io, on the architecture of AI growth systems: referral and recommendation systems, AI-driven communication automation, semantic search and classification.
 
+[Uplift modeling explained: pay the referral bonus only where it changes behaviour](https://igorshalamov.com/writing/uplift-modeling-explained/)
+
+30 November 2026. A response model pays users who would invite anyway. Uplift modeling ranks users by how much the bonus changes their behaviour, and the uplift curve checks it.
+
 [News personalization with BERT and LSTM: one model for the article, one for the reader](https://igorshalamov.com/writing/news-personalization-bert-lstm/)
 
 24 November 2026. BERT encodes the article, an LSTM reads the user history in order, a ranking layer picks the top five. Precision@5 0.78, CTR 6.3% on MIND.

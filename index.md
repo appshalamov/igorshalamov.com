@@ -40,6 +40,10 @@ Referral and recommendation systems for education and Web3 platforms: lead archi
 
 ## [Writing](https://igorshalamov.com/writing/)
 
+[Uplift modeling explained: pay the referral bonus only where it changes behaviour](https://igorshalamov.com/writing/uplift-modeling-explained/)
+
+30 November 2026. A response model pays users who would invite anyway. Uplift modeling ranks users by how much the bonus changes their behaviour, and the uplift curve checks it.
+
 [News personalization with BERT and LSTM: one model for the article, one for the reader](https://igorshalamov.com/writing/news-personalization-bert-lstm/)
 
 24 November 2026. BERT encodes the article, an LSTM reads the user history in order, a ranking layer picks the top five. Precision@5 0.78, CTR 6.3% on MIND.
@@ -47,10 +51,6 @@ Referral and recommendation systems for education and Web3 platforms: lead archi
 [One pipeline for intent, sentiment and toxicity](https://igorshalamov.com/writing/one-pipeline-intent-sentiment-toxicity/)
 
 21 November 2026. One shared text encoder, three small heads: one pass, consistent labels, cheap to extend; separate thresholds, because mistakes cost differently.
-
-[Telegram Mini Apps as a recommendation surface](https://igorshalamov.com/writing/telegram-mini-apps-recommendation-surface/)
-
-21 November 2026. The entry link is a feature, the first screen must be personal, the invitation flow is one tap away.
 
 [All notes](https://igorshalamov.com/writing/)
 

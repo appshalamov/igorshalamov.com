@@ -9,6 +9,40 @@
   <lastBuildDate>Sat, 21 Nov 2026 12:00:00 +0000</lastBuildDate>
   <image><url>https://igorshalamov.com/press-kit/igor-shalamov-160.jpg</url><title>Igor Shalamov — Writing</title><link>https://igorshalamov.com/writing/</link></image>
   <item>
+   <title>Uplift modeling explained: pay the referral bonus only where it changes behaviour</title>
+   <link>https://igorshalamov.com/writing/uplift-modeling-explained/</link>
+   <guid isPermaLink="true">https://igorshalamov.com/writing/uplift-modeling-explained/</guid>
+   <pubDate>Mon, 30 Nov 2026 12:00:00 +0000</pubDate>
+   <dc:creator>Igor Shalamov</dc:creator>
+   <description>A response model pays users who would invite anyway. Uplift modeling ranks users by how much the bonus changes their behaviour, and the uplift curve checks it.</description>
+   <content:encoded><![CDATA[<p><em>By Igor Shalamov, an AI systems architect and founder of Shalamov.io.</em></p><p>A referral bonus sent to 100,000 users raises invitations. Many of those users would have invited friends anyway, and a model trained on who invites will tell you to pay them again next month. Uplift modeling asks a different question: for which users does the bonus change what they do?</p>
+<h2>Four kinds of users</h2>
+<ul>
+<li><strong>Persuadables</strong> invite only if they get the bonus.</li>
+<li><strong>Sure things</strong> invite anyway. For them, the bonus is a gift.</li>
+<li><strong>Lost causes</strong> never invite, with or without it.</li>
+<li><strong>Sleeping dogs</strong> react badly: a push for invitations makes them leave.</li>
+</ul>
+<p>Only persuadables are worth paying. A response model, also called a propensity model, ranks users by the chance they invite, so it puts sure things at the top and pays for invitations the product would get for free.</p>
+<h2>Uplift is a difference</h2>
+<p>For a user with features x:</p>
+<p><code>uplift(x) = P(invite | bonus, x) − P(invite | no bonus, x)</code></p>
+<p>You never observe both outcomes for the same person, so the estimate comes from a randomised test. In the illustrative example from the episode, 5 in 100 users in the control group invite without a bonus and 8 in 100 in the treatment group invite with it. The average uplift is 3 points. The model's job is to predict that difference for each user.</p>
+<h2>Building it with two models</h2>
+<p>The simplest approach, often called the T-learner, trains one model on the bonus group and one on the control group. Each predicts the chance a user invites. For a new user, run both and subtract: the bonus model's score minus the control model's score. Direct methods such as causal forests estimate the difference in one model and are the next step when the two-model estimate is too noisy.</p>
+<h2>Checking it with the uplift curve</h2>
+<p>Run a fresh randomised test and target 30% of users in three ways. In the episode's illustrative numbers, random targeting earns 10 extra invitations per 1,000 users, the top 30% by response score earns 6, and the top 30% by uplift earns 24. Repeat this for every cut-off and you get the uplift curve; the Qini curve is its common variant. The gap above random targeting is what the model is worth.</p>
+<h2>Three ways uplift models lie</h2>
+<ol>
+<li><strong>Training on past campaigns</strong>, where someone chose who got the bonus. Train only on randomised tests and keep a random control group in every campaign.</li>
+<li><strong>Ignoring sleeping dogs.</strong> If predicted uplift is below zero, send no offer at all.</li>
+<li><strong>Judging by accuracy on the outcome.</strong> A model can predict invitations well and still rank uplift badly. Judge it by the uplift curve on new data.</li>
+</ol>
+<p>The same logic applies wherever an action costs money or attention: discounts and coupons, retention offers for users about to leave, and push notifications, where the cost is the user's patience.</p>
+<h2>Where uplift fits</h2>
+<p>Uplift targeting sits in the models layer of an <a href="https://igorshalamov.com/writing/what-is-an-ai-growth-system/">AI growth system</a>: once a referral system knows who is likely to invite, uplift decides whom to pay.</p>]]></content:encoded>
+  </item>
+  <item>
    <title>News personalization with BERT and LSTM: one model for the article, one for the reader</title>
    <link>https://igorshalamov.com/writing/news-personalization-bert-lstm/</link>
    <guid isPermaLink="true">https://igorshalamov.com/writing/news-personalization-bert-lstm/</guid>

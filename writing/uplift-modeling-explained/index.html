@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Uplift modeling explained: pay the referral bonus only where it changes behaviour — Igor Shalamov</title>
+<meta name="description" content="Igor Shalamov, an AI systems architect, on uplift modeling for referral bonuses: four kinds of users, uplift as treatment minus control, the two-model approach and the uplift curve.">
+<meta name="author" content="Igor Shalamov">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#173152" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#11243a" media="(prefers-color-scheme: dark)">
+<link rel="canonical" href="https://igorshalamov.com/writing/uplift-modeling-explained/">
+<link rel="alternate" hreflang="en" href="https://igorshalamov.com/writing/uplift-modeling-explained/">
+<link rel="alternate" hreflang="x-default" href="https://igorshalamov.com/writing/uplift-modeling-explained/">
+<link rel="alternate" type="text/markdown" href="/writing/uplift-modeling-explained/index.md" title="Markdown">
+<link rel="alternate" type="application/rss+xml" href="/writing/feed.xml" title="Igor Shalamov — Writing">
+<link rel="author" href="/about/">
+<link rel="me" href="https://www.linkedin.com/in/shalamoov">
+<link rel="me" href="https://orcid.org/0009-0001-2366-4278">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Igor Shalamov">
+<meta property="og:title" content="Uplift modeling explained: pay the referral bonus only where it changes behaviour — Igor Shalamov">
+<meta property="og:description" content="Igor Shalamov, an AI systems architect, on uplift modeling for referral bonuses: four kinds of users, uplift as treatment minus control, the two-model approach and the uplift curve.">
+<meta property="og:url" content="https://igorshalamov.com/writing/uplift-modeling-explained/">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://igorshalamov.com/press-kit/igor-shalamov-og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Igor Shalamov">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@shalamoov">
+<meta name="twitter:creator" content="@shalamoov">
+<meta name="twitter:title" content="Uplift modeling explained: pay the referral bonus only where it changes behaviour — Igor Shalamov">
+<meta name="twitter:description" content="Igor Shalamov, an AI systems architect, on uplift modeling for referral bonuses: four kinds of users, uplift as treatment minus control, the two-model approach and the uplift curve.">
+<meta name="twitter:image" content="https://igorshalamov.com/press-kit/igor-shalamov-og.jpg">
+<meta property="article:published_time" content="2026-11-30">
+<meta property="article:author" content="https://igorshalamov.com/about/">
+<link rel="preload" href="/fonts/piazzolla-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/style.css?v=6">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "BreadcrumbList",
+   "@id": "https://igorshalamov.com/writing/uplift-modeling-explained/#breadcrumb",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://igorshalamov.com/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Writing",
+     "item": "https://igorshalamov.com/writing/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Uplift modeling explained: pay the referral bonus only where it changes behaviour",
+     "item": "https://igorshalamov.com/writing/uplift-modeling-explained/"
+    }
+   ]
+  },
+  {
+   "@type": "WebPage",
+   "@id": "https://igorshalamov.com/writing/uplift-modeling-explained/#webpage",
+   "url": "https://igorshalamov.com/writing/uplift-modeling-explained/",
+   "name": "Uplift modeling explained: pay the referral bonus only where it changes behaviour",
+   "inLanguage": "en",
+   "isPartOf": {
+    "@id": "https://igorshalamov.com/#website"
+   },
+   "about": {
+    "@id": "https://igorshalamov.com/#person"
+   },
+   "breadcrumb": {
+    "@id": "https://igorshalamov.com/writing/uplift-modeling-explained/#breadcrumb"
+   },
+   "dateModified": "2026-11-21",
+   "mainEntity": {
+    "@id": "https://igorshalamov.com/writing/uplift-modeling-explained/#posting"
+   },
+   "datePublished": "2026-11-30"
+  },
+  {
+   "@type": "BlogPosting",
+   "@id": "https://igorshalamov.com/writing/uplift-modeling-explained/#posting",
+   "headline": "Uplift modeling explained: pay the referral bonus only where it changes behaviour",
+   "name": "Uplift modeling explained: pay the referral bonus only where it changes behaviour",
+   "description": "Igor Shalamov, an AI systems architect, on uplift modeling for referral bonuses: four kinds of users, uplift as treatment minus control, the two-model approach and the uplift curve.",
+   "url": "https://igorshalamov.com/writing/uplift-modeling-explained/",
+   "inLanguage": "en",
+   "datePublished": "2026-11-30",
+   "dateModified": "2026-11-30",
+   "author": {
+    "@id": "https://igorshalamov.com/#person"
+   },
+   "publisher": {
+    "@id": "https://igorshalamov.com/#person"
+   },
+   "mainEntityOfPage": {
+    "@id": "https://igorshalamov.com/writing/uplift-modeling-explained/#webpage"
+   },
+   "isPartOf": {
+    "@id": "https://igorshalamov.com/writing/#blog"
+   },
+   "image": "https://igorshalamov.com/press-kit/igor-shalamov-og.jpg",
+   "wordCount": 500,
+   "timeRequired": "PT2M",
+   "about": [
+    {
+     "@type": "Thing",
+     "name": "Uplift modeling"
+    },
+    {
+     "@type": "Thing",
+     "name": "Causal inference"
+    },
+    {
+     "@type": "Thing",
+     "name": "Referral marketing"
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site">
+<div class="wrap bar">
+<a class="brand" href="/">Igor Shalamov</a>
+<nav aria-label="Main"><ul><li><a href="/about/">About</a></li><li><a href="/ai-growth-systems/">AI growth systems</a></li><li><a href="/research/">Research</a></li><li><a href="/writing/" aria-current="page">Writing</a></li><li><a href="/press/">Press</a></li><li><a href="/contact/">Contact</a></li><li class="lang"><a href="/ru/writing/" hreflang="ru" lang="ru">Русский</a></li></ul></nav>
+</div>
+</header>
+<main id="main" class="wrap">
+<article>
+<div class="pagehead">
+<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/writing/">Writing</a></li><li><span aria-current="page">Uplift modeling explained: pay the referral bonus only where it changes behaviour</span></li></ol></nav>
+
+<h1>Uplift modeling explained: pay the referral bonus only where it changes behaviour</h1>
+<p class="byline"><a href="/about/" rel="author">Igor Shalamov</a>, an AI systems architect and founder of Shalamov.io. <time datetime="2026-11-30">30 November 2026</time>, 2 min read.</p>
+</div>
+<div class="prose">
+<p>A referral bonus sent to 100,000 users raises invitations. Many of those users would have invited friends anyway, and a model trained on who invites will tell you to pay them again next month. Uplift modeling asks a different question: for which users does the bonus change what they do?</p>
+<h2 id="four-kinds-of-users">Four kinds of users</h2>
+<ul>
+<li><strong>Persuadables</strong> invite only if they get the bonus.</li>
+<li><strong>Sure things</strong> invite anyway. For them, the bonus is a gift.</li>
+<li><strong>Lost causes</strong> never invite, with or without it.</li>
+<li><strong>Sleeping dogs</strong> react badly: a push for invitations makes them leave.</li>
+</ul>
+<p>Only persuadables are worth paying. A response model, also called a propensity model, ranks users by the chance they invite, so it puts sure things at the top and pays for invitations the product would get for free.</p>
+<h2 id="uplift-is-a-difference">Uplift is a difference</h2>
+<p>For a user with features x:</p>
+<p><code>uplift(x) = P(invite | bonus, x) − P(invite | no bonus, x)</code></p>
+<p>You never observe both outcomes for the same person, so the estimate comes from a randomised test. In the illustrative example from the episode, 5 in 100 users in the control group invite without a bonus and 8 in 100 in the treatment group invite with it. The average uplift is 3 points. The model's job is to predict that difference for each user.</p>
+<h2 id="building-it-with-two-models">Building it with two models</h2>
+<p>The simplest approach, often called the T-learner, trains one model on the bonus group and one on the control group. Each predicts the chance a user invites. For a new user, run both and subtract: the bonus model's score minus the control model's score. Direct methods such as causal forests estimate the difference in one model and are the next step when the two-model estimate is too noisy.</p>
+<h2 id="checking-it-with-the-uplift-curve">Checking it with the uplift curve</h2>
+<p>Run a fresh randomised test and target 30% of users in three ways. In the episode's illustrative numbers, random targeting earns 10 extra invitations per 1,000 users, the top 30% by response score earns 6, and the top 30% by uplift earns 24. Repeat this for every cut-off and you get the uplift curve; the Qini curve is its common variant. The gap above random targeting is what the model is worth.</p>
+<h2 id="three-ways-uplift-models-lie">Three ways uplift models lie</h2>
+<ol>
+<li><strong>Training on past campaigns</strong>, where someone chose who got the bonus. Train only on randomised tests and keep a random control group in every campaign.</li>
+<li><strong>Ignoring sleeping dogs.</strong> If predicted uplift is below zero, send no offer at all.</li>
+<li><strong>Judging by accuracy on the outcome.</strong> A model can predict invitations well and still rank uplift badly. Judge it by the uplift curve on new data.</li>
+</ol>
+<p>The same logic applies wherever an action costs money or attention: discounts and coupons, retention offers for users about to leave, and push notifications, where the cost is the user's patience.</p>
+<h2 id="where-uplift-fits">Where uplift fits</h2>
+<p>Uplift targeting sits in the models layer of an <a href="/writing/what-is-an-ai-growth-system/">AI growth system</a>: once a referral system knows who is likely to invite, uplift decides whom to pay.</p>
+</div>
+<aside class="author" aria-label="About the author"><img src="/press-kit/igor-shalamov-160.jpg" alt="Igor Shalamov" width="80" height="120" loading="lazy"><p><a href="/about/">Igor Shalamov</a> is an AI systems architect who designs AI growth systems: referral and recommendation systems, AI-driven communication automation, semantic search and classification. He founded Shalamov.io and publishes <a href="/research/">research</a> on semantic search and neural classification.</p></aside>
+<footer class="post"><h2 id="more-notes">More notes</h2><ul><li><a href="/writing/news-personalization-bert-lstm/">News personalization with BERT and LSTM: one model for the article, one for the reader</a></li><li><a href="/writing/one-pipeline-intent-sentiment-toxicity/">One pipeline for intent, sentiment and toxicity</a></li><li><a href="/writing/telegram-mini-apps-recommendation-surface/">Telegram Mini Apps as a recommendation surface</a></li><li><a href="/writing/how-to-measure-personalization/">How to measure personalization</a></li><li><a href="/writing/two-tower-models-candidate-retrieval/">Two-tower models for candidate retrieval</a></li></ul><p class="src">Subscribe: <a href="/writing/feed.xml">RSS feed</a>. All notes: <a href="/writing/">Writing</a>.</p></footer>
+</article>
+</main>
+<footer class="site">
+<div class="wrap">
+<p class="sig">Igor Shalamov — AI systems architect who designs AI growth systems.</p>
+<div class="cols">
+<nav aria-label="More pages"><h2>More</h2><ul><li><a href="/work/ai-systems-architecture/">AI systems architecture</a></li><li><a href="/products/">Products</a></li><li><a href="/press-kit/">Press kit</a></li><li><a href="/faq/">FAQ</a></li></ul></nav>
+<div><h2>Official profiles</h2><ul><li><a href="https://www.linkedin.com/in/shalamoov" rel="me noopener">LinkedIn</a></li><li><a href="https://www.instagram.com/shalamoov/" rel="me noopener">Instagram</a></li><li><a href="https://www.youtube.com/@shalamoov" rel="me noopener">YouTube</a></li><li><a href="https://t.me/shalamovtg" rel="me noopener">Telegram</a></li><li><a href="https://www.crunchbase.com/person/igor-shalamov" rel="me noopener">Crunchbase</a></li><li><a href="https://scholar.google.com/citations?user=HuXnpkUAAAAJ" rel="me noopener">Google Scholar</a></li><li><a href="https://orcid.org/0009-0001-2366-4278" rel="me noopener">ORCID</a></li></ul></div>
+<div><h2>Author pages</h2><ul><li><a href="https://apni.ru/author/15669" rel="noopener">APNI</a></li><li><a href="https://www.internauka.org/authors/shalamov-igor" rel="noopener">Internauka (Igor Shalamov)</a></li><li><a href="https://www.internauka.org/authors/shalamov-igor-stanislavovich" rel="noopener">Internauka (Igor Stanislavovich Shalamov)</a></li></ul></div>
+</div>
+<p class="meta">© 2026 Igor Shalamov. Updated: <time datetime="2026-11-21">2026-11-21</time>. Contact: Telegram <a href="https://t.me/shalamovtg" rel="noopener">t.me/shalamovtg</a> or LinkedIn <a href="https://www.linkedin.com/in/shalamoov" rel="noopener">linkedin.com/in/shalamoov</a>.</p>
+<p class="meta">Machine-readable versions: <a href="/writing/uplift-modeling-explained/index.md">Markdown</a>, <a href="/llms.txt">llms.txt</a>, <a href="/llms-full.txt">llms-full.txt</a>, <a href="/writing/feed.xml">RSS</a>.</p>
+</div>
+</footer>
+</body>
+</html>

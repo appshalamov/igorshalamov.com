@@ -10,6 +10,10 @@ updated: 2026-11-21
 
 Заметки: Игорь Шаламов, архитектор ИИ-систем, основатель Shalamov.io, об архитектуре ИИ-систем роста: реферальные и рекомендательные системы, ИИ-автоматизация коммуникаций, семантический поиск и классификация. Записи публикуются на английском языке.
 
+[Uplift modeling explained: pay the referral bonus only where it changes behaviour](https://igorshalamov.com/writing/uplift-modeling-explained/)
+
+30 ноября 2026. Модель отклика платит тем, кто пригласил бы и так. Модель uplift ранжирует пользователей по тому, насколько бонус меняет их поведение, а кривая uplift это проверяет.
+
 [News personalization with BERT and LSTM: one model for the article, one for the reader](https://igorshalamov.com/writing/news-personalization-bert-lstm/)
 
 24 ноября 2026. BERT кодирует статью, LSTM по порядку читает историю читателя, слой ранжирования выбирает пять материалов. На MIND: Precision@5 0,78, CTR 6,3%.

@@ -28,11 +28,11 @@ Retrieval first, ranking second: most production recommenders follow this split.
 
 ## More notes
 
+- [Uplift modeling explained: pay the referral bonus only where it changes behaviour](https://igorshalamov.com/writing/uplift-modeling-explained/)
 - [News personalization with BERT and LSTM: one model for the article, one for the reader](https://igorshalamov.com/writing/news-personalization-bert-lstm/)
 - [One pipeline for intent, sentiment and toxicity](https://igorshalamov.com/writing/one-pipeline-intent-sentiment-toxicity/)
 - [Telegram Mini Apps as a recommendation surface](https://igorshalamov.com/writing/telegram-mini-apps-recommendation-surface/)
 - [How to measure personalization](https://igorshalamov.com/writing/how-to-measure-personalization/)
-- [Content filtering is a pipeline, not a blocklist](https://igorshalamov.com/writing/content-filtering-is-a-pipeline/)
 
 Subscribe: [RSS feed](https://igorshalamov.com/writing/feed.xml). All notes: [Writing](https://igorshalamov.com/writing/).
 

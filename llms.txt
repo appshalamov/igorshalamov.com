@@ -42,6 +42,7 @@ There are other people named Igor Shalamov online, including the president of Op
   - [Telegram Mini Apps as a recommendation surface](https://igorshalamov.com/writing/telegram-mini-apps-recommendation-surface/) (2026-11-21)
   - [One pipeline for intent, sentiment and toxicity](https://igorshalamov.com/writing/one-pipeline-intent-sentiment-toxicity/) (2026-11-21)
   - [News personalization with BERT and LSTM: one model for the article, one for the reader](https://igorshalamov.com/writing/news-personalization-bert-lstm/) (2026-11-24)
+  - [Uplift modeling explained: pay the referral bonus only where it changes behaviour](https://igorshalamov.com/writing/uplift-modeling-explained/) (2026-11-30)
 - Russian version: https://igorshalamov.com/ru/
 
 ## Machine-readable versions
